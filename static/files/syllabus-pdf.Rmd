@@ -1,0 +1,289 @@
+---
+output: 
+  pdf_document:
+    number_sections: false
+    keep_tex: true
+    fig_caption: yes
+    df_print: kable
+    latex_engine: xelatex
+    template: template-syllabus.tex
+    includes:
+      in_header: 
+geometry: margin=1in
+
+course: "History of Economic Thought"
+coursecode: "ECON 452"
+section: ""
+author: "Dr. Ryan Safner"
+semester: "Fall 2020"
+
+email: "safner@hood.edu"
+web: "ryansafner.com"
+officehours: "TuTh 10:30--11:30 A.M."
+office: "Rosenstock Hall 118"
+classroom: "Rosenstock Hall 215"
+classhours: "MW 3:25 P.M--4:40 P.M."
+
+fontfamily: Fira Sans
+mainfont: Fira Sans
+fontsize: 12pt
+sansfont: "Yanone Kaffeesatz"
+monofont: "Fira Code"
+mathfont: "Fira Sans"
+
+#bibliography: laweconsyllabus.bib
+---
+
+```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+library(tibble)
+library(pander)
+```
+
+> "Economics is what economists do..." - Jacob Viner
+
+> "...and economists do economics." - Frank Knight
+
+> Quoted ironically in James M. Buchanan, 1964, "What Should Economists Do?"
+
+**The History of Economic Thought** explores the development of economic principles and tools and the major economic thinkers to explain why the discipline and practice of economics looks the way it does today. 
+
+We must be careful to guard ourselves against both the "Whig theory of history" - the comforting but false belief that history is a constant march of upward progress free of dead ends and retrogression - and the "Great man theory of history" - that history is driven primarily by heroic figures making bold or innovative actions, rather than a broad coalesence of trends. 
+
+
+$f \mapsto \mathbf{R}$
+
+This will 
+
+We will study the major thinkers - Smith, Ricardo, Malthus, Marx, Mill, Keynes - who had the largest impact on economics, but also try to explore the key insights and development of concepts and models from different schools of thought - mercantilist, classical, Marxist, neoclassical, Austrian, institutional, Keynesian, New- and Post-Keynesian, etc.
+
+The main questions:
+- What type of discipline is economics? Is it a science? Philosophy? Applied history? Ethology? Political ideology?
+- What tools are appropriate for economic analysis?
+- What is the role of mathematics in economic analysis?
+- What political, social, and moral implications does economics imply, or even advocate?
+
+This course is about the economics of the law and economic function of legal systems, primarily common law in the United States. We take an economic approach to understanding and appraising law from both positive and normative standpoints in accordance with the "law and economics" tradition. 
+Examples: the environment, justice, gender, antitrust, value, power, interest groups, etc.
+
+
+**This is _not_ a law course, this is an upper-level _economics_ elective that applies economic models and tools to legal subjects.** This course does *not* provide a survey of all of the areas of law. For a full survey of different areas of the law, with a focus on legal cases and jurisprudence, see **LWPS 230 - Introduction to Law**. This course also does *not* cover any constitutional law, or legal interpretations of economic regulation. If you are looking for a course on the constitutional history of economic regulation, particularly through famous Supreme Court cases, see **PS 307 - American Constitutional Law.** In general, this is not a class *about* the law or its evolution, it's a class in how to *think about* the law, using economics.
+
+This course will examine a small number of influential court cases, but this is primarily an *economics* course about modelling *incentives* and *consequences*. As such, we will focus on the operation of economic logic of the institutions, and incentives underpinning the laws of property, contracts, torts, and criminal law, and how we might change them to achieve the goals we desire as a society. Finally, we compare the Anglo-American common law legal system to other legal systems in their methods and effectiveness of achieving these goals. The economic approach to law applies many core microeconomic models and concepts^[Such as rational choice theory, behavioral economics, monopoly, perfect competition, oligopoly, the Coase Theorem, welfare analysis, constrained optimization models, price theory, equilibrium models, cost-benefit analysis, expected utility models, game theory, etc] as well as empirical research to legal rules in these areas. As such, the **required prerequisite** for this course is **ECON 206 - Principles of Microeconomics**, with **ECON 306 - Microeconomic Analysis recommended**.
+
+**Legal Disclaimer**: Although I am married to one, I am not an attorney. No aspect of this course should be construed as legal advice on any subject matter. You should not act or refrain from acting on the basis of any content included in this course without seeking legal counsel.
+
+\clearpage
+
+# Course objectives {-}
+
+**By the end of this course,** you will: 
+
+- Grapple with the conflicting social goals of justice and efficiency
+- Derive the economic functions of key concepts, legal maxims, and rules in the substantive areas of law: torts, property, contracts, and criminal law
+- Apply economic models to determine the efficiency of legal rules
+- Identify the sources of law in the United States: common law jurisprudence, legislative statutes, administrative law
+- Identify the key legal institutions of the United States: state vs. federal courts, the appellate court system, state and federal constitutions, regulatory agencies, arbitration
+
+Given these objectives, this course fulfills two of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:
+
+- Apply economic reasoning and models to understand and analyze problems of public policy [...]
+- Demonstrate effective oral and written communications skills for personal and professional success[...]
+
+**My standard disclaimer:** This class may challenge many of your existing beliefs and conceptions about how the world works, and how it should work. This is the most important and exciting part of a liberal arts education. This does *not* mean that I want to make you to see everything "my way." In fact, if you come out of this class thinking exactly like me, then I have probably failed you as a teacher. To the best of my ability, I keep my opinions to myself unless relevant for purposes of discussion, and I respect and invite you to reach your own conclusions on all matters. 
+
+If at any point you find yourself struggling in this course for any reason, please come see me. Do not suffer in silence! Coming to see me for help does not diminish my view of you, in fact I will hold you in *higher* regard for understanding your own needs and taking charge of your own learning. There are also a some fantastic resources on campus, such as the [Center for Academic Achievement and Retention (CAAR)](http://www.hood.edu/campus-services/academic-services/index.html) and the [Beneficial-Hodson Library](http://www.hood.edu/library/). 
+
+
+# Course materials {-}
+
+My lecture slides will be shared with you, serve as your primary resource, and are the best guide to prepare for assignments. My lectures will roughly follow the textbook below. 
+
+## Books {-}
+
+1. Cooter, Robert, and Thomas Ulen, 2012, [*Law & Economics*](https://lawcat.berkeley.edu/record/1127400?ln=en), 6^th^ ed., New York: Addison-Wesley^
+
+This textbook is out of print, you can find old hard copies on Amazon, but ownership has reverted to the authors, who have released their book as [**a free PDF online**](https://lawcat.berkeley.edu/record/1127400?ln=en).
+
+## Articles {-}
+
+Throughout the course, I will post both required and supplemental (non-required) readings that enrich your understanding for each topic. Check *frequently* for announcements and updates to assignments, readings, and grades.
+
+# Assignments and Grades {-}
+
+The assignments and grading for this course are summarized in the table below, with descriptions of each below the table: 
+
+```{r assignments-grades, include=FALSE}
+assignments <- tribble(
+  ~"",  ~Assignment, ~Percent,
+  "n"     , "Homework (Average)", "20%",
+  "2", "Short Papers", "10% each",
+  "1"      , "Midterm", "30%",
+  "1"     , "Final", "30%"
+)
+
+grading <- tribble(
+  ~Grade, ~Range, ~Grade1, ~Range1,
+  "A",  "93–100%", "C",  "73–76%",
+  "A−", "90–92%", "C−", "70–72%",
+  "B+", "87–89%", "D+", "67–69%",
+  "B",  "83–86%", "D",  "63–66%",
+  "B−", "80–82%", "D−", "60–62%",
+  "C+", "77–79%", "F",  "< 60%"
+)
+```
+\begin{center}
+```{r, echo = F, results="asis"}
+knitr::kable(assignments, format="latex", booktabs=TRUE)
+```
+\end{center}
+```{r show-assignments-table, eval=F, echo=FALSE, results="asis"}
+assignments_total <- tibble(Assignment = "Total",
+                            Points = sum(assignments$Points),
+                            Percent = NA)
+
+bind_rows(assignments, assignments_total) %>% 
+  select(Assignment, Points, Percent) %>% 
+  pandoc.table(justify = "lcc", missing = "—")
+```
+
+## Homework {-}
+
+At the end of most lessons, there will be a problem set. These questions will help check your understanding and mastery of the material, and will be a combination of quantitative, graph, and short answer questions of examples. These will also be good indicators of what to expect on the exams. You may collaborate with other students to work on homeworks, but each person must turn in an individual assignment. Homeworks are generally due one week from the class period where we finish a lesson, and must be turned in at the beginning of class. I will grade homeworks as follows: 70% of the grade for completion, and 30% for one randomly selected question. This is to reward students for putting in a full faith effort to try to reach an answer for each question, but not worry that every answer has to be fully correct.
+
+## Short Papers {-}
+
+There will be two short papers on assigned topics or legal controversies. The first will be early in the semester, covering topics from the first several weeks. The second will cover topics from the remaining weeks. I am looking for 3-5 page papers that explore subjects prompted by questions that I will provide to you in advance. However, I also encourage you to take the less-trodden path and explore something unique and interesting to you.
+
+## Midterm and Final {-}
+
+The two in-class, closed-notes exams will each cover one half of the course (the final not being cumulative) with a series of problems and short essay questions.
+
+## Grading Scale {-}
+
+All grades are based on the following traditional scale:
+
+\begin{center}
+```{r show-grades-table, echo=FALSE, results="asis"}
+grading %>%
+  knitr::kable(., format="latex", booktabs=TRUE)
+```
+\end{center}
+
+These grades are firm cutoffs, but I do of course round upwards ($\geq 0.5$) for final grades. A necessary reminder, as an academic, I am not in the business of *giving* out grades, I merely report the grade that you *earn*. I will not alter your grade unless you provide a reasonable argument that I am in error (which does happen from time to time). 
+
+# Policies and Expectations {-}
+
+This syllabus is a contract between you, the student, and me, your instructor. It has been carefully and deliberately thought out^[A syllabus can and will be used as a legal document for disputes tried at a court of law. Ask me how I know.], and I will uphold my end of the agreement and expect you to uphold yours. 
+
+In the language of game theory, this syllabus is my commitment device. I am a very understanding person, and I know that exceptions to rules often need to be made for students. However, to be *fair* to *all* students the syllabus artificially constrains my ability to make exceptions at a whim for anyone. This prevents clever students from exploiting my congenial personality at everyone else's expense. Please read and familiarize yourself with the course policies and expectations of you. Chances are, if you have a question, it is answered herein.
+
+## Attendance and Participation {-}
+
+I expect you to attend class and to come having already done the reading assigned for that day. I will remind you in class and possibly through Blackboard or email which readings I want you to read for the next class. You are all adults and I will treat you as such. I do not take attendance, nor do I grade formally for participation but I strongly recommended you attend class and participate for your sake and the sake of your classmates. If you are too distracted or are not prepared to learn, I suggest you stay home, where you can check Facebook more efficiently. I reserve the right to boost the final grades of students that I believe have made consistent, quality contributions above and beyond their peers in class conversations by up to 2.5 points.
+
+## Devices {-}
+
+You are allowed to have and use laptops and tablets in the classroom. I will not stop you, but I strongly discourage you from using these to take notes (see Tips for Success). As a courtesy to myself and to others, do not use your phone in class. I reserve the right to embarrass you in front of everyone if you do so.
+
+## Absences and Make-Ups {-}
+
+You generally do *not* need to let me know if you are unable to make class, *unless* it is on the day of an exam. It will however, be your responsibility to acquire the notes from a classmate for any missed classes. If you are unable to attend an exam for a legitimate reason (e.g. sports/club events, traveling, illness, family issues), please notify me at least *one week* in advance, and we will schedule a make-up exam date. If you are ill or otherwise unable to attend on the day of the exam, contact me ASAP to make arrangements. Failure to do so, including desperate attempts to make arrangements only *after* the absence will result in a grade of 0 and little sympathy. I reserve the right to re-weight other assignments for students who I believe are legitimately unable to complete a particular assignment.
+
+## Late Assignments {-}
+
+I will accept late assignments, but will subtract a specified amount of points as a penalty. See individual assignment descriptions for the amount of points taken off (as it varies by assignment). If an answer key is posted before you turn in your assignment, the maximum grade you can earn is an 80. Even if it is the last week of the semester, I encourage you to turn in late work: some points are better than no points!
+
+## Grading {-}
+
+I will try my best to post grades on Blackboard's Grading Center and return graded assignments to you within about one week of you turning them in. There will be exceptions. Where applicable, I will post answer keys once I know most homeworks are turned in (see Late Assignments above for penalties). Blackboard's Grading Center is the place to look for your most up-to-date grades. You will also be given an Excel spreadsheet template where you can calculate your overall grade and forecast "what if" scenarios.
+
+## Email Accounts {-}
+
+Students must regularly monitor their Hood email accounts to receive important college information, including messages related to this class. Email through the Blackboard system is my main method of communicating announcements and deadlines regarding your assignments. **Please do not reply to any automated Blackboard emails - I may not recieve it!**. My Hood email (safner@hood.edu) is the best means of contacting me. I will do my best to respond within 24 hours. If I do not reply within 48 hours, do not take it personally, and *feel free to send a follow up email* in the very likely event that I genuinely did not see your original message.
+
+## Office Hours {-}
+
+I am generally in my office Monday-Thursday during "normal business hours." You are always welcome to walk-in and chat about class, college, careers, or anything at all. Please do try to use the official office hours stated at the head of the syllabus if possible. If you need to meet at a different time, I request that you send me an email or let me know after class so I know when to expect you. If you want to go over material from class, please have *specific* questions you want help with. I am not in the business of giving private lectures (particularly if you missed class without a valid excuse).
+
+Watch the excellent and accurate video explaining office hours (on website syllabus page).
+
+## Enrollment {-}
+
+Students are responsible for verifying their enrollment in this class. The last day to add or drop this class with no penalty is **DATE**. Be aware of [important dates](https://www.hood.edu/offices-services/registrars-office/academic-calendar).
+
+## Honor Code {-}
+
+Hood College has an Academic Honor Code which requires all members of this community to maintain the highest standards of academic honesty and integrity. Cheating, plagiarism, lying, and stealing are all prohibited.  All violations of the Honor Code are taken seriously, will be reported to appropriate authority, and may result in severe penalties, including expulsion from the college. See [here](http://hood.smartcatalogiq.com/en/2016-2017/Catalog/The-Spirit-of-Hood/The-Academic-Honor-Code-and-Code-of-Conduct) for more detailed information.
+
+## Van Halen and M&Ms {-}
+
+When you have completed reading the syllabus, email me a picture of the band Van Halen and a picture of a bowl of M&Ms. If you do this *before* the date of the first exam, you will get bonus points on the exam. If 75-100% of the class does this, you each get 2 points. If 50-75% of the class does this, you each get 4 points. If 25-50% of the class does this, you each get 6 points. If 0-25% of the class does this, you each get 8 points. Yes, this is real, and there is a story behind this.
+
+## Accessibility, Equity, and Accommodations {-}
+
+College courses can, and should, be challenging and bring you out of your comfort zone in a safe and equitable environment. If, however, you feel at any point in the semester that certain assignments or aspects of the course will be disproportionately uncomfortable or burdensome for you due to any factor beyond your control, please come see me or email me. I am a very understanding person and am happy to work out a solution together. I reserve the right to modify and reweight assignments at my sole discretion for students that I belive would legitimately be at a disadvantage, through no fault of their own, to complete them as described.
+
+If you are unable to afford required textbooks or other resources for any reason, come see me and we can find a solution that works for you.
+
+This course is intended to be accessible for all students, including those with mental, physical, or cognitive disabilities, illness, injuries, impairments, or any other condition that tends to negatively affect one's equal access to education. If at any point in the term, you find yourself not able to fully access the space, content, and experience of this course, you are welcome to contact me to discuss your specific needs. I also encourage you to contact the [Office of Accessibility Services](https://www.hood.edu/academics/josephine-steiner-center-academic-achievement-retention/accessibility-services) (301-696-3421). If you have a diagnosis or history of accommodations in high school or previous postsecondary institutions, Accessibility Services can help you document your needs and create an accommodation plan. By making a plan through Accessibility Services, you can ensure appropriate accommodations without disclosing your condition or diagnosis to course instructors.
+
+# Tentative Schedule {-}
+
+## Unit 1: Tools {-}
+
+### 1. Goals of the Law: Efficiency and/or Justice? {-}
+  - Readings: @textbook[Ch. 1]; @Tullock1967; @Posner1975
+  - Concepts: what is "law and economics", justice, fairness, efficiency, property rights, externalities, transaction costs, rent-seeking
+
+### 2. Sources of Law {-}
+  - Readings: Hayek (1973); @Posner1980; @Benson1989
+  - Concepts: common law, customary law, statute, precedent, administrative law
+  
+### 3. American Legal Institutions {-}
+  - Readings: @textbook[Ch. 3]
+  - Concepts: U.S. Constitution, separation of powers, federalism, judicial review, appeals process
+
+## Unit 2: Substantive Areas of Law {-}
+
+### 4. Law of Property {-}
+  - Readings: @textbook[Chs. 4-5]; @Coase1960; @Calabresi1972;
+  - Concepts: property rights, Coase theorem, transaction costs, trespass, nuisance, leasing, adverse possession, eminent domain, land use regulation, regulatory takings
+
+### 5. Law of Torts {-}
+  - Readings: @textbook[Chs. 6-7]
+  - Concepts: tort, causation, negligence, due care, reasonable person standard, liability, the Hand rule, damages, intentional torts, products liability
+
+### 6. Law of Contracts {-}
+  - Readings: @textbook[Chs. 8-9]
+  - Concepts: contracts, valid contracts, mistake, asymmetric information, breach of contract, reliance, specific performance
+
+### 7. Criminal Law {-}
+  - Readings: @textbook[Ch. 12-3]; @BeckerStigler; @Friedman1995
+  - Concepts: crimes vs. torts, deterrence, capital punishment, plea bargaining
+
+## Unit 3: Comparative Legal Systems {-}
+
+### 8. Anatomy of a Dispute {-}
+  - Readings: @textbook[Ch. 10]
+  - Concepts: litigation process, stages of trial, models of why trials occur, litigation costs, procedural rules, arbitration
+
+### 9. Public Choice and the Law {-}
+  - Readings: @Stigler1971; @Posner1971
+  - Concepts: economic theory of regulation, regulatory capture, rent-seeking, interest groups, collective action costs, concentrated benefits and dispersed costs, the rule-making process, the administrative state
+
+### 10. Comparative Legal Systems {-}
+  - Readings: @Priest1977, @Leeson2011, @Leeson2012
+  - Concepts: evolution of the common law, efficiency of the common law, civil law legal systems, other non-market decision-making institutions
+
+## Special Topics - Time Permitting {-}
+
+### 11. Intellectual Property Law {-}
+  - Readings: @BesenRaskind; @BoldrinLevine
+  - Concepts: rights to reputation, libel and slander, trademarks and service marks, trade secrets, copyrights, patents
+
+### 12. Antitrust and Competition Law {-}
+  - Readings: @KovacicShapiro;
+  - Concepts: antitrust laws, contracts in restraint of trade, monopolization, collusion and cartels, market concentration, mergers, "hipster antitrust"
+
+# Readings and Sources
