@@ -9,13 +9,10 @@ author: "Ryan Safner"
 
 By the end of this course, you will:
 
-- Read, discuss, and write about a large range of key economic texts
-- Recognize key eras, thinkers, and changes in the evolution of thought about economic subjects
-- Critique and compare the ideas of different thinkers
-- Reflect on the role of historical circumstances and prevailing attitudes on how economics has been shaped
-- Reflect on the nature of economics as a discipline: what is it about? what subjects does it study? how does it study them? is it a science? what value judgments does it make? how does it relate to public policy, ethics & aesthetics, and political advocacy?
-- Understand the origins of key economic concepts and models (Supply and Demand, utility functions, production functions, short and long run analysis, perfect competition, aggregate demand and aggregate supply, quantity theory of money)
-- Trace the evolution of major ideas through time, via your own writing
+1. articulate basic models of *why* and *what* countries trade
+2. understand the political economy that determine a country's trade policies
+3. intelligently comment on trade-related current events
+4. present an analysis of a country's trade policy
 
 Given these objectives, this course fulfills two of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:
 

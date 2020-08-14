@@ -27,6 +27,9 @@ menu:
     - name: Reference
       url: /reference/
       weight: 4
+    - name: Slack
+      url: "https://hoodcollegeeconomics.slack.com"
+      weight: 6
 # Disable taxonomies
 taxonomies:
   tag: ""
@@ -47,15 +50,15 @@ params:
     semester: Fall 2020
     days: "TuTh"
     time: "2:00–3:15PM"
-    location: "101 Rosenstock"
+    location: "Meets on Zoom"
     twitter: ryansafner
     dates: >-
-      January 15–May 8, 2020
+      August 17–November 24, 2020
     github: "ryansafner/tradeF20"
-    #slack: "https://hood-io.slack.com/"
-    copyrightYear: "2020"
+    slack: "http://hoodcollegeeconomics.slack.com"
+    copyrightYear: "2020-2021"
     contactDetails: >-
-      Office hours: MW 3:15–5:00PM
+      Office hours: TuTh 3:30–5:00PM on Zoom
   university: 
     name: Hood College
     url: "https://www.hood.edu"
