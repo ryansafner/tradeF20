@@ -1,7 +1,7 @@
 ---
-title: "1.1: Introduction to Industrial Organization"
-subtitle: "ECON 326 · Industrial Organization · Spring 2020"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i> safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/IOs20"><i class="fa fa-github fa-fw"></i> ryansafner/IOs20</a><br> <a href="https://IOs20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i> IOs20.classes.ryansafner.com</a><br>'
+title: "1.1 — Introduction & Smithean Trade"
+subtitle: "ECON 324 • International Trade • Fall 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/tradeF20"><i class="fa fa-github fa-fw"></i>ryansafner/tradeF20</a><br> <a href="https://tradeF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>tradeF20.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
@@ -9,7 +9,7 @@ output:
     lib_dir: libs
     df_print: paged
     #seal: false
-    css: [custom.css, custom-fonts.css, "hygge"] #, metropolis, metropolis-fonts
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
     nature:
       beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
       highlightStyle: github
@@ -27,899 +27,565 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(echo = F,
-                      warning = F,
-                      message = F,
-                      fig.retina = 3,
-                      fig.align = "center")
-library("tidyverse")
-
-theme_slides <- theme_light() + 
-  theme(
-    text = element_text(family = "Fira Sans", size = 24)
-  )
-
-library(wbstats)
-library(fredr)
-fredr_set_key("9100cdf3c862283007d8c83ce02059e6")
-
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F)
+library(tidyverse)
+set.seed(256)
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
 ```
 
-# Industrial Organization
+class: inverse
+
+### [Overview](#)
+
+
+---
+
+class: inverse, center, middle
+
+# The Importance of International Trade
+
+---
+
+# The Importance of International Trade
 
 .pull-left[
 
-- .hi[How are industries organized, and why do they operate the way they do?]
-
-- .hi[How do we properly regulate industry?]
-
-- .hi[How does, and should, *actual* competition between firms work?]
+- In 2008, the world produced about $50 trillion (at current prices)
+- $16 trillion (about 30%) was sold across national borders 
 
 ]
 
 .pull-right[
+.center[
+![](../images/tradeworldmap.jpg)
+]
+
+]
+
+.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9^th^ ed., p.10]
+---
+
+# The Importance of International Trade
 
 .center[
-![](https://www.dropbox.com/s/ymuz42mg47mtnyb/industry.png?raw=1)
+![](../images/tradepercentgdp.png)
 ]
-]
+
+
+.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9^th^ ed., p.3]
 
 ---
 
-# You Already Know a lot of IO Basics
+# The Importance of International Trade
+
+.center[
+![](../images/worldexports.png)
+]
+
+
+.source[Angus Maddison, The World Economy: A Millennial Perspective, World Bank, 2001, Table 3-2b.]
+
+---
+
+# What Gets Traded Internationally
+
+.center[
+![](../images/whatwetrade.png)
+]
+.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9^th^ ed., p.18]
+
+---
+
+# Who *We* Trade With
+
+.center[
+![](../images/UStradepartners.png)
+]
+.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9^th^ ed., p.11]
+
+---
+
+# What We *Export*
+
+.center[
+![](../images/usexports.png)
+]
+.source[U.S. Exports: [MIT Observatory of Economic Complexity](http://atlas.media.mit.edu/en/profile/country/usa/)]
+
+---
+
+# What We *Import*
+
+.center[
+![](../images/usimports.png)
+]
+.source[U.S. Imports: [MIT Observatory of Economic Complexity](http://atlas.media.mit.edu/en/profile/country/usa/)]
+
+---
+
+class: inverse, center, middle
+
+# The Division of Labor
+
+---
+
+# The Division of Labor I
 
 .left-column[
 .center[
-![:scale 80%](https://www.dropbox.com/s/9s3qzw1m3rrl9sy/stigler.png?raw=1)
+![:scale 80%](../images/smith.png)
 
-George Stigler
+Adam Smith
 
-1911-1991
-
-Economics Nobel 1982
+1723-1790
 ]
 ]
 
 .right-column[
 
-> *"Let us start this...on a higher plane of candor than [we] will always maintain, .hi[there is no such subject as industrial organization*]," (p.1).
-
-> "*These courses deal with the size, structure, the effects of concentration on competition, the effects of competition upon prices, investment, innovation, and so on. But this is precisely the content of economic theory - price or resource allocation theory, now often given the unfelicitious name of .hi[microeconomics]*," (p.1).
-
+> "The greatest improvement in the productive powers of labour, and the greater part of the skill, dexterity, and judgment with which it is any where directed, or applied, seem to have been the effects of the **division of labour**," (Book I, Chapter 1).
 ]
 
-.source[Stigler, George J, 1968, *The Organization of Industry*]
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
 
 ---
 
-# You Already Know a lot of IO Basics
+# The Division of Labor II
 
 .pull-left[
+- Output performed under the .hi[division of labor] exceeds output performed in isolation (.hi-purple[autarky])
 
-- You (hopefully) learn(ed) in **Microeconomics (206, 306)**:
+- Variation in factor endowments
 
-- .hi[Market structures]:
-  1. .hi-purple[perfect competition]
-  2. .hi-purple[monopoly]
-  3. .hi-purple[monopolistic competition]
-  4. .hi-purple[oligopoly]
+- Variation in production opportunities
+
+- Variation in human talents
 ]
 
 .pull-right[
-.center[
-![:scale 75%](https://micros20.classes.ryansafner.com/images/micro_hex.png)
-]
+
+![:scale 70%](https://www.dropbox.com/s/hdgjre71wggdyp9/teamglobe.png?raw=1)
 ]
 
 ---
 
-# You Already Know a lot of IO Basics
+# The Division of Labor III
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "It is but a very small part of a man's wants which the produce of his own labour can supply. He supplies the far greater part of them by exchanging that surplus part of the produce of his own labour, which is over and above his own consumption, for such parts of the produce of other men's labour as he has occasion for. Every man thus lives by exchanging, or becomes in some measure a merchant, and the society itself grows to be what is properly a commercial society," (Book I, Chapter 4).
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# Smith's Pin Factory Example I
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+.smallest[
+> "To take an example...from a very trifling manufacture...the trade of the **pin-maker**. [I]n the way in which this business is now carried on, not only the whole work is a peculiar trade, but it is divided into a number of branches, of which the greater part are likewise peculiar trades. One man draws out the wire, another straights it, a third cuts it, a fourth points it, a fifth grinds it at the top for receiving the head...and **the important business of making a pin is, in this manner, divided into about eighteen distinct operations**...**Ten men only were employed [and they] could make among them upwards of forty-eight thousand pins in a day...But if they had all wrought separately and independently [they] certainly could not each of them have made twenty, perhaps not one pin in a day...**" (Book I, Chapter 1).
+
+]
+]
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# Smith's Pin Factory Example II
+
+.center[
+![:scale 100%](../images/pinfactory.png)
+
+Adam Smith's pin factory illustration
+]
+
+---
+
+# Division of Labor: Origins
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "This **division of labour**, from which so many advantages are derived, **is not originally the effect of any human wisdom**, which foresees and intends that general opulence to which it gives occasion. It is the necessary, though very slow and gradual, **consequence of a certain propensity in human nature** which has in view no such extensive utility; **the propensity to truck, barter, and exchange one thing for another,**" (Book I, Chapter 2).
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# The Division of Labor Is Limited By the Extent of the Market
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "As it is the power of exchanging that gives occasion to the division of labour, so **the extent of this division must always be limited by...the extent of the market.** When the market is very small, no person can have any encouragement to dedicate himself entirely to one employment, for want of the power to exchange all that surplus part of the produce of his own labour, which is over and above his own consumption, for such parts of the produce of other men's labour as he has occasion for," (Book I, Chapter 3).
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# The Division of Labor: Summary
 
 .pull-left[
-- You (hopefully) learn(ed) in **Microeconomics (206, 306)**:
+.smallest[
 
-- **Something** about the following .hi[concepts]:
-  1. .hi-purple[pricing]
-  2. .hi-purple[game theory]
-  3. .hi-purple[antitrust]
-  4. .hi-purple[entrepreneurship]
-]
+- .hi[Division of labor]: process where people *specialize* in production and then *exchange* their produce with others to acquire all of their desired goods
 
-.pull-right[
-.center[
-![:scale 75%](https://micros20.classes.ryansafner.com/images/micro_hex.png)
-]
-]
-
----
-
-# Imperfect Competition
-
-```{r, fig.retina=3, fig.align="center", fig.width=16}
-spectrum<-ggplot(data = tibble(x=c(0,10),
-                     y=c(0,10)))+
-  aes(x = x,
-      y = y)+
-  geom_label(x=0.5,y=3, label="Less \n Competitive", size =14, color = "#fde0dd")+
-  geom_label(x=5.5,y=3, label="More \n Competitive", size = 14, color = "#7a0177")+
-  geom_label(x=1,y=2, label="Monopoly", size =10, color = "#fbb4b9")+
-  geom_label(x=5,y=2, label="Perfect \n Competition", size =10, color = "#7a0177")+
-  annotate("segment", x = 1, xend = 5, y = 3, yend = 3, colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  scale_x_continuous(breaks=seq(0,6,1),
-                     limits=c(0,6))+
-  scale_y_continuous(breaks=seq(1,5,1),
-                     limits=c(1,5))+
-  theme_void()+
-  theme(
-    text = element_text(family = "Fira Sans", size = 24)
-  )
+- Two senses: 
+    1. **Factory system**: splitting up production process into specialized discrete steps boosts productivity
+    2. **Economic system**: an economy of people specialize & exchange for all needs, leading to widespread prosperity
     
-spectrum
-```
+- .hi-purple[The more trading opportunities, the greater the benefits of specialization]
 
----
-
-# Imperfect Competition
-
-```{r, fig.retina=3, fig.align="center", fig.width=16}
-spectrum+geom_segment(x=4.5,xend=4.5,y=0,yend=5, color="red", size =1 , linetype="dashed")+
-  annotate("segment", x = 1, xend = 4.5, y = 4, yend = 4, colour = "red", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
-  geom_label(x=3,y=4.5, label='"Imperfect Competition"', size = 12, color = "red")
-```
-
----
-
-# Imperfect Competition
-
-```{r, fig.retina=3, fig.align="center", fig.width=16}
-spectrum+geom_segment(x=4.5,xend=4.5,y=0,yend=5, color="red", size =1 , linetype="dashed")+
-  annotate("segment", x = 1, xend = 4.5, y = 4, yend = 4, colour = "red", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
-  geom_label(x=3,y=4.5, label='"Imperfect Competition"', size = 12, color = "red")+
-  geom_label(x=2,y=3.5, label="Oligopoly", size =10, color = "#fbb4b9")
-```
-
----
-
-# Imperfect Competition
-
-```{r, fig.retina=3, fig.align="center", fig.width=16}
-spectrum+geom_segment(x=4.5,xend=4.5,y=0,yend=5, color="red", size =1 , linetype="dashed")+
-  annotate("segment", x = 1, xend = 4.5, y = 4, yend = 4, colour = "red", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
-  geom_label(x=3,y=4.5, label='"Imperfect Competition"', size = 12, color = "red")+
-  geom_label(x=2,y=3.5, label="Oligopoly", size =10, color = "#fbb4b9")+
-  geom_label(x=3.75,y=3.5, label="Monopolistic \n Competition", size =10, color = "#c51b8a")
-```
-
----
-
-# Classic Elements of Industrial Organization
-
-.pull-left[
-
-1. .hi[Structure-Conduct-Performance (SCP) paradigm]
-
-2. .hi[Price theory and Game theory]
-
-3. .hi[Economics of Organization/Firms]
-
-4. .hi[Antitrust and economics of regulation]
-]
-
-.pull-right[
-
-.center[
-![](https://www.dropbox.com/s/ymuz42mg47mtnyb/industry.png?raw=1)
-]
-]
-
----
-
-# Structure-Conduct-Performance Paradigm
-
-.pull-left[
-.center[
-![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
 ]
 ]
 
 .pull-right[
-
-- An industry's .hi-purple["Performance"]
-  - Price (high, low)
-  - Output (high, low)
-  - Profit
-  - Productive efficiency
-  - Allocative efficiency (CS, DWL)
-  - Quality, safety, etc.
-]
----
-
-# Structure-Conduct-Performance Paradigm
-
-.pull-left[
 .center[
-![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
-]
-]
-
-.pull-right[
-
-- ... which is determined by its firms' .hi-purple["Conduct"]
-  - Pricing behavior
-  - Output choices
-  - Legal tactics
-  - Entry and exit
-  - Collusion
-  - Competition
-  - Innovation
-]
-
----
-
-# Structure-Conduct-Performance Paradigm
-
-.pull-left[
-.center[
-![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
-]
-]
-
-.pull-right[
-
-- ... which is determined by the industry's .hi-purple["Structure"]
-  - Number of buyers
-  - Number of sellers
-  - Product differentiation
-  - Vertical integration
-  - Barriers to entry
-]
-
----
-
-# Structure-Conduct-Performance Paradigm
-
-.pull-left[
-.center[
-![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
-]
-]
-
-.pull-right[
-
-- ... which is determined by the product's .hi-purple["Technology"]
-  - **Consumer demand** (price and income elasticity, substitutes, location, etc)
-  - **Good's features**: inputs, technology, durability, rivalry, excludability
-  - **Production features**: economies of scale, economies of scope, network externalities, two-sided platforms
-]
-
----
-
-# Structure-Conduct-Performance Paradigm
-
-.pull-left[
-.center[
-![](https://www.dropbox.com/s/p5zseoqqu6xagw2/scpimage.png?raw=1)
-]
-]
-
-.pull-right[
-
-- .hi-purple[Government policy] can affect nearly every stage
-  - Entry regulation
-  - Price regulation
-  - Antitrust regulation
-  - Taxes and subsidies
-]
-
----
-
-# Limitations of SCP
-
-.pull-left[
-
-- How do you define "an industry"
-  - What does Coca Cola compete with?
-  - What does Google compete with?
-
-- Substitutes in production vs. substitutes in consumption?
-
-- Geographic boundaries
-]
-
-.pull-right[
-.center[
-![:scale 100%](https://www.dropbox.com/s/dv8ce57s6azr8e8/groceryaisle.jpg?raw=1)
+![](../images/tradeportship.jpg)
 ]
 ]
 
 ---
 
-# Price Theory
-
-.pull-left[
-
-- Economics is a .hi[way of thinking] based on a few core ideas:
-
-- .hi-purple[People respond to incentives]
-    - Money, punishment, taxes and subsidies, risk of injury, reputation, profits, sex, effort, morals
-
-- .hi-purple[Environments adjust until they are in equilibrium]
-    - People make adjustments until their choices are optimal given others’ actions
-]
-
-.pull-right[
-
-.center[
-![:scale 70%](https://www.dropbox.com/s/wp97bsk0yni31k9/incentive2.jpg?raw=1)
-
-![:scale 70%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
-]
-]
-
----
-
-# Price Theory: Optimization and Equilibrium
-
-.pull-left[
-- If people can **learn** and **change** their behavior, they will always switch to a higher-valued option
-
-- If there are no alternatives that are better, people are at an .hi[optimum]
-
-- If **everyone** is at an optimum, the system is in .hi[equilibrium]
-]
-
-.pull-right[
-.center[
-![:scale 70%](https://www.dropbox.com/s/wp97bsk0yni31k9/incentive2.jpg?raw=1)
-
-![:scale 70%](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
-]
-]
-
----
-
-# The Major Models of Price Theory
-
-.pull-left[
-
-## Optimization
-
-- Agents have .hi[objectives] they value
-
-- Agents face .hi[constraints]
-
-- Make .hi[tradeoffs] to maximize objectives within constraints
-
-.center[
-![](https://www.dropbox.com/s/qvr240t5j6t3arm/optimize.jpeg?raw=1)
-]
-]
-
---
-
-.pull-right[
-
-## Equilibrium
-
-- Agents .hi[compete] with others over **scarce** resources
-
-- Agents .hi[adjust] behaviors based on prices
-
-- .hi[Stable outcomes] when adjustments stop
-
-.center[
-![](https://www.dropbox.com/s/j7xenkgo3p71vke/equilibriumbalance.png?raw=1)
-]
-
-]
-
----
-
-# Economics (Price Theory) Is Broader Than You Think
-
-.center[
-![:scale 82%](https://www.dropbox.com/s/bqb48eg20ld6li9/cooleconbooks.png?raw=1)
-]
-
----
-
-# Remember: All Models are Wrong!
-
-.pull-left[
-.content-box-red[
-.red[**Caution**:] Don't conflate models with reality!
-]
-- Models help us *understand* reality.
-
-- A good economist is always aware of:
-    - "*ceterus paribus*"
-    - "...and then what?"
-    - "...compared to what?"
-
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/17cb7ceqipgi8fs/citymodel.jpg?raw=1)
-]
-]
-
----
-
-# .st[Economics] IO Often Uses, but Is Not Limited to, Math
-
-```{r, fig.width=12}
-red_pink <- "#e64173"
-blue <- "#2b59c3"
-
-venn_colors <- c(red_pink, blue)
-venn_lines <- rep("solid", 10)
-# Locations of circles
-venn_df <- tibble(
-  x  = c( 0.0,   2.0),
-  y  = c( 0.0,   0.0),
-  r  = c( 2.0,   2.0),
-  l  = c( "Math \n Modeling", "Thinking Like \n an Economist"),
-  xl = c( -1.0,    3.0),
-  yl = c( 0.0,   0.0))
-# Venn
-ggplot(data = venn_df, aes(x0 = x, y0 = y, r = r, fill = l, color = l)) +
-ggforce::geom_circle(aes(linetype = l), alpha = 0.3, size = 0.75) +
-theme_void() +
-theme(legend.position = "none") +
-scale_fill_manual(values = venn_colors) +
-scale_color_manual(values = venn_colors) +
-scale_linetype_manual(values = venn_lines) +
-  geom_text(aes(x = xl, y = yl, label = l), size = 8, family = "Fira Sans Condensed") +
-coord_equal()
-```
-
----
-
-# The Economics of Organization
-
-.pull-left[
-
-- Studying the problem of .hi[economic organization] provides more perspectives
-
-- .hi[Firms] (hierarchies) and **markets** are substitutable methods of production
-
-- .hi[Team production] of many economic goods and services
-
-- Organize to **minimize** **transaction costs** in production
-
-]
-
-.pull-right[
-.center[
-![:scale 100%](https://www.dropbox.com/s/usjcm7s1euszomm/firms.png?raw=1)
-]
-]
-
----
-
-# The Economics of Organization
-
-.pull-left[
-
-- **Most** production takes place in firms
-
-- Firms grapple with their own .hi-purple[principal-agent problems]: 
-  - management vs. labor, management vs. owners
-
-- Firms must relate to other firms
-  - specialization & division of labor
-  - up/downstream market power
-  - mergers & acquisitions, vertical integration
-]
-
-.pull-right[
-.center[
-![:scale 100%](https://www.dropbox.com/s/usjcm7s1euszomm/firms.png?raw=1)
-]
-]
-
----
-
-
-# Game Theory and Strategic Behavior
-
-.pull-left[
-
-- .hi[Game theory]: a set of tools that model strategic interactions ("games") between rational players, 3 elements:
-    1. **Players**
-    2. **Strategies** that players can choose from
-    3. **Payoffs** are *jointly-determined* from combination of all players' strategies 
-
-]
-
-.pull-right[
-.center[
-![:scale 100%](https://www.dropbox.com/s/93gtv9xei0q5fik/gametheory.jpg?raw=1)
-]
-]
-
----
-
-# Game Theory vs. Price Theory Models I
-
-.pull-left[
-
-- .hi-purple[Optimization models] **ignore all other agents** and just focus on how can **you** maximize **your** objective within **your** constraints
-  - Other agents are a primary cause of your constraints - but not considered in the model!
-  - Consumers max utility; firms max profit, etc.
-
-- **Outcome**: .hi[optimum]: decision where *you* have no better alternatives
-
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/kjm2fzw4o3p0sk3/optimize.jpg?raw=1)
-]
-]
-
----
-
-# Game Theory vs. Price Theory Models II
-
-.pull-left[
-
-- Traditional economic models are often called .hi[Decision theory]:
-
-- .hi-purple[Equilibrium models] assume that there are **so many agents** that **no agent's decision can affect the outcome**
-  - P.C.: firms are price-**takers**
-  - Monopoly: the **only** buyer or seller
-  - **Ignores all other agents' choices**!
-
-- **Outcome**: .hi[equilibrium]: where *nobody* has no better alternatives
-
-]
-
-.pull-right[
-
-.center[
-![](https://www.dropbox.com/s/9d2bkesu20g5fj7/crowdartistic.jpg?raw=1)
-]
-]
-
----
-
-# Game Theory vs. Price Theory Models III
-
-.pull-left[
-
-- .hi[Game theory models] directly confront **strategic interactions** between players
-  - How each player would respond to a strategy chosen by other player(s)
-  - Lead to a stable outcome where everyone has considered and chosen their best responses
-
-- **Outcome**: .hi-purple[Nash equilibrium]: where *nobody* has a better strategy *given the strategies everyone else is playing*
-
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/tymdsxbqaq2scxq/chessknights.jpg?raw=1)
-]
-]
-
----
-
-class: inverse, center, middle
-
-# Motivations for this Semester
-
----
-
-# Unequal Growth, or Unshared Prosperity? I
-
-.pull-left[
-- Common argument: "**real wages** have been stagnant since 1970" or "real wages have not kept up with productivity since 1970"
-
-- **Labor's share** of national income has gone down recently
-
-- .hi-purple[Might this be because of *increasing market power*?]
-
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/6t0gb5f38aoe7pn/monopolyman.jpg?raw=1)
-]
-]
-
----
-
-# Unequal Growth, or Unshared Prosperity? II
-
-```{r, fig.width=12}
-labor<-fredr(
-  series_id = "MPU4910141"
-)
-
-#series %>%
-#  spread(key = "Series",
-#         value = value) %>%
-#  mutate(Sum = Capital + Labor)
-ggplot(data = labor)+
-  aes(x = date,
-      y = value,
-      color = series_id)+
-  #geom_point()+
-  geom_path(size=2)+
-  scale_x_date(date_labels = "%Y", breaks = "2 years")+
-  scale_y_continuous(breaks=seq(0.60,0.70,0.01),
-                     limits=c(0.6,0.7))+
-  theme_slides+
-  guides(color=F)+
-  labs(x = "Year",
-       y = "Labor's Share of Cost",
-       title = "The Decline of Labor's Share in Cost",
-       subtitle = "(Private Nonfarm Business Sector)",
-       caption = "Data Source: FRED")
-```
-
----
-
-# Unequal Growth, or Unshared Prosperity? III
-
-```{r, fig.width=12}
-profits<-fredr(
-  series_id = "CP"
-)
-
-#series %>%
-#  spread(key = "Series",
-#         value = value) %>%
-#  mutate(Sum = Capital + Labor)
-ggplot(data = profits)+
-  aes(x = date,
-      y = value,
-      color = series_id)+
-  #geom_point()+
-  geom_path(size=2)+
-  scale_x_date(date_labels = "%Y", breaks = "10 years")+
-  scale_y_continuous(breaks=seq(0,2000,200),
-                     labels=scales::dollar,
-                     limits=c(0,2000),
-                     expand=c(0,0))+
-  theme_slides+
-  guides(color=F)+
-  labs(x = "Year",
-       y = "Corporate Profits (in Billions)",
-       title = "The Rise of Corporate Profits",
-       subtitle = "(Unadjusted, After Tax)",
-       caption = "Data Source: FRED")
-```
-
----
-
-# The Rise of Market Power?
-
-.center[
-![:scale 95%](https://www.dropbox.com/s/rqhq6sf9gxf97uv/marketpower.png?raw=1)
-]
-
----
-
-# Is New Antitrust Action Necessary? 
-
-.center[
-![:scale 95%](https://www.dropbox.com/s/oy0owy8v6o443i8/antitrust2.png?raw=1)
-]
-
----
-
-# Is New Antitrust *Thinking* Necessary?
-
-.center[
-![:scale 80%](https://www.dropbox.com/s/8v4qavdm0bynjwc/antitrustarticles.png?raw=1)
-]
-
----
-
-# Questions for the Semester
-
-1. Has there been a **general increase in market power/concentration**?
-
-2. If so, what should we do about it?
-
-3. Should we revitalize **antitrust laws**?
-
-4. Are **platforms** like Facebook, Amazon, Google, etc. uniquely problematic? How should we regulate them?
-
----
-
-# Other Proposals I Hope to Discuss
- 
-.right-column[
-
-1. Is "**property**" another name for **monopoly**? Should we adopt a **Common Ownership Self-Assessed Tax**? 
-
-2. Should your **data** be **owned** (and compensated) as **labor**?
-
-3. Will **automation** take all the jobs? If so, what do we do about that? 
-
-]
+# The Division of Labor and Capital Accumulation I
 
 .left-column[
-![:scale 80%](https://www.dropbox.com/s/txihggxo1imaz3m/radicalmarkets.jpg?raw=1)
+.center[
+![:scale 80%](../images/allynyoung.png)
+
+Allyn Young
+
+1876-1929
+]
+]
+
+.right-column[
+
+.smaller[
+
+> "The important thing, of course, is that **with the division of labour a group of complex processes is transformed into a succession of simpler processes, some of which, at least, lend themselves to the use of machinery**. In the use of machinery and the adoption of indirect processes there is a further division of labour, the economies of which are again **limited by the extent of the market**. **It would be wasteful to make a hammer to drive a single nail; it would be better to use whatever awkward implement lies conveniently at hand**," (p.530).
+
+]
+]
+.source[Young, Allyn, 1928, "Increasing Returns and Economics Progress," *Economic Journal* 38(152)]
+
+---
+
+# The Division of Labor and Capital Accumulation II
+
+.left-column[
+.center[
+![:scale 80%](../images/allynyoung.png)
+
+Allyn Young
+
+1876-1929
+]
+]
+
+.right-column[
+
+.smaller[
+
+> "It would be wasteful to furnish a factory with an elaborate equipment of specially constructed jigs, gauges, lathes, drills, presses and conveyors to build a hundred automobiles; it would be better to rely mostly upon tools and machines of standard types, so as to make a relatively larger use of directly applied and a relatively smaller use of indirectly-applied labour. **[Henry] Ford's methods would be absurdly uneconomical if his output were very small**, and would be unprofitable even if his output were what many other manufacturers of automobiles would call large.," (p.530).
+
+]
+]
+.source[Young, Allyn, 1928, "Increasing Returns and Economics Progress," *Economic Journal* 38(152)]
+
+---
+
+# The Division of Labor and Capital Accumulation III
+
+.pull-left[
+.smaller[
+- More trading opportunities create .hi-purple[economies of scale]
+    - As $\uparrow$ output, $\downarrow$ average cost
+    
+- Makes large investments in capital & technology profitable
+    - Spreads $f$ over a larger volume of $q$
+    
+- Labor-saving technologies
+    - May replace labor entirely with capital
+    - Might create new complex tasks for labor
+]
+]
+.pull-right[
+.center[
+![](../images/factoryrobots.jpg)
+]
 ]
 
 ---
 
-# Other Proposals I Hope to Discuss
+# The Division of *Knowledge*
+
+- Greater extent of the market $\rightarrow$ greater division of labor, and also a greater specialization and .hi-purple[division of knowledge]
 
 .center[
-![:scale 80%](https://www.dropbox.com/s/m6ajij72dps6957/big1.png?raw=1)
+![:scale 25%](../images/medievaldoctor.jpg)
 ]
 
 ---
 
-# Unintended Consequences
+# The Division of *Knowledge*
+
+- Greater extent of the market $\rightarrow$ greater division of labor, and also a greater specialization and .hi-purple[division of knowledge]
 
 .center[
-![:scale 90%](https://www.dropbox.com/s/aovtp296wj7pwdq/freelancer.png?raw=1)
+
+![:scale 80%](../images/moderndoctors.jpg)
+]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+.left-column[
+.center[
+![:scale 80%](../images/munger.jpg)
+
+Michael Munger
+]
+]
+
+.right-column[
+.smaller[
+> "The market Smith was talking about was the number of potential (and, in an important sense, actual!) customers for the product in question. As the ability of transport and communications to handle trade increases, the size of factories increases. Let me say that again, because it is so obvious it's confusing. .hi[As the number of potential customers you can reach expands, and the costs of shipping and handling fall, factories become fewer and larger.] There is far more capital investment in these factories, but fewer workers. And output increases ten-fold, a hundred-fold, a billion-fold."
+
+]
+]
+
+.source[Munger, Michael, 2007, ["I'll Stick With These: Some Sharp Observations on the Division of Labor,"](https://www.econlib.org/library/Columns/y2007/Mungerpins.html) *EconLog*]
+
+---
+
+# Division of Labor, Productivity, & Employment: Example
+
+.center[
+![:scale 60%](../images/ditchsticks.jpg)
+
+100 workers with sticks
+]
+
+
+---
+
+# Division of Labor, Productivity, & Employment: Example
+
+.center[
+![:scale 55%](../images/ditcheshovels.jpg)
+
+10 workers with shovels
+]
+
+
+---
+
+# Division of Labor, Productivity, & Employment: Example
+
+.center[
+![:scale 60%](../images/backhoe.jpg)
+
+1 worker with a backhoe
+]
+
+
+---
+
+# Division of Labor, Productivity, & Employment: A Framework
+
+.pull-left[
+.center[
+![:scale 100%](../images/dol.png)
+]
+]
+
+.pull-right[
+
+- .hi-blue[Productivity Per Worker]: exponential increase with larger markets & more capital investment
+
+- .hi-red[Employment]: Increase, then decrease, with larger markets & more capital investment
+
+]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+.left-column[
+.center[
+![:scale 80%](../images/munger.jpg)
+
+Michael Munger
+]
+]
+
+.right-column[
+.smaller[
+> "Today, most pin manufacture has moved to Asia. Your first impulse might be to nod and think, ``Sure, cheap labor.'' But that is not an important part of the story. Pin manufacturing is highly capital intensive. Smith's insight on the division of labor, and Howe's idea of making the process continuous and making labor more productive, have combined to expand the market for Chinese pins to the whole world. The number of workers engaged in pin manufacture in China has \emph{fallen}, not risen, as pin output has expanded. And wages have increased more than ten-fold, as productivity has exploded"
+
+]
+]
+
+.source[Munger, Michael, 2007, ["I'll Stick With These: Some Sharp Observations on the Division of Labor,"](https://www.econlib.org/library/Columns/y2007/Mungerpins.html) *EconLog*]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+
+.center[
+![:scale 60%](../images/chinalayoffs.png)
+]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+
+.center[
+![:scale 60%](../images/manufacturinghistory.jpg)
 ]
 
 ---
 
 class: inverse, center, middle
+
 # About This Course
 
 ---
 
-# Learning Goals I
+# Logistics: Hybrid Course
 
-1. Understand key economic models of perfect competition, monopoly, monopolistic competition, oligopoly (Bertrand, Cournot, and Stackelberg competition), and contestable markets
+.smaller[
+- .hi[hybrid]: more .hi-purple[synchronous] material than .hi-turquoise[asynchronous] material
 
-2. Apply models of competition to different industries and regulatory regimes
+- I will always be teaching .hi[remotely]
+  - A classroom is available to you
+  - I may make occasional visits to campus if you *need* something in person (TBD)
 
-3. Simulate strategic and game theoretic interactions and apply them to industry behavior
+- Office hours: Tu/Th 3:30-5:00 PM on Zoom
+  - <i class="fas fa-video"></i> Zoom link in Blackboard's `LIVE CLASS SESSIONS` link
+  - <i class="fab fa-slack"></i> Slack channels
 
-4. Discuss how firms actually compete with one another
-
----
-
-# Learning Goals II
-
-<ol start="5">
-  <li> Critique textbook models and theories of regulation and antitrust</li>
-  <li> Understand the economic problems that firms solve, create, and grapple with</li>
-  <li> Debate regulatory solutions to problems and current events in various industries</li>
-</ol>
-
----
-
-# Format For the Course
-
-.pull-left[
-
-  - Part lecture, part conversation
-  - Multiple lectures to introduce topic, give background and context
-  - Some readings-based discussions
-
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/6g428kr267v1rxu/roundtable.jpg?raw=1)
-]
+- Teaching Assistant(s): TBD
+  - grade HWs & hold (likely virtual) office hours
 ]
 
 ---
 
-# A Hybrid Course in Three Parts
+# Logistics: Hybrid Course
 
-- .hi-purple[Models/Review]
-  - Production theory (technology, costs, etc)
-  - Market structures (perfect competition, monopoly)
-  - Some extensions beyond ECON 306
-  - Mostly **lecture** (1 or 2 discussions)
-  - *Some* math & practice (**HWs**, **Midterm**)
+- We will have .hi-purple[synchronous] sessions Mon/Wed 2:00-3:15 PM on **<i class="fas fa-video"></i> Zoom**
 
----
+- Lecture videos will be posted on **Blackboard** via Panopto for students unable to join synchronously
+  - If you were present, you do not need to watch the video (again)!
+  - You are not *required* to attend synchronously, but it will help you
 
-# A Hybrid Course in Three Parts
-
-- .hi-purple[Competition]
-  - Oligopoly models
-  - Game theory
-  - **Playing games** in class (**Moblab**)
-  - Applications & readings on how firms compete
-      - competitive process
-      - entrepreneurship
-      - innovation
-  - Mix of lecture and **discussions**
+- All graded assignments are .hi-turquoise[asynchronous]
+  - (Probably) submitted on Blackboard by 11:59 PM Sundays
+  - (Probably) timed exams on Blackboard
 
 ---
 
-# A Hybrid Course in Three Parts
+# Learning Goals
 
-- .hi-purple[Applications]
-  - Why firms exist & challenges for firms
-  - Antitrust (theory, history, applications)
-  - Regulating natural monopoly: telecom
-  - Automation, gig economy
-  - Networks, platforms, ownership of data
-  - More **readings** and **discussions** with some lecture
+By the end of this course, you will: 
+
+1. articulate basic models of *why* and *what* countries trade
+2. understand the political economy that determine a country's trade policies
+3. intelligently comment on trade-related current events
+4. present an analysis of a country's trade policy
 
 ---
+
 
 # Assignments
 
 ```{r}
-
 assignments <- tribble(
-  ~"",  ~Assignment, ~Percent,
-  "n"     , "Participation (Average)", "20%",
-  "n", "Homework (Average)", "10%",
-  1, "Position Paper", "25%",
-  1      , "Midterm", "20%",
-  1     , "Final (Take-home)", "25%"
+  ~Frequency,  ~Assignment, ~Weight,
+  "-", "Participation", "20%",
+  "n", "Homeworks", "20% (using average HW grade)",
+  "1", "Country Profile", "10%",
+  "1", "Midterm Exam", "25%",
+  "1", "Final Exam", "25%"
 )
+
 knitr::kable(assignments, "html")
 ```
 
-.center[
-See more details at the [assignments page](/assignments)
-]
-
 ---
 
-# Readings
+# Your Textbook (Optional but Recommended)
 
-.pull-left[
 .center[
-![:scale 60%](https://www.dropbox.com/s/12vt4htv8ljxg5n/zerotoone.jpg?raw=1)
+![:scale 40%](../images/tradetextbook.jpg)
 ]
-]
-.pull-right[
-.center[
-![:scale 60%](https://www.dropbox.com/s/txihggxo1imaz3m/radicalmarkets.jpg?raw=1)
-]
-]
-
----
-
-# Textbooks You Might Want
-
-.pull-left[
-.center[
-![:scale 70%](https://www.dropbox.com/s/686njcmtnq3srp7/churchandware.jpg?raw=1)
-]
-]
-.pull-right[
-.center[
-![:scale 73%](https://www.dropbox.com/s/cafpkx0ax7kpchm/carltonperloff.jpg?raw=1)
-]
-]
-
----
-
-# So We Can Play Games :) 
-
-.pull-left[
-.center[
-![](https://www.dropbox.com/s/gj6t2mm2q4fauo9/moblab.png?raw=1)
-]
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/24tjbrnsuzchsnv/moblabexample.png?raw=1)
-]
-]
-
 
 ---
 
 # Course Website
 
+.pull-left[
 .center[
-![:scale 30%](../images/io_hex.png)
+![:scale 60%](https://tradeF20.classes.ryansafner.com/images/trade_hex.png)
 
-[IOs20.classes.ryansafner.com](http://IOs20.classes.ryansafner.com)
+]
+]
+
+.pull-right[
+.center[
+![](../images/tradewebsite.png)
+]
+]
+
+.center[
+[tradeF20.classes.ryansafner.com](https://tradeF20.classes.ryansafner.com)
 ]
 
 ---
@@ -929,26 +595,25 @@ See more details at the [assignments page](/assignments)
 .pull-left[
 - Take notes. On paper. Really.
 
-- Read the readings. I've optimized them for you.
+- Read the readings.
 
-- Participate<sup>*</sup>
+- Ask questions, come to office hours. Don’t struggle in silence, you are not alone!
 
 - You are learning how to learn
 
-- See the [reference page](http://IOs20.classes.ryansafner.com/reference) for more
+- See the [reference page](http://tradeF20.classes.ryansafner.com/reference) for more
 ]
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/rfdf5g27mdtq5wx/education.png?raw=1)
+![](../images/learning.png)
 ]
 ]
-.footnote[<sup>*</sup> To the degree you feel comfortable. But try to push that boundary with baby steps!]
 
 ---
 
 # Roadmap for the Semester
 
 .center[
-![:scale 75%](../images/io_flowchart.png)
+![:scale 75%](../images/trade_flowchart.png)
 ]
