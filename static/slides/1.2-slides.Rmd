@@ -1,5 +1,5 @@
 ---
-title: "1.1 — Why Trade Matters"
+title: "1.1 — The Smithean View of Trade"
 subtitle: "ECON 324 • International Trade • Fall 2020"
 author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/tradeF20"><i class="fa fa-github fa-fw"></i>ryansafner/tradeF20</a><br> <a href="https://tradeF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>tradeF20.classes.ryansafner.com</a><br>'
 #date:
@@ -37,14 +37,14 @@ update_geom_defaults("label", list(family = "Fira Sans Condensed"))
 
 class: inverse
 
-### [Why Trade Matters](#)
-### [About This Course](#)
+### [Overview](#)
+
 
 ---
 
 class: inverse, center, middle
 
-# Why Trade Matters
+# The Importance of International Trade
 
 ---
 
@@ -418,6 +418,382 @@ But in the last 300 years, .hi-purple[average people] can become wealthy by .hi[
 
 class: inverse, center, middle
 
+# Smith's View of Trade: The Division of Labor
+
+---
+
+# The Division of Labor I
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "The greatest improvement in the productive powers of labour, and the greater part of the skill, dexterity, and judgment with which it is any where directed, or applied, seem to have been the effects of the **division of labour**," (Book I, Chapter 1).
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# The Division of Labor II
+
+.pull-left[
+- Output performed under the .hi[division of labor] exceeds output performed in isolation (.hi-purple[autarky])
+
+- Variation in factor endowments
+
+- Variation in production opportunities
+
+- Variation in human talents
+]
+
+.pull-right[
+
+![:scale 70%](https://www.dropbox.com/s/hdgjre71wggdyp9/teamglobe.png?raw=1)
+]
+
+---
+
+# The Division of Labor III
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "It is but a very small part of a man's wants which the produce of his own labour can supply. He supplies the far greater part of them by exchanging that surplus part of the produce of his own labour, which is over and above his own consumption, for such parts of the produce of other men's labour as he has occasion for. Every man thus lives by exchanging, or becomes in some measure a merchant, and the society itself grows to be what is properly a commercial society," (Book I, Chapter 4).
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# Smith's Pin Factory Example I
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+.smallest[
+> "To take an example...from a very trifling manufacture...the trade of the **pin-maker**. [I]n the way in which this business is now carried on, not only the whole work is a peculiar trade, but it is divided into a number of branches, of which the greater part are likewise peculiar trades. One man draws out the wire, another straights it, a third cuts it, a fourth points it, a fifth grinds it at the top for receiving the head...and **the important business of making a pin is, in this manner, divided into about eighteen distinct operations**...**Ten men only were employed [and they] could make among them upwards of forty-eight thousand pins in a day...But if they had all wrought separately and independently [they] certainly could not each of them have made twenty, perhaps not one pin in a day...**" (Book I, Chapter 1).
+
+]
+]
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# Smith's Pin Factory Example II
+
+.center[
+![:scale 100%](../images/pinfactory.png)
+
+Adam Smith's pin factory illustration
+]
+
+---
+
+# Division of Labor: Origins
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "This **division of labour**, from which so many advantages are derived, **is not originally the effect of any human wisdom**, which foresees and intends that general opulence to which it gives occasion. It is the necessary, though very slow and gradual, **consequence of a certain propensity in human nature** which has in view no such extensive utility; **the propensity to truck, barter, and exchange one thing for another,**" (Book I, Chapter 2).
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# DOL Is Limited By the Extent of the Market
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+
+.right-column[
+
+> "As it is the power of exchanging that gives occasion to the division of labour, so **the extent of this division must always be limited by...the extent of the market.** When the market is very small, no person can have any encouragement to dedicate himself entirely to one employment, for want of the power to exchange all that surplus part of the produce of his own labour, which is over and above his own consumption, for such parts of the produce of other men's labour as he has occasion for," (Book I, Chapter 3).
+]
+
+.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
+
+---
+
+# The Division of Labor: Summary
+
+.pull-left[
+.smallest[
+
+- .hi[Division of labor]: process where people *specialize* in production and then *exchange* their produce with others to acquire all of their desired goods
+
+- Two senses: 
+    1. **Factory system**: splitting up production process into specialized discrete steps boosts productivity
+    2. **Economic system**: an economy of people specialize & exchange for all needs, leading to widespread prosperity
+    
+- .hi-purple[The more trading opportunities, the greater the benefits of specialization]
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/tradeportship.jpg)
+]
+]
+
+---
+
+# The Division of Labor and Capital Accumulation I
+
+.left-column[
+.center[
+![:scale 80%](../images/allynyoung.jpg)
+
+Allyn Young
+
+1876-1929
+]
+]
+
+.right-column[
+
+.smaller[
+
+> "The important thing, of course, is that **with the division of labour a group of complex processes is transformed into a succession of simpler processes, some of which, at least, lend themselves to the use of machinery**. In the use of machinery and the adoption of indirect processes there is a further division of labour, the economies of which are again **limited by the extent of the market**. **It would be wasteful to make a hammer to drive a single nail; it would be better to use whatever awkward implement lies conveniently at hand**," (p.530).
+
+]
+]
+.source[Young, Allyn, 1928, "Increasing Returns and Economics Progress," *Economic Journal* 38(152)]
+
+---
+
+# The Division of Labor and Capital Accumulation II
+
+.left-column[
+.center[
+![:scale 80%](../images/allynyoung.jpg)
+
+Allyn Young
+
+1876-1929
+]
+]
+
+.right-column[
+
+.smaller[
+
+> "It would be wasteful to furnish a factory with an elaborate equipment of specially constructed jigs, gauges, lathes, drills, presses and conveyors to build a hundred automobiles; it would be better to rely mostly upon tools and machines of standard types, so as to make a relatively larger use of directly applied and a relatively smaller use of indirectly-applied labour. **[Henry] Ford's methods would be absurdly uneconomical if his output were very small**, and would be unprofitable even if his output were what many other manufacturers of automobiles would call large.," (p.530).
+
+]
+]
+.source[Young, Allyn, 1928, "Increasing Returns and Economics Progress," *Economic Journal* 38(152)]
+
+---
+
+# The Division of Labor and Capital Accumulation III
+
+.pull-left[
+.smaller[
+- More trading opportunities create .hi-purple[economies of scale]
+    - As $\uparrow$ output, $\downarrow$ average cost
+    
+- Makes large investments in capital & technology profitable
+    - Spreads $f$ over a larger volume of $q$
+    
+- Labor-saving technologies
+    - May replace labor entirely with capital
+    - Might create new complex tasks for labor
+]
+]
+.pull-right[
+.center[
+![](../images/factoryrobots.jpg)
+]
+]
+
+---
+
+# Division of Labor and Extent of the Market
+
+.center[
+![:scale 75%](../images/dolextentofmarket.jpg)
+]
+
+---
+
+# The Division of *Knowledge*
+
+- Greater extent of the market $\rightarrow$ greater division of labor, and also a greater specialization and .hi-purple[division of knowledge]
+
+.center[
+![:scale 25%](../images/medievaldoctor.jpg)
+]
+
+---
+
+# The Division of *Knowledge*
+
+- Greater extent of the market $\rightarrow$ greater division of labor, and also a greater specialization and .hi-purple[division of knowledge]
+
+.center[
+
+![:scale 80%](../images/moderndoctors.jpg)
+]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+.left-column[
+.center[
+![:scale 80%](../images/munger.jpg)
+
+Michael Munger
+]
+]
+
+.right-column[
+.smaller[
+> "The market Smith was talking about was the number of potential (and, in an important sense, actual!) customers for the product in question. As the ability of transport and communications to handle trade increases, the size of factories increases. Let me say that again, because it is so obvious it's confusing. .hi[As the number of potential customers you can reach expands, and the costs of shipping and handling fall, factories become fewer and larger.] There is far more capital investment in these factories, but fewer workers. And output increases ten-fold, a hundred-fold, a billion-fold."
+
+]
+]
+
+.source[Munger, Michael, 2007, ["I'll Stick With These: Some Sharp Observations on the Division of Labor,"](https://www.econlib.org/library/Columns/y2007/Mungerpins.html) *EconLog*]
+
+---
+
+# Division of Labor, Productivity, & Employment: Example
+
+.center[
+![:scale 60%](../images/ditchsticks.jpg)
+
+100 workers with sticks
+]
+
+
+---
+
+# Division of Labor, Productivity, & Employment: Example
+
+.center[
+![:scale 55%](../images/ditcheshovels.jpg)
+
+10 workers with shovels
+]
+
+
+---
+
+# Division of Labor, Productivity, & Employment: Example
+
+.center[
+![:scale 60%](../images/backhoe.jpg)
+
+1 worker with a backhoe
+]
+
+
+---
+
+# Division of Labor, Productivity, & Employment: A Framework
+
+.pull-left[
+.center[
+![:scale 100%](../images/dol.png)
+]
+]
+
+.pull-right[
+
+- .hi-blue[Productivity Per Worker]: exponential increase with larger markets & more capital investment
+
+- .hi-red[Employment]: Increase, then decrease, with larger markets & more capital investment
+
+]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+.left-column[
+.center[
+![:scale 80%](../images/munger.jpg)
+
+Michael Munger
+]
+]
+
+.right-column[
+.smaller[
+> "Today, most pin manufacture has moved to Asia. Your first impulse might be to nod and think, ``Sure, cheap labor.'' But that is not an important part of the story. Pin manufacturing is highly capital intensive. Smith's insight on the division of labor, and Howe's idea of making the process continuous and making labor more productive, have combined to expand the market for Chinese pins to the whole world. The number of workers engaged in pin manufacture in China has \emph{fallen}, not risen, as pin output has expanded. And wages have increased more than ten-fold, as productivity has exploded"
+
+]
+]
+
+.source[Munger, Michael, 2007, ["I'll Stick With These: Some Sharp Observations on the Division of Labor,"](https://www.econlib.org/library/Columns/y2007/Mungerpins.html) *EconLog*]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+
+.center[
+![:scale 60%](../images/chinalayoffs.png)
+]
+
+---
+
+# Division of Labor, Productivity, & Employment
+
+
+.center[
+![:scale 60%](../images/manufacturinghistory.jpg)
+]
+
+---
+
+class: inverse, center, middle
+
 # About This Course
 
 ---
@@ -465,6 +841,7 @@ By the end of this course, you will:
 4. present an analysis of a country's trade policy
 
 ---
+
 
 # Assignments
 
