@@ -1,5 +1,5 @@
 ---
-title: "1.1 — The Smithean View of Trade"
+title: "1.2 — Division of Labor"
 subtitle: "ECON 324 • International Trade • Fall 2020"
 author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/tradeF20"><i class="fa fa-github fa-fw"></i>ryansafner/tradeF20</a><br> <a href="https://tradeF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>tradeF20.classes.ryansafner.com</a><br>'
 #date:
@@ -29,398 +29,13 @@ output:
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo=F,
                       message=F,
-                      warning=F)
+                      warning=F,
+                      fig.retina=3)
 library(tidyverse)
+library(mosaic)
 set.seed(256)
 update_geom_defaults("label", list(family = "Fira Sans Condensed"))
 ```
-
-class: inverse
-
-### [Overview](#)
-
-
----
-
-class: inverse, center, middle
-
-# The Importance of International Trade
-
----
-
-# The Importance of International Trade
-
-.pull-left[
-
-- In 2008, the world produced about $50 trillion (at current prices)
-- $16 trillion (about 30%) was sold across national borders 
-
-]
-
-.pull-right[
-.center[
-![](../images/tradeworldmap.jpg)
-]
-
-]
-
-.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9th ed., p.10]
----
-
-# The Importance of International Trade
-
-.center[
-![:scale 75%](../images/tradepercentgdp.png)
-]
-
-
-.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9^th^ ed., p.3]
-
----
-
-# What Gets Traded Internationally
-
-.center[
-![:scale 70%](../images/whatwetrade.png)
-]
-.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9^th^ ed., p.18]
-
----
-
-# Who *We* Trade With
-
-.center[
-![:scale 70%](../images/UStradepartners.png)
-]
-.source[Krugman, Paul, Maurice Obstfeld, and Mark Melitz, 2011, *International Economics: Theory & Policy*, 9^th^ ed., p.11]
-
----
-
-# What We *Export*
-
-.center[
-![](../images/usexports.png)
-]
-.source[U.S. Exports: [MIT Observatory of Economic Complexity](http://atlas.media.mit.edu/en/profile/country/usa/)]
-
----
-
-# What We *Import*
-
-.center[
-![](../images/usimports.png)
-]
-.source[U.S. Imports: [MIT Observatory of Economic Complexity](http://atlas.media.mit.edu/en/profile/country/usa/)]
-
----
-
-# Who We Trade With (Exports)
-
-<iframe src="https://ourworldindata.org/grapher/merchandise-exports-by-continent?stackMode=relative&country=~USA" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
----
-
-# A Major Change in Trading Climate
-
-.center[
-![:scale 80%](../images/protectionismmap2.png)
-]
-
----
-
-# But That's Happened Before (Often Because of War)
-
-.center[
-![](https://ourworldindata.org/uploads/2018/10/broadberry-migration-778x550.png)
-]
-
----
-
-# The Value of International Trade in the Global Economy
-
-<iframe src="https://ourworldindata.org/grapher/merchandise-exports-gdp-cepii?country=~OWID_WRL" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
----
-
-# Common Biases Against Trade
-
-.center[
-![](../images/jokertrade.jpg)
-]
-
----
-
-class: inverse, center, middle
-
-# Why Care About Trade?
-
----
-
-# The “Great Fact”
-
-<iframe src="https://ourworldindata.org/grapher/maddison-data-gdp-per-capita-in-2011us-single-benchmark" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
-.source[Source: [Our World in Data: Economic Growth](https://ourworldindata.org/economic-growth)]
-
----
-
-# The “Great Fact”
-
-<iframe src="https://ourworldindata.org/grapher/average-real-gdp-per-capita-across-countries-and-regions" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
-.source[Source: [Our World in Data: Economic Growth](https://ourworldindata.org/economic-growth)]
-
----
-
-# Self-Sufficiency...and Poverty 
-
-.center[
-![:scale 70%](../images/peasants1.jpg)
-]
-
----
-
-# Where We ALL Began
-
-.left-column[
-.center[
-![:scale 85%](../images/mccloskey.jpg)
-
-Dierdre N. McCloskey
-
-1942-
-]
-]
-
-.right-column[
-.smallest[
-
-Two centuries ago the world’s economy stood at the present level of Chad or Bangladesh. In those good old days of 1800...the average human consumed in modern-day prices...roughly $3 a day, give or take a dollar or two...The only people much better off than the $3 average were lords or bishops or some few of the merchants. It had been this way for all of history, and for that matter all of pre-history. With her $3, the typical denizen of the earth could eat a few pounds of potatoes, a little milk, very occasionally a scrap of meat. A wool shawl. A year or two of elementary education, if exceptionally lucky. At birth she had a 50-50 chance of dying before she was 30 years old. Perhaps she was a cheerful sort, and was "happy" with illiteracy, disease, superstition, periodic starvation, and lack of prospects. After all, she had her family and faith and community, which interfered with every choice she made. But anyway she was desperately poor, and narrowly limited in human scope. (pp. 11-12)
-
-]
-]
-
-.source[McCloskey, Diedre N, 2010, *The Bourgeois Dignity: Why Economics Can't Explain the Modern World*]
-
----
-
-# Complete Interdependence...and Prosperity 
-
-.center[
-![:scale 90%](../images/modernworld.jpg)
-]
-
----
-
-# We've Come SO Far
-
-
-.left-column[
-.center[
-![:scale 85%](../images/mccloskey.jpg)
-
-Dierdre N. McCloskey
-
-1942-
-]
-]
-
-.right-column[
-
-.smallest[
-> [Today] the world supports more than six-and-a-half times more people...the average person today earns and consumes almost ten times more goods and services than in 1800. Real income per person in the world has recently been doubling every generation, and is accelerating. Starvation worldwide therefore is at an all-time low, and falling. Literacy and life expectancy are at all-time highs, and rising. Liberty is spreading. Slavery is retreating, as is a patriarchy enslaving of women. In the richer countries, such as Norway, the average person earns fully 45 times more than in 1800, a startling $137 a day. The environment - a concern of a well-to-do bourgeoisie - is in such rich places improving. (pp. 11-12)
-
-]
-
-]
-.source[McCloskey, Diedre N, 2010, *The Bourgeois Dignity: Why Economics Can't Explain the Modern World*, Chicago IL: University of Chicago Press]
-
----
-
-# Interdependence
-
-.left-column[
-.center[
-![:scale 80%](../images/smith.png)
-
-Adam Smith
-
-1723-1790
-]
-]
-
-.right-column[
-
-> “In civilized society [man] stands at all times in need of the cooperation and assistance of great multitudes, while his whole life is scarce sufficient to gain the friendship of a few persons...man has almost constant occasion for the help of his brethren, and it is in vain for him to expect it from their benevolence only,” (Book I, Chapter 2.2)
-]
-
-.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
-
----
-
-# Our Confined Generosity
-
-.left-column[
-.center[
-![:scale 80%](../images/hume.png)
-
-David Hume
-
-1711-1776
-]
-]
-
-.right-column[
-
-> “Men being naturally selfish, or endowed only with a confined generosity, they are not easily induced to perform any action for the interest of strangers, except with a view to some reciprocal advantage, which they had no hope of obtaining but by such a performance,” (Book III, Part II, $\S$ V)
-]
-
-.source[Hume, David, 1740, *A Treatise on Human Nature*]
-
----
-
-# Specialization and Exchange
-
-.left-column[
-.center[
-![:scale 80%](../images/smith.png)
-
-Adam Smith
-
-1723-1790
-]
-]
-
-.right-column[
-
-> “Whoever offers to another a bargain of any kind, proposes to do this. .hi[Give me that which I want, and you shall have this which you want]...and it is in this manner that we obtain from one another the far greater part of those good offices which we stand in need of. .hi[It is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest.],” (Book I, Chapter 2.2)
-]
-
-.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
-
----
-
-# Specialization and Exchange
-
-.left-column[
-.center[
-![:scale 80%](../images/smith.png)
-
-Adam Smith
-
-1723-1790
-]
-]
-
-.right-column[
-
-> “[Though] he intends only his own gain, and he is in this, as in many other cases, .hi[led by an invisible hand to promote an end which was no part of his intention]....hi[By pursuing his own interest he frequently promotes that of the society more effectually than when he really intends to promote it],” (Book IV, Chapter 2.9)
-]
-
-.source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
-
----
-
-# How to Get Rich or Die Tryin
-
-For 1,000s of years, .hi-purple[the elite] could only become wealthy by .hi[tribute & plunder]
-
-.pull-left[
-.center[
-![:scale 100%](../images/romanwar.jpg)
-]
-]
-
-.pull-right[
-.center[
-![:scale 90%](../images/pyramidslaves.jpg)
-]
-]
-
----
-
-# How to Get Rich or Die Tryin
-
-But in the last 300 years, .hi-purple[average people] can become wealthy by .hi[specialization & trade]
-
-.pull-left[
-.center[
-![:scale 100%](../images/medievaltrade.jpg)
-]
-]
-
-.pull-right[
-.center[
-![:scale 80%](../images/tradeshipping.jpg)
-]
-]
-
----
-
-# Trade is The Path to Prosperity
-
-<iframe src="https://ourworldindata.org/grapher/growth-of-income-and-trade" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
----
-
-# Interdependence, “Globalization,” and Trade
-
-.pull-left[
-- Human society is the result of cooperation & interdependence
-
-- Cooperation through exchange is more prevalent than competition
-
-- Trade within and between societies has been the lifeblood of civilizations
-   - goods, services, people, capital, ideas, ideologies, religions, technologies, peace
-
-- “Globalization” is not a new idea
-]
-
-.pull-right[
-.center[
-![](../images/trade1stcent.png)
-]
-]
-
----
-
-# “Globalization”
-
-<iframe src="https://ourworldindata.org/grapher/globalization-over-5-centuries-km" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
-
----
-
-# Global Supply Chains
-
---
-
-.pull-left[
-.center[
-![:scale 75%](../images/nutella.png)
-]
-]
-
---
-
-.pull-right[
-.center[
-![](../images/nutellamap.png)
-]
-]
-
----
-
-# Trade Today
-
-<iframe src="https://www.shipmap.org" style="width: 100%; height: 500px; border: 0" frameborder="0"></iframe><div style="width: 100%; font-size: 10px; margin-top: 4px">Created by <a target="_top" href="https://www.kiln.digital/">London-based data visualisation studio Kiln</a> and the <a target="_top" href="http://www.bartlett.ucl.ac.uk/energy">UCL Energy Institute</a></div>
-
----
-
-class: inverse, center, middle
-
-# Smith's View of Trade: The Division of Labor
-
----
 
 # The Division of Labor I
 
@@ -735,20 +350,180 @@ Michael Munger
 
 ---
 
-# Division of Labor, Productivity, & Employment: A Framework
+# A Framework to Think About DOL
 
 .pull-left[
-.center[
-![:scale 100%](../images/dol.png)
-]
-]
-
-.pull-right[
-
 - .hi-blue[Productivity Per Worker]: exponential increase with larger markets & more capital investment
 
 - .hi-red[Employment]: Increase, then decrease, with larger markets & more capital investment
 
+- Not shown:
+  - steady increase in .hi-green[investment, capital goods]
+]
+
+.pull-right[
+
+```{r}
+product<-function(x){2^x}
+employ<-function(x){(-(x-3)^2)+10}
+
+dol_graph<-ggplot(data = tibble(x=1:10))+
+  aes(x = x)+
+  stat_function(fun=product, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=5,y=product(5)), color = "blue", label="Productivity", size = 5)+
+  stat_function(fun=employ, geom="line", size=2, color = "red")+
+    geom_label(aes(x=5,y=employ(5)), color = "red", label="Employment", size = 5)+
+    scale_x_continuous(breaks=NULL,
+                     limits=c(0,6.25),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=NULL,
+                     limits=c(0,55),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Extent of the Market",
+       y = "Outcomes")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)+
+  theme(axis.line.x = element_line(arrow=arrow(length = unit(3, 'mm'))), 
+    axis.line.y=element_line(arrow = arrow(length = unit(3, 'mm')))
+  )
+dol_graph
+```
+
+]
+
+---
+
+# A Framework to Think About DOL
+
+.pull-left[
+
+- *Small*-scale, *local* artisans, guilds serving only *local* community
+
+- Most production is (agricultural) for *subsistence*, not for *exchange*
+
+- .hi-blue[Productivity Per Worker]: very low productivity
+
+- .hi-red[Employment]: Very few specialized workers (most are farming to survive)
+
+]
+
+.pull-right[
+
+```{r}
+dol_graph+
+  geom_vline(xintercept = 1, size = 1, linetype = "dashed", color = "purple")+
+  geom_label(x = 1, y = 50, label = "Small \n Parochial Markets", color = "purple")
+```
+
+]
+
+---
+
+# A Framework to Think About DOL
+
+.pull-left[
+
+- *Small*-scale, *local* artisans, guilds serving only *local* community
+
+- Most production is (agricultural) for *subsistence*, not for *exchange*
+
+- .hi-blue[Productivity Per Worker]: very low productivity
+
+- .hi-red[Employment]: Very few specialized workers (most are farming to survive)
+
+]
+
+.pull-right[
+
+.center[
+![](../images/guilds.jpg)
+]
+]
+
+---
+# A Framework to Think About DOL
+
+.pull-left[
+- *Growing* firms with some *capital investment* (tools) serving *national* and *regional* markets 
+
+- .hi-blue[Productivity Per Worker]: increase in productivity from learning by doing, specialized tools
+
+- .hi-red[Employment]: growing, as more workers are needed to keep up with demand, incease in wages and skills
+
+]
+
+.pull-right[
+
+```{r}
+dol_graph+
+  geom_vline(xintercept = 3, size = 1, linetype = "dashed", color = "purple")+
+  geom_label(x = 3, y = 50, label = "Developing \n Regional Markets", color = "purple")
+```
+
+]
+
+---
+
+# A Framework to Think About DOL
+
+.pull-left[
+- Growing firms with some capital investment (tools) serving national and regional markets 
+
+- .hi-blue[Productivity Per Worker]: increase in productivity from learning by doing, specialized tools
+
+- .hi-red[Employment]: growing, as more workers are needed to keep up with demand, incease in wages and skills
+
+]
+
+.pull-right[
+
+.center[
+![](../images/workshop.jpg)
+]
+]
+
+---
+
+# A Framework to Think About DOL
+
+.pull-left[
+- A *small* number of *massive* firms supplying the world market
+
+- .hi-blue[Productivity Per Worker]: massive productivity per worker
+
+- .hi-red[Employment]: *very few*, *highly-skilled*, *highly-paid* workers
+  - capital augmenting & replacing labor
+
+]
+
+.pull-right[
+
+```{r}
+dol_graph+
+  geom_vline(xintercept = 5.5, size = 1, linetype = "dashed", color = "purple")+
+  geom_label(x = 5.5, y = 55, label = "Industrialized \n Global Markets", color = "purple")
+```
+
+]
+
+---
+
+# A Framework to Think About DOL
+
+.pull-left[
+- A *small* number of *massive* firms supplying the world market
+
+- .hi-blue[Productivity Per Worker]: massive productivity per worker
+
+- .hi-red[Employment]: *very few*, *highly-skilled*, *highly-paid* workers
+  - capital augmenting & replacing labor
+
+]
+
+.pull-right[
+
+.center[
+![](../images/factoryrobots.jpg)
+]
 ]
 
 ---
@@ -776,15 +551,13 @@ Michael Munger
 
 # Division of Labor, Productivity, & Employment
 
-
 .center[
 ![:scale 60%](../images/chinalayoffs.png)
 ]
 
 ---
 
-# Division of Labor, Productivity, & Employment
-
+# The Effects of the Division of Labor
 
 .center[
 ![:scale 60%](../images/manufacturinghistory.jpg)
@@ -792,127 +565,249 @@ Michael Munger
 
 ---
 
-class: inverse, center, middle
-
-# About This Course
-
----
-
-# Logistics: Hybrid Course
-
-.smaller[
-- .hi[hybrid]: more .hi-purple[synchronous] material than .hi-turquoise[asynchronous] material
-
-- I will always be teaching .hi[remotely]
-  - A classroom is available to you
-  - I may make occasional visits to campus if you *need* something in person (TBD)
-
-- Office hours: Tu/Th 3:30-5:00 PM on Zoom
-  - <i class="fas fa-video"></i> Zoom link in Blackboard's `LIVE CLASS SESSIONS` link
-  - <i class="fab fa-slack"></i> Slack channels
-
-- Teaching Assistant(s): TBD
-  - grade HWs & hold (likely virtual) office hours
-]
-
----
-
-# Logistics: Hybrid Course
-
-- We will have .hi-purple[synchronous] sessions Mon/Wed 2:00-3:15 PM on **<i class="fas fa-video"></i> Zoom**
-
-- Lecture videos will be posted on **Blackboard** via Panopto for students unable to join synchronously
-  - If you were present, you do not need to watch the video (again)!
-  - You are not *required* to attend synchronously, but it will help you
-
-- All graded assignments are .hi-turquoise[asynchronous]
-  - (Probably) submitted on Blackboard by 11:59 PM Sundays
-  - (Probably) timed exams on Blackboard
-
----
-
-# Learning Goals
-
-By the end of this course, you will: 
-
-1. articulate basic models of *why* and *what* countries trade
-2. understand the political economy that determine a country's trade policies
-3. intelligently comment on trade-related current events
-4. present an analysis of a country's trade policy
-
----
-
-
-# Assignments
-
-```{r}
-assignments <- tribble(
-  ~Frequency,  ~Assignment, ~Weight,
-  "-", "Participation", "20%",
-  "n", "Homeworks", "20% (using average HW grade)",
-  "1", "Country Profile", "10%",
-  "1", "Midterm Exam", "25%",
-  "1", "Final Exam", "25%"
-)
-
-knitr::kable(assignments, "html")
-```
-
----
-
-# Your Textbook (Optional but Recommended)
-
-.center[
-![:scale 40%](../images/tradetextbook.jpg)
-]
-
----
-
-# Course Website
+# The Effects of the Division of Labor
 
 .pull-left[
-.center[
-![:scale 60%](https://tradeF20.classes.ryansafner.com/images/trade_hex.png)
 
-]
+| Year | U.S. Population | % working on farms |
+|------|----------------:|-------------------:|
+| 1790 | 4,000,000       | 90% |
+
 ]
 
 .pull-right[
 .center[
-![](../images/tradewebsite.png)
+![](../images/peasants1.jpg)
 ]
-]
-
-.center[
-[tradeF20.classes.ryansafner.com](https://tradeF20.classes.ryansafner.com)
 ]
 
 ---
 
-# Tips for Success, Or: How to College
+# The Effects of the Division of Labor
 
 .pull-left[
-- Take notes. On paper. Really.
 
-- Read the readings.
-
-- Ask questions, come to office hours. Don’t struggle in silence, you are not alone!
-
-- You are learning how to learn
-
-- See the [reference page](http://tradeF20.classes.ryansafner.com/reference) for more
+| Year | U.S. Population | % working on farms |
+|------|----------------:|-------------------:|
+| 1790 | 4,000,000       | 90% |
+| 1900 | 76,000,000      | 40% |
 ]
 
 .pull-right[
 .center[
-![](../images/learning.png)
+![](../images/peasants1.jpg)
 ]
 ]
 
 ---
 
-# Roadmap for the Semester
+# The Effects of the Division of Labor
+
+.pull-left[
+
+| Year | U.S. Population | % working on farms |
+|------|----------------:|-------------------:|
+| 1790 | 4,000,000       | 90% |
+| 1900 | 76,000,000      | 40% |
+| 2015 | 326,000,000     | <1% |
+
+.source[Source: [U.S. Department of Agriculture Economic Research Service](https://www.ers.usda.gov/topics/farm-economy/farm-labor/)]
+]
+
+.pull-right[
+.center[
+![](../images/peasants1.jpg)
+]
+]
+
+---
+
+# Markets as an Evolutionary Process
+
+.left-column[
+.center[
+![:scale 80%](../images/schumpeter2.jpg)
+
+Joseph Schumpeter
+
+1883-1950
+]
+]
+
+.right-column[
+.smallest[
+> "Capitalism...is by nature a form of economic change and not only never is but never can be stationary...The essential point to grasp is that in dealing with capitalism we are dealing with an .hi[evolutionary process.]," (pp.82). 
+
+> "[I]n capitalist reality as distinguished from its textbook picture, it is not that kind of competition which counts but the competition from the new commodity, the new technology, the new source of supply, the new type of organization....hi[competition] which commands a decisive cost or quality advantage .hi[which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives.]" (p.132).
+
+]
+
+.source[Schumpeter, Joseph A, (1947), *Capitalism, Socialism, and Democracy*]
+]
+---
+
+# Creative Destruction I
+
+.left-column[
+.center[
+![:scale 80%](../images/schumpeter2.jpg)
+
+Joseph Schumpeter
+
+1883-1950
+]
+]
+
+.right-column[
+
+> "Industrial mutation--if I may use that biological term—that .hi[incessantly revolutionizes the economic structure from within], incessantly destroying the old one, incessantly creating a new one.  This .hi[process of Creative Destruction is the essential fact about capitalism].  It is what capitalism consists in and what every capitalist concern has got to live in" (p.83).
+
+]
+
+.source[Schumpeter, Joseph A, (1947), *Capitalism, Socialism, and Democracy*]
+
+---
+
+# Creative Destruction: Examples
+
+.pull-left[
+.center[
+![](../images/horsebuggy.png)
+]
+]
+.pull-right[
+.center[
+![](../images/car.png)
+]
+]
+
+---
+
+# Creative Destruction: Example II
 
 .center[
-![:scale 75%](../images/trade_flowchart.png)
+![:scale 65%](../images/evolutionofdesk.gif)
+]
+
+---
+
+# Creative Destruction: Example III
+
+.center[
+![:scale 40%](../images/59yearsofprogress.jpg)
+
+59 years of progress
+]
+
+---
+
+# No Corporate Monolith Lasts Forever
+
+.center[
+![](https://www.dropbox.com/s/c7jlvse9n1a4qkt/deadfirms.png?raw=1)
+]
+
+---
+
+# Creative Destruction: The Problem 
+
+.pull-left[
+.center[
+![](../images/doughnuts.jpg)
+]
+]
+
+--
+
+.pull-right[
+.center[
+![](../images/juices.jpg)
+]
+]
+
+---
+
+# Creative Destruction: The Problem 
+
+
+.pull-left[
+.center[
+![](../images/doughnuts.jpg)
+]
+]
+
+--
+
+.pull-right[
+.center[
+![:scale 100%](../images/jobsprotest.jpg)
+]
+]
+
+---
+
+# Successful Economies Liberate and Prosper
+
+<iframe src="https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
+
+---
+
+# Successful Economies Liberate and Prosper
+
+<iframe src="https://ourworldindata.org/grapher/total-population-living-in-extreme-poverty-by-world-region" loading="lazy" style="width: 100%; height: 500px; border: 0px none;"></iframe>
+
+---
+
+# Successful Economies Liberate and Prosper
+
+.center[
+![:scale 60%](../images/chinapovertyend.png)
+]
+
+---
+
+# But Successful *Economies* Create a *Political* Problem
+
+.pull-left[
+
+- .hi[Markets serve consumers] (.hi-purple[consumer sovereignty]), *not* workers or producers!
+
+- Successful market economies .hi-purple[produce wealth] and .hi-purple[destroy jobs]
+
+- Economic growth $\equiv$ more output with fewer inputs!
+
+- A .hi[political problem]: how do producers permit the *destructive* side of creative destruction?
+
+]
+
+.pull-right[
+
+.center[
+![:scale 70%](../images/factoryrobots.jpg)
+
+![](../images/disappear.jpg)
+
+]
+]
+
+---
+
+# But Successful *Economies* Create a *Political* Problem
+
+.pull-left[
+
+- .hi[Moral dilemmas]:
+  - Do we have a moral obligation to insulate workers from the pain of competition that is no fault of their own?
+  - How do we secure the gains from trade and innovation without punishing the workers who lose their jobs?
+
+]
+
+.pull-right[
+
+.center[
+![:scale 70%](../images/factoryrobots.jpg)
+
+![](../images/disappear.jpg)
+
+]
 ]
