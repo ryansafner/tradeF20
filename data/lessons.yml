@@ -60,8 +60,6 @@ lessons:
   
   - title: "2.8 Trade Agreements"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Paper 1 Due**'
-
   - title: '<span class="fake-header-table">III. Globalization and its Discontents </span>'
     header: True
 
@@ -75,6 +73,6 @@ lessons:
   
   - title: "3.5 Trade and Disease"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Paper 2 Due**'
+  - title: '<i class="fas fa-laptop-code"></i> **Country Profile Presentations**'
 
   - title: '<i class="fas fa-laptop-code"></i> **Final Exam**'
