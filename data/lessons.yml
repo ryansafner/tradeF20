@@ -18,7 +18,11 @@ lessons:
     practice: "1.3-practice"
     
   - title: "1.4 Ricardian View of Trade II: One-Factor Model"
-  
+    class: "1.4-class"
+    slides: "1.4-slides"
+    reading: "1.4-reading"
+    practice: "1.4-practice"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
   
   - title: "1.5 The Neoclassical Model"
