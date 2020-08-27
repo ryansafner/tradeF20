@@ -1027,7 +1027,7 @@ foreign_ppf+
 
 --
 
-- As .pink[x] arrives in .blue[Home] $\implies$ *more* .pink[x] sold in .blue[Home] $\implies$ $\downarrow p_y$ in .blue[Home]
+- As .pink[x] arrives in .blue[Home] $\implies$ *more* .pink[x] sold in .blue[Home] $\implies$ $\downarrow p_x$ in .blue[Home]
 
 
 ---

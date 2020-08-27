@@ -23,8 +23,6 @@ lessons:
     reading: "1.4-reading"
     practice: "1.4-practice"
     
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
-  
   - title: "1.5 The Neoclassical Model"
   
   - title: "1.6 The Neoclassical Model II"
@@ -33,7 +31,7 @@ lessons:
 
   - title: "1.8 The Hecksher-Ohlin Model II"
   
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
 
   - title: "1.9 New Trade Theory I"
 
@@ -41,7 +39,7 @@ lessons:
 
   - title: "1.11 New Trade Theory III: Monopolistic Competition"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3 Due**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due**'
 
   - title: '<span class="fake-header-table">II. Trade Policy </span>'
     header: True
@@ -52,7 +50,7 @@ lessons:
 
   - title: "2.3 Quotas and Non-Tariff Barriers"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4 Due**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3 Due**'
   
   - title: "2.4 Industrial Policy and State-Led Development I"
 
