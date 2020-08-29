@@ -92,7 +92,7 @@ fill<-tribble(
 ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
   geom_polygon(data=fill, aes(x=x, y=y),fill="green", alpha=0.4)+
   stat_function(fun=BC, geom="line", size=2, aes(color="BC"))+
-  annotate("text", x = (0.5*(m/px)+1.75), y = BC(0.5*(m/px)), label = expression(paste("slope =", - MPL[y]/MPL[x])), color="blue", size =7)+
+  annotate("text", x = (0.5*(m/px)+1.75), y = BC(0.5*(m/px)), label = expression(paste("slope =", - MPL[y]/MPL[x])), color="blue", size =4)+
   geom_label(x = 2, y = BC(2), color = "blue", label = "PPF")+
   geom_label(x = 2, y = 1, color = "green", label = "Production Set")+
   scale_x_continuous(breaks = c(0,(m/px)),
@@ -116,12 +116,14 @@ $$\frac{MPL_y}{MPL_x} = \cfrac{\left(\frac{1}{l_y}\right)}{\left(\frac{1}{l_x}\r
 
 As an example, let's take:
 
-For Home: 
+For Home:
+
 - $L=100$
 - $MPL_x = 1$
 - $MPL_y = 0.5$
 
 For Foreign:
+
 - $L'=100$
 - $MPL_x = 1$
 - $MPL_y = 0.25$
