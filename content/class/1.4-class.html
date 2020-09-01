@@ -24,7 +24,12 @@ editor_options:
 <li><a href="#live-class-session-on-zoom">Live Class Session on Zoom</a></li>
 <li><a href="#practice-problems">Practice Problems</a></li>
 <li><a href="#assignments">Assignments</a></li>
-<li><a href="#translating-between-textbook-and-class">Translating Between Textbook and Class</a></li>
+<li><a href="#translating-between-textbook-and-class">Translating Between Textbook and Class</a><ul>
+<li><a href="#marginal-products-of-labor">Marginal Products of Labor</a></li>
+<li><a href="#ppfs">PPFs</a></li>
+<li><a href="#absolute-advantage">Absolute Advantage</a></li>
+<li><a href="#comparative-advantage">Comparative Advantage</a></li>
+</ul></li>
 </ul>
 </div>
 
@@ -49,6 +54,7 @@ editor_options:
 <p>None!</p>
 <h2 id="translating-between-textbook-and-class">Translating Between Textbook and Class</h2>
 <p>Feenstra and Taylor take an approach that focuses on the marginal product of labor for producing each good. Recall from microeconomics that the marginal product of labor is how much <em>additional</em> output will be produced from adding one more (marginal) worker (or “unit of labor”). In the Ricardian model, the marginal product of labor is assumed to be a constant number, but different for each industry (and across countries). To solve a Ricardian model in this fashion, we need to be told the total supply of workers for each country <span class="math inline">\((L, L&#39;)\)</span>, as well as the marginal product of labor in each industry <span class="math inline">\((MPL_x, MPL_y; MPL&#39;_x, MPL&#39;_y)\)</span>, for each country.</p>
+<h3 id="marginal-products-of-labor">Marginal Products of Labor</h3>
 <p>In class, we used the total supply of labor in each country and the <em>labor required to make 1 unit</em> of each good in each country. <span class="math inline">\((l_x, l_y; l&#39;_x, l&#39;_y)\)</span>.</p>
 <p>There is actually an easy clear relationship between these two approaches. The marginal product of labor for each good and the labor required to produce 1 unit of the good are <em>inversely related</em>:</p>
 <p><span class="math display">\[\begin{align*}
@@ -59,6 +65,7 @@ MPL_y &amp;= \frac{1}{l_y}\\
 <p>From here, you can build the PPF equation (which, by the way, they <em>do not do</em> in the book!) as follows:</p>
 <p><span class="math display">\[L = \frac{x}{MPL_x}+\frac{y}{MPL_y}\]</span></p>
 <p>This appears less intuitive, but it makes sense. The amount of <span class="math inline">\(x\)</span> a country makes divided by the amount of <span class="math inline">\(x\)</span> one worker can make gives the total labor allocation (labor demand) in the <span class="math inline">\(x\)</span> industry. Do the same for <span class="math inline">\(y\)</span>, and add them together, and you are using the total labor supply <span class="math inline">\(L\)</span>.</p>
+<h3 id="ppfs">PPFs</h3>
 <p>From here, you can solve for <span class="math inline">\(y\)</span> to graph:</p>
 <p><span class="math display">\[y = L * MPL_y - \frac{MPL_y}{MPL_x} x\]</span></p>
 <p><img src="/class/1.4-class_files/figure-html/unnamed-chunk-1-1.png" width="576" style="display: block; margin: auto;" /></p>
@@ -93,3 +100,52 @@ L&#39;&amp;=\frac{x}{MPL_x&#39;}+\frac{y}{MPL_y&#39;}\\
 25-0.25x &amp;= y\\
 \end{align*}\]</span></p>
 <p>Which was the same as our PPFs in class!</p>
+<h3 id="absolute-advantage">Absolute Advantage</h3>
+<p>In Feenstra &amp; Taylor’s method, whichever country has a <strong>higher marginal product of labor</strong> has an <em>absolute advantage</em> in the production of that good.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><span class="math inline">\(MPL_x\)</span></th>
+<th><span class="math inline">\(MPL_y\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Home</td>
+<td><strong>1</strong></td>
+<td><strong>0.5</strong></td>
+</tr>
+<tr class="even">
+<td>Foreign</td>
+<td><strong>1</strong></td>
+<td>0.25</td>
+</tr>
+</tbody>
+</table>
+<p>Here, neither Home nor Foreign has an absolute advantage in producing <span class="math inline">\(x\)</span>, since they both have the same labor productivity. Home, however, has an absolute advantage in producing <span class="math inline">\(y\)</span>, since it has a higher marginal product of labor in producing <span class="math inline">\(y\)</span>.</p>
+<p>Compare to what <em>we</em> did in class, indicating absolute advantage by whomever requires <em>fewer</em> workers to produce a single unit of each good:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><span class="math inline">\(l_x\)</span></th>
+<th><span class="math inline">\(l_y\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Home</td>
+<td><strong>1</strong></td>
+<td><strong>2</strong></td>
+</tr>
+<tr class="even">
+<td>Foreign</td>
+<td><strong>1</strong></td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p>While the numbers will be inverses of the ones from the table above (because marginal product of labor is the inverse of the number of workers required per unit of the good), we still get the same result, because it requires fewer workers in Home to produce <span class="math inline">\(y\)</span> (2) than Foreign (4).</p>
+<h3 id="comparative-advantage">Comparative Advantage</h3>
+<p>Comparative advantage proceeds the same for both methods: estimate the opportunity cost of producing each good in each country, and the country that has a <em>lower</em> opportunity cost in a particular good has the comparative advantage in producing that good.</p>

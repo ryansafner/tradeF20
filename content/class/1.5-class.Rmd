@@ -1,0 +1,48 @@
+---
+title: "1.5 — The Ricardian View of Trade: Reflections on Comparative Advantage — Class Notes"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+*Tuesday, September 1, 2020*
+
+# Overview
+
+Today, we go over the [Ricardian model practice](/practice/1.4-practice) from last class, and since we will not have enough time to start the next model (I would rather not split it across classes if I can help it), we will reflect on the nature of comparative advantage and its relationship to the division of labor, and international trade.
+
+# Readings
+
+There are no required or unique readings for today. Though as I mentioned in class, you might find [How the Dismal Science Got its Name](https://www.econlib.org/library/Columns/LevyPeartdismal.html) insightful and surprising. It is a 6 part series of blog posts based on research by David Levy & Sandra Peart.
+- [Part I](https://www.econlib.org/library/Columns/LevyPeartdismal.html)
+- [Part II](https://www.econlib.org/library/Columns/LevyPeartdismal2.html)
+- [Part III](https://www.econlib.org/library/Columns/LevyPeartdismal3.html)
+- [Part IV](https://www.econlib.org/library/Columns/LevyPeartdismal4.html)
+- [Part V](https://www.econlib.org/library/Columns/LevyPeartdismal5.html)
+- [Part VI](https://www.econlib.org/library/Columns/LevyPeartdismal6.html)
+
+
+# Slides
+
+- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/1.5-slides.html)
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.5-slides.pdf)
+
+# Live Class Session on Zoom
+
+The live class <i class="fas fa-video"></i> Zoom meeting link can be found on Blackboard (see `LIVE ZOOM MEETINGS` on the left navigation menu), starting at 2:00 PM.
+
+If you are unable to join today's live session, or if you want to review, you can find the recording stored on Blackboard via Panopto (see `Class Recordings` on the left navigation menu).
+
+# Practice Problems
+
+Answers to last class’ [practice problems](/practice/1.5-practice) will be posted on that page later.
+
+# Assignments
+
+None!

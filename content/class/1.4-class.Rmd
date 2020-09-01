@@ -48,6 +48,8 @@ None!
 
 Feenstra and Taylor take an approach that focuses on the marginal product of labor for producing each good. Recall from microeconomics that the marginal product of labor is how much *additional* output will be produced from adding one more (marginal) worker (or “unit of labor”). In the Ricardian model, the marginal product of labor is assumed to be a constant number, but different for each industry (and across countries). To solve a Ricardian model in this fashion, we need to be told the total supply of workers for each country $(L, L')$, as well as the marginal product of labor in each industry $(MPL_x, MPL_y; MPL'_x, MPL'_y)$, for each country.
 
+## Marginal Products of Labor
+
 In class, we used the total supply of labor in each country and the *labor required to make 1 unit* of each good in each country. $(l_x, l_y; l'_x, l'_y)$.
 
 There is actually an easy clear relationship between these two approaches. The marginal product of labor for each good and the labor required to produce 1 unit of the good are *inversely related*:
@@ -64,6 +66,8 @@ From here, you can build the PPF equation (which, by the way, they *do not do* i
 $$L = \frac{x}{MPL_x}+\frac{y}{MPL_y}$$
 
 This appears less intuitive, but it makes sense. The amount of $x$ a country makes divided by the amount of $x$ one worker can make gives the total labor allocation (labor demand) in the $x$ industry. Do the same for $y$, and add them together, and you are using the total labor supply $L$.
+
+## PPFs
 
 From here, you can solve for $y$ to graph:
 
@@ -147,3 +151,27 @@ L'&=\frac{x}{MPL_x'}+\frac{y}{MPL_y'}\\
 \end{align*}$$
 
 Which was the same as our PPFs in class!
+
+## Absolute Advantage
+
+In Feenstra & Taylor's method, whichever country has a **higher marginal product of labor** has an *absolute advantage* in the production of that good.
+
+|    | $MPL_x$ | $MPL_y$ |
+|----|---------|---------|
+| Home | **1** | **0.5** |
+| Foreign | **1** | 0.25 |
+
+Here, neither Home nor Foreign has an absolute advantage in producing $x$, since they both have the same labor productivity. Home, however, has an absolute advantage in producing $y$, since it has a higher marginal product of labor in producing $y$.
+
+Compare to what *we* did in class, indicating absolute advantage by whomever requires *fewer* workers to produce a single unit of each good:
+
+|    | $l_x$ | $l_y$ |
+|----|---------|---------|
+| Home | **1** | **2** |
+| Foreign | **1** | 4 |
+
+While the numbers will be inverses of the ones from the table above (because marginal product of labor is the inverse of the number of workers required per unit of the good), we still get the same result, because it requires fewer workers in Home to produce $y$ (2) than Foreign (4).
+
+## Comparative Advantage
+
+Comparative advantage proceeds the same for both methods: estimate the opportunity cost of producing each good in each country, and the country that has a *lower* opportunity cost in a particular good has the comparative advantage in producing that good.

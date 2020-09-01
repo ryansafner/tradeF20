@@ -23,13 +23,15 @@ lessons:
     reading: "1.4-reading"
     practice: "1.4-practice"
     
-  - title: "1.5 The Neoclassical Model"
-  
-  - title: "1.6 The Neoclassical Model II"
+  - title: "1.5 Ricardian View of Trade III: Reflections on Comparative Advantage"  
+    class: "1.5-class"
+    slides: "1.5-slides"
 
-  - title: "1.7 The Hecksher-Ohlin Model I"
+  - title: "1.6 The Neoclassical Model"
 
-  - title: "1.8 The Hecksher-Ohlin Model II"
+  - title: "1.7 The Hecksher-Ohlin Model"
+
+  - title: "1.8 The Hecksher-Ohlin Model"
   
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
 
