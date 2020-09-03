@@ -436,7 +436,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 # Competitive Markets and Factor Switching
 
-.smaller[
+.smallest[
 - We still assume output markets and factor markets (for land, labor, capital) are perfectly competitive
 
 - Firms hire resources up to the point where marginal cost of one more unit of $l$ or $k$ is equal to its marginal benefit in production ("marginal revenue product")
@@ -462,7 +462,7 @@ p_k&=p_{y} * MP_k \\
 .pull-left[
 
 - .hi[Marginal rate of transformation (MRT)] .hi-purple[*increases*] as we produce more of a good
-  - Again: “slope”, “relative price of x”, “opportunity cost of x”
+  - Again: .b[“slope”], .b[“relative price of x”], .b[“opportunity cost of x”]
   - Amount of y given up to get 1 more x
 
 $$-\frac{p_x}{p_y}$$
@@ -504,7 +504,7 @@ base_ppf
 .pull-left[
 
 - .hi[Marginal rate of transformation (MRT)] .hi-purple[*increases*] as we produce more of a good
-  - Again: “slope”, “relative price of x”, “opportunity cost of x”
+  - Again: .b[“slope”], .b[“relative price of x”], .b[“opportunity cost of x”]
   - Amount of y given up to get 1 more x
 
 $$-\frac{p_x}{p_y}$$
@@ -547,7 +547,7 @@ base_ppf_2
 .pull-left[
 
 - .hi[Marginal rate of transformation (MRT)] .hi-purple[*increases*] as we produce more of a good
-  - Again: “slope”, “relative price of x”, “opportunity cost of x”
+  - Again: .b[“slope”], .b[“relative price of x”], .b[“opportunity cost of x”]
   - Amount of y given up to get 1 more x
 
 $$-\frac{p_x}{p_y}$$
@@ -570,7 +570,7 @@ base_ppf_2+
 .pull-left[
 
 - .hi[Marginal rate of transformation (MRT)] .hi-purple[*increases*] as we produce more of a good
-  - Again: “slope”, “relative price of x”, “opportunity cost of x”
+  - Again: .b[“slope”], .b[“relative price of x”], .b[“opportunity cost of x”]
   - Amount of y given up to get 1 more x
 
 $$-\frac{p_x}{p_y}$$
@@ -1189,7 +1189,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 - Isovalue lines (slope) & MRT (PPF slope) measured the **production** tradeoff between $x$ and $y$ based on market prices
 
-- **MRS** measures **consumption** tradeoff betweenx$ vs. $y$ based on preferences
+- **MRS** measures **consumption** tradeoff between $x$ vs. $y$ based on preferences
 
 ]
 
@@ -1938,12 +1938,12 @@ ggplot(data = tibble(x = 1:10), aes(x = x))+
 # The Global Market for x
 
 .pull-left[
-
+.smallest[
 - Both countries began in autarky (.blue[A], .red[A']) with very different relative prices of x
   - Cheaper in .blue[Home] (has comparative advantage)
   - More expensive in .red[Foreign] (comparative disadvantage)
 
-
+]
 ]
 
 .pull-right[
@@ -1956,7 +1956,7 @@ ggplot(data = tibble(x = 1:10), aes(x = x))+
 # The Global Market for x
 
 .pull-left[
-
+.smallest[
 - Both countries began in autarky (.blue[A], .red[A']) with very different relative prices of x
   - Cheaper in .blue[Home] (has comparative advantage)
   - More expensive in .red[Foreign] (comparative disadvantage)
@@ -1965,7 +1965,7 @@ ggplot(data = tibble(x = 1:10), aes(x = x))+
 
 $$\left(\frac{p_x}{p_y} \right)^{H} < \left(\frac{p_x}{p_y} \right)^{2} < \left(\frac{p_x}{p_y} \right)^{F}$$
 ]
-
+]
 .pull-right[
 
 ```{r, ref.label="market"}
@@ -2066,7 +2066,7 @@ foreign_imp+
 .smallest[
 - Countries .hi[specialize]: produce *more* of comparative advantaged good, *less* of disadvantaged good
   - .blue[Home]: A $\rightarrow$ B: produces more x, less y 
-  - .red[Foreign]: A' $\rightarrow$ B': produces less y, more y
+  - .red[Foreign]: A' $\rightarrow$ B': produces less x, more y
 
 - Note this is .hi-purple[incomplete specialization]: countries still produce both goods!
 ]
