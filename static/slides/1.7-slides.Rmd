@@ -1406,7 +1406,7 @@ $$TOT=\frac{p_{exports}}{p_{imports}}$$
 - In reality, changes in international trade and changes in TOT affect groups *within* a country differently
   - Some may clearly be harmed from international trade & TOT changes
 
-- We next consider two models to reflect this reality:
+- We next consider 2 models to reflect reality:
   - .hi-purple[Specific factors model] where some factors are mobile between industries and some are not
     - Trade changes will benefit/hurt factors in proportion to their mobility
   - .hi-purple[Hecksher-Ohlin model] where comparative advanatage is determined by relative factor endowments
