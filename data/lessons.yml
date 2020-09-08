@@ -31,12 +31,15 @@ lessons:
     class: "1.6-class"
     slides: "1.6-slides"
     
-  - title: "1.7 he Neoclassical Model II: Terms of Trade"
+  - title: "1.7 The Neoclassical Model II: Terms of Trade Changes"
+    class: "1.7-class"
+    slides: "1.7-slides"
+    
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
+    assignment: "01-problem-set"
 
   - title: "1.8 The Hecksher-Ohlin Model"
   
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
-
   - title: "1.9 New Trade Theory I"
 
   - title: "1.10 New Trade Theory II: Economic Geography"
