@@ -951,7 +951,7 @@ foreign_new_tot
 # Terms of Trade Changes
 
 .pull-left[
-.smaller[
+.smallest[
 - Increases in a country's TOT (higher relative price of its exports) is generally better
   - country can buy more imports per export
   - Caused by price of exports increasing or price of imports decreasing
@@ -1402,7 +1402,7 @@ $$TOT=\frac{p_{exports}}{p_{imports}}$$
 # Distribution With vs. Across Countries
 
 .pull-left[
-
+.smallest[
 - In reality, changes in international trade and changes in TOT affect groups *within* a country differently
   - Some may clearly be harmed from international trade & TOT changes
 
@@ -1411,6 +1411,7 @@ $$TOT=\frac{p_{exports}}{p_{imports}}$$
     - Trade changes will benefit/hurt factors in proportion to their mobility
   - .hi-purple[Hecksher-Ohlin model] where comparative advanatage is determined by relative factor endowments
 
+]
 ]
 
 .pull-right[
