@@ -1,0 +1,127 @@
+---
+title: "Problem Set 1"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+#source(file.path(here::here(), "lib", "graphics.R"))
+```
+
+*Due by 11:59 PM Sunday, September 13, 2020 by PDF upload in Blackboard Assignments*
+
+- [<i class="fas fa-file-pdf"></i> `Download as PDF`](/assignment/01-problem-set-pdf.pdf)
+<!-- - [<i class="far fa-life-ring"></i> `Answer Key`](/assignment/01-problem-set-answers-pdf.pdf) -->
+
+Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -> Save As -> PDF, or File -> Export -> PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph & convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](/reference/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers). 
+
+For the few questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+
+You may work together (and I highly encourage that) but you must turn in your own answers. I grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
+
+# Concepts and Critical Thinking
+
+## Question 1
+
+Adam Smith notes that the “division of labor is limited by the extent of the market.” What does this mean, and what is its significance? As a way of answering this question, compare the economics of a small isolated island of a few hundred people with the economics of a large scale society of millions.
+
+## Question 2
+
+Adam Smith also uses the example of the philosopher and the porter to talk about the division of labor – arguing that the wide diversity of talents and specialized jobs is not the cause of the division of labor, but one of its effects. Why is this so? Hint: Your answer to the previous question should help explain this.
+
+# Problems
+
+## Question 3
+
+Suppose Vietnam *only* exports clothing, and *only* imports rice. Analyze the impact on Vietnam's terms of trade from the following events.
+
+## Part A
+
+Tensions in the region disrupts trade routes delivering rice from abroad.
+
+## Part B
+
+Malaysia stimulates its own clothing-export industry.
+
+## Part C
+
+There is a massive rice harvest in China.
+
+## Part D
+
+Vietnam raises tariffs on rice imports.
+
+## Part E
+
+Vietnam lowers tariffs on rice imports.
+
+## Part F
+
+India raises tariffs on imported clothing.
+
+## Question 4
+
+Suppose there are two countries, Ruritania and Lideria. Were they to trade, Ruritania has a comparative advantage in raising goats, Lideria has a comparative advantage in mining copper. Following the Ricardian model, explain which country would face a higher autarky relative price of goats, and what happens to the relative price of goats in each country as they open to trade? It may help to sketch a graph, with goats on the horizontal axis, but is not necessary.
+
+## Question 5
+
+The planet Coruscant and the planet Tatooine can each produce Podracers and Lightsabers. If Coruscant devotes all of its resources, it can produce 75 Podracers, or 300 Lightsabers. If Tatooine devotes all of its resources, it can produce 30 Podracers or 150 Lightsabers. Put podracers on the horizontal axis and lightsabers on the vertical axis.
+
+### Part A
+
+Write the PPF equation for each planet.
+
+### Part B
+
+Graph the PPF for each planet.
+
+### Part C
+
+Which planet has an *absolute* advantage in producing each good?
+
+### Part D
+
+Which planet has a *comparative* advantage in producing each good?
+
+### Part E
+
+What will the range of prices be for each good?
+
+## Question 7
+
+Suppose Finland has 250 workers, and Malaysia has 100 workers. It takes 2 workers in Finland to produce 1 lb of rice, and 4 workers to produce 1 lb of fish. It takes 2 workers in Malaysia to produce 1 lb of rice, and 5 workers to produce 1 lb of fish. Put rice on the horizontal axis and fish on the vertical axis.
+
+### Part A
+
+Write the PPF equation for each country.
+
+### Part B
+
+Graph the PPF for each country.
+
+### Part C
+
+Which country has an *absolute* advantage in producing each good?
+
+### Part D
+
+Which country has a *comparative* advantage in producing each good?
+
+### Part E
+
+What will the range of prices be for each good?
+
+### Part F
+
+Suppose Malaysia becomes more productive at growing rice, such that it only needs 1 worker to produce 1 lb of rice. Recalculate Malaysia’s PPF equation and re-draw its PPF graph.
+
+### Part G
+
+Recalculate the opportunity costs for both countries and both goods. What has happened to the countries’ comparative advantages?
+
+### Part H
+
+What will the *new* range of prices be for each good?
+
