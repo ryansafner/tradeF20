@@ -107,7 +107,7 @@ class: inverse, center, middle
 
 - .b[Manufacturing] is produced using *capital* and *labor*
 
-- .bAgriculture] is produced using *land* and *labor*
+- .b[Agriculture] is produced using *land* and *labor*
 
 - Land and capital are .hi[specific factors], only used to produce one good
 
@@ -116,8 +116,8 @@ class: inverse, center, middle
 ]
 .pull-right[
 .center[
-![](../images/factoryrobots.jpg)
-![](../images/peasants1.jpg)
+![:scale 75%](../images/factoryrobots.jpg)
+![:scale 75%](../images/peasants1.jpg)
 
 ]
 ]
@@ -144,8 +144,8 @@ $$L_M+L_A=\bar{L}$$
 
 .pull-right[
 .center[
-![](../images/factoryrobots.jpg)
-![](../images/peasants1.jpg)
+![:scale 75%](../images/factoryrobots.jpg)
+![:scale 75%](../images/peasants1.jpg)
 
 ]
 ]
@@ -1136,12 +1136,12 @@ home_exp
 .pull-left[
 .quitesmall[
 - Workers find their wage has increased (but less than increase in relative price of M)
-$$\frac{\Delta w}{w_1} < \cfrac{\Delta \left(\frac{P_M}{P_A}\right)}{\left(\frac{P_M}{P_A}\right)}$$
+$$\frac{\Delta w}{w_1} < \cfrac{\Delta \left(\frac{P_M}{P_A}\right)}{\left(\frac{P_M}{P_A}\right)_1}$$
 
 - Amount of manufactures $Q_M$ that can be purchased with wages has *fallen*!
   - .hi-purple[Real wage in terms of manufacturing, `\\(\downarrow \frac{w}{p_M}\\)`]
 
-- Amount of manufactures $Q_A$ that can be purchased with wages has *risen*!
+- Amount of agriculture $Q_A$ that can be purchased with wages has *risen*!
   - .hi-purple[Real wage in terms of agriculture, `\\(\uparrow \frac{w}{p_A}\\)`]
 
 - .hi-purple[Effect on workers is ambiguous]
@@ -1516,12 +1516,12 @@ foreign_imp
 .pull-left[
 .quitesmall[
 - Workers find their wage has increased (but less than increase in relative price of A)
-$$\frac{\Delta w}{w_1} < \cfrac{\Delta \left(\frac{P_A}{P_M}\right)}{\left(\frac{P_A}{P_M}\right)}$$
+$$\frac{\Delta w}{w_1} < \cfrac{\Delta \left(\frac{P_A}{P_M}\right)}{\left(\frac{P_A}{P_M}\right)_1}$$
 
 - Amount of manufactures $Q_M$ that can be purchased with wages has *risen*!
   - .hi-purple[Real wage in terms of manufacturing, `\\(\uparrow \frac{w}{p_M}\\)`]
 
-- Amount of manufactures $Q_A$ that can be purchased with wages has *fallen*!
+- Amount of agriculture $Q_A$ that can be purchased with wages has *fallen*!
   - .hi-purple[Real wage in terms of agriculture, `\\(\downarrow \frac{w}{p_A}\\)`]
 
 - .hi-purple[Effect on workers is ambiguous]
@@ -1604,7 +1604,7 @@ foreign_imp
 .smallest[
 - What about land owners?
 
-- Total income to landowners $= \underbrace{(P_AM * Q_A)}_{\text{Revenues in A}} - \underbrace{(W * L_A)}_{\text{Labor costs}}$
+- Total income to landowners $= \underbrace{(P_A * Q_A)}_{\text{Revenues in A}} - \underbrace{(W * L_A)}_{\text{Labor costs}}$
 
 - As more labor used in agriculture, $\uparrow MP_T$: Each piece of land has more workers to work it.
 
@@ -1630,7 +1630,7 @@ foreign_imp
 EFfects of trade on .red[Foreign]'s:
 
 - .b[Labor]: ambiguous
-  - real wage rises in terms of $A$, falls in terms of $M$
+  - real wage rises in terms of $M$, falls in terms of $A$
   
 - .b[Capital]: income falls more than proportionate to $M$ relative price fall
 
