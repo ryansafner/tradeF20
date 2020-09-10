@@ -38,13 +38,16 @@ lessons:
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
     assignment: "01-problem-set"
 
-  - title: "1.8 The Hecksher-Ohlin Model"
-  
-  - title: "1.9 New Trade Theory I"
+  - title: "1.8 The Specific Factors Model"
+    class: "1.8-class"
+    slides: "1.8-slides"
+    reading: "1.8-reading"
+    
+  - title: "1.9 The Hecksher-Ohlin Model"
 
-  - title: "1.10 New Trade Theory II: Economic Geography"
+  - title: "1.10 New Trade Theory I"
 
-  - title: "1.11 New Trade Theory III: Monopolistic Competition"
+  - title: "1.11 New Trade Theory II: Economic Geography"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due**'
 
