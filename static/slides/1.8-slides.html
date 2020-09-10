@@ -25,11 +25,14 @@ class: center, middle, inverse, title-slide
 
 class: inverse, center, middle
 
-### [Assumptions of the Specific Factors Model]()
+### [Assumptions of the Specific Factors Model](#3)
 
-### [Allocating the Mobile Factor (Labor)]()
+### [Allocating the Mobile Factor (Labor)](#11)
 
-### [Distribution Effects Using our Two Country Trade Example]()
+### [Distribution Effects Using our Two Country Trade Example](#23)
+
+### [Takeaways from the Specific Factors Model](#44)
+
 ---
 
 class: inverse, center, middle
@@ -42,7 +45,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-- Until now, we've assumed (within each country), factors are mobiel
+- Until now, we've assumed (within each country), factors are mobile
 
 - But in truth, some factors are .hi[specific] or .hi[immobile]: can only be used for the production of a specific set of goods or industry
   - e.g. programmers can only work in software, not in pro-football
@@ -74,7 +77,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](../images/workers.png)
+![](../images/factors.jpg)
 ]
 ]
 
@@ -84,11 +87,11 @@ class: inverse, center, middle
 
 .pull-left[
 
-- Each country has two industries, .pink[manufacturing (m)] and .purple[agriculture (a)]
+- Each country has two industries, .b[manufacturing (M)] and .b[agriculture (A)]
 
-- Manufacturing is produced using capital and labor
+- .b[Manufacturing] is produced using *capital* and *labor*
 
-- Agriculture is produced using land and labor
+- .bAgriculture] is produced using *land* and *labor*
 
 - Land and capital are .hi[specific factors], only used to produce one good
 
@@ -97,7 +100,9 @@ class: inverse, center, middle
 ]
 .pull-right[
 .center[
-![](../images/workers.png)
+![](../images/factoryrobots.jpg)
+![](../images/peasants1.jpg)
+
 ]
 ]
 
@@ -110,19 +115,23 @@ class: inverse, center, middle
 - An economy's production can be described as a set of production functions for manufacturing `\((m)\)` and agriculture `\((a)\)`
 
 `$$\begin{align*}
-Q_m&amp;=Q_m(K,L_m)\\
-Q_a&amp;=Q_a(T,L_a)\\
+Q_M&amp;=Q_M(K,L_M)\\
+Q_A&amp;=Q_A(T,L_A)\\
 \end{align*}$$`
 
 - Each country can only allocate its labor force between two industries
 
-`$$L_m+L_a=\bar{L}$$`
+`$$L_M+L_A=\bar{L}$$`
 
 
 ]
 
 .pull-right[
+.center[
+![](../images/factoryrobots.jpg)
+![](../images/peasants1.jpg)
 
+]
 ]
 
 ---
@@ -472,7 +481,7 @@ class: inverse, center, middle
 
 ---
 
-# Our Two Country Trade Example: Specialization for Trade
+# Our Two Country Trade Example: Specialization
 
 .pull-left[
 
@@ -499,7 +508,7 @@ class: inverse, center, middle
 
 
 
-# Our Two Country Trade Example: Specialization for Trade
+# Our Two Country Trade Example: Specialization
 
 .pull-left[
 
@@ -547,15 +556,15 @@ class: inverse, center, middle
 # Effects of Trade on Home's Income Distribution: L
 
 .pull-left[
-.smaller[
-- Workers find their wage has increased (but less than the increase in relative price of M)
+.quitesmall[
+- Workers find their wage has increased (but less than increase in relative price of M)
 `$$\frac{\Delta w}{w_1} &lt; \cfrac{\Delta \left(\frac{P_M}{P_A}\right)}{\left(\frac{P_M}{P_A}\right)}$$`
 
 - Amount of manufactures `\(Q_M\)` that can be purchased with wages has *fallen*!
-  - .hi-purple[Real wage in terms of manufacturing, `\\(\frac{w}{p_M}\\)` decreases]
+  - .hi-purple[Real wage in terms of manufacturing, `\\(\downarrow \frac{w}{p_M}\\)`]
 
 - Amount of manufactures `\(Q_A\)` that can be purchased with wages has *risen*!
-  - .hi-purple[Real wage in terms of agriculture, `\\(\frac{w}{p_A}\\)` increases]
+  - .hi-purple[Real wage in terms of agriculture, `\\(\uparrow \frac{w}{p_A}\\)`]
 
 - .hi-purple[Effect on workers is ambiguous]
   - Depends on their consumption preferences between `\(M\)` and `\(A\)`
@@ -575,7 +584,7 @@ class: inverse, center, middle
 
 - Total income to capitalists `\(= \underbrace{(P_M * Q_M)}_{\text{Revenues in M}} - \underbrace{(W * L_M)}_{\text{Labor costs}}\)`
 
-- As more labor used in manufacturing, `\(MP_K\)` rises. Each machine has more workers to work it.
+- As more labor used in manufacturing, `\(\uparrow MP_K\)`: Each machine has more workers to work it.
 
 - .hi-purple[Capital owners gain]
   - We saw (1) `\(\uparrow\)` relative price of manufacturing and (2) `\(\downarrow\)` real wage in terms of manufacturing
@@ -599,10 +608,10 @@ class: inverse, center, middle
 - Total output `\(Q_M\)` using `\(L_M\)` is equal to the under the `\(MPL_M\)` curve up to `\(L_M\)`
 
 - Labor is paid `\(w = MPL_M * p_M\)`
-  - Rewrite as its real wage (in terms of `\(M)\)`: `\(\frac{w}{P_M}\)`
-  - This times the total number of workers `\(L_M\)` equals the total wages paid
+  - Rewrite as real wage (in terms of `\(M)\)`: `\(\frac{w}{P_M}\)`
+  - This times the total number of workers `\(L_M\)` equals the .blue[total wages paid]
 
-- All residual income goes to capital owners
+- All .green[residual income] goes to capital owners
 ]
 ]
 
@@ -620,7 +629,7 @@ class: inverse, center, middle
   - Increase in labor `\(L_M\)`, and increase in *nominal* wage `\(w\)`, but
   - Decrease in real wage in terms of `\(m\)`, `\(\frac{w}{p_M}\)`
 
-- Capital owners gain
+- .hi-green[Capital owners gain]
 ]
 ]
 
@@ -638,7 +647,7 @@ class: inverse, center, middle
 
 - Total income to landowners `\(= \underbrace{(P_AM * Q_A)}_{\text{Revenues in A}} - \underbrace{(W * L_A)}_{\text{Labor costs}}\)`
 
-- As less labor used in agriculture, `\(MP_T\)` falls. Each piece of land has fewer workers to work it.
+- As less labor used in agriculture, `\(\downarrow MP_T\)`: Each piece of land has fewer workers to work it.
 
 - .hi-purple[Land owners lose]
   - We saw (1) `\(\downarrow\)` relative price of agriculture and (2) `\(\uparrow\)` real wage in terms of agriculture
@@ -662,10 +671,10 @@ class: inverse, center, middle
 - Total output `\(Q_A\)` using `\(L_A\)` is equal to the under the `\(MPL_A\)` curve up to `\(L_A\)`
 
 - Labor is paid `\(w = MPL_A * p_A\)`
-  - Rewrite as its real wage (in terms of `\(A)\)`: `\(\frac{w}{P_A}\)`
+  - Rewrite as real wage (in terms of `\(A)\)`: `\(\frac{w}{P_A}\)`
   - This times the total number of workers `\(L_A\)` equals the total wages paid
 
-- All residual income goes to land owners
+- All .green[residual income] goes to land owners (as rent)
 ]
 ]
 
@@ -683,7 +692,7 @@ class: inverse, center, middle
   - Decrease in labor `\(L_A\)`, but increase in *nominal* wage `\(w\)`, so
   - Increase in real wage in terms of `\(A\)`, `\(\frac{w}{p_A}\)`
 
-- Land owners lose
+- .b[Land owners lose]
 ]
 ]
 
@@ -699,12 +708,12 @@ class: inverse, center, middle
 
 EFfects of trade on .blue[Home]'s:
 
-- Labor: ambiguous
+- .b[Labor]: ambiguous
   - real wage rises in terms of `\(M\)`, falls in terms of `\(A\)`
   
-- Capital: income rises more than proportionate to `\(M\)` relative price increase
+- .b[Capital]: income rises more than proportionate to `\(M\)` relative price increase
 
-- Land: income falls more than proportionate to `\(A\)` relative price fall
+- .b[Land]: income falls more than proportionate to `\(A\)` relative price fall
 
 ]
 
@@ -719,13 +728,13 @@ EFfects of trade on .blue[Home]'s:
 .pull-left[
 .smallest[
 
-- .hi-purple[Factor specific to the sector whose relative price rises is better off.]
+- .hi-purple[Factor specific to the sector whose relative price rises is *better off* with trade]
   - Capital for manufacturing
   
-- .hi-purple[Factor specific to the sector whose relative price falls is worse off.]
+- .hi-purple[Factor specific to the sector whose relative price falls is *worse off* with trade]
   - Land for agriculture
 
-- .hi-purple[The mobile factor is not clearly better or worse off.]
+- .hi-purple[The mobile factor is *not clearly* better or worse off with trade.]
   - Labor
 
 ]
@@ -785,15 +794,15 @@ EFfects of trade on .blue[Home]'s:
 # Effects of Trade on Foreign's Income Distribution: L
 
 .pull-left[
-.smaller[
-- Workers find their wage has increased (but less than the increase in relative price of A)
+.quitesmall[
+- Workers find their wage has increased (but less than increase in relative price of A)
 `$$\frac{\Delta w}{w_1} &lt; \cfrac{\Delta \left(\frac{P_A}{P_M}\right)}{\left(\frac{P_A}{P_M}\right)}$$`
 
 - Amount of manufactures `\(Q_M\)` that can be purchased with wages has *risen*!
-  - .hi-purple[Real wage in terms of manufacturing, `\\(\frac{w}{p_M}\\)` increases]
+  - .hi-purple[Real wage in terms of manufacturing, `\\(\uparrow \frac{w}{p_M}\\)`]
 
 - Amount of manufactures `\(Q_A\)` that can be purchased with wages has *fallen*!
-  - .hi-purple[Real wage in terms of agriculture, `\\(\frac{w}{p_A}\\)` decreases]
+  - .hi-purple[Real wage in terms of agriculture, `\\(\downarrow \frac{w}{p_A}\\)`]
 
 - .hi-purple[Effect on workers is ambiguous]
   - Depends on their consumption preferences between `\(M\)` and `\(A\)`
@@ -814,7 +823,7 @@ EFfects of trade on .blue[Home]'s:
 
 - Total income to capitalists `\(= \underbrace{(P_M * Q_M)}_{\text{Revenues in M}} - \underbrace{(W * L_M)}_{\text{Labor costs}}\)`
 
-- As less labor used in manufacturing, `\(MP_K\)` falls. Each machine has fewer workers to work it.
+- As less labor used in manufacturing, `\(\downarrow MP_K\)`: Each machine has fewer workers to work it.
 
 - .hi-purple[Capital owners lose]
   - We saw (1) `\(\downarrow\)` relative price of manufacturing and (2) `\(\uparrow\)` real wage in terms of manufacturing
@@ -837,7 +846,7 @@ EFfects of trade on .blue[Home]'s:
 
 - Total income to landowners `\(= \underbrace{(P_AM * Q_A)}_{\text{Revenues in A}} - \underbrace{(W * L_A)}_{\text{Labor costs}}\)`
 
-- As more labor used in agriculture, `\(MP_T\)` rises. Each piece of land has more workers to work it.
+- As more labor used in agriculture, `\(\uparrow MP_T\)`: Each piece of land has more workers to work it.
 
 - .hi-purple[Land owners gain]
   - We saw (1) `\(\uparrow\)` relative price of agriculture and (2) `\(\downarrow\)` real wage in terms of agriculture
@@ -858,12 +867,12 @@ EFfects of trade on .blue[Home]'s:
 
 EFfects of trade on .red[Foreign]'s:
 
-- Labor: ambiguous
+- .b[Labor]: ambiguous
   - real wage rises in terms of `\(A\)`, falls in terms of `\(M\)`
   
-- Capital: income falls more than proportionate to `\(M\)` relative price fall
+- .b[Capital]: income falls more than proportionate to `\(M\)` relative price fall
 
-- Land: income rises more than proportionate to `\(A\)` relative price increase
+- .b[Land]: income rises more than proportionate to `\(A\)` relative price increase
 
 ]
 
@@ -878,13 +887,13 @@ EFfects of trade on .red[Foreign]'s:
 .pull-left[
 .smallest[
 
-- .hi-purple[Factor specific to the sector whose relative price rises is better off.]
+- .hi-purple[Factor specific to the sector whose relative price rises is *better off* with trade.]
   - Land for agriculture
   
-- .hi-purple[Factor specific to the sector whose relative price falls is worse off.]
+- .hi-purple[Factor specific to the sector whose relative price falls is *worse off* with trade.]
   - Capital for manufacturing
 
-- .hi-purple[The mobile factor is not clearly better or worse off.]
+- .hi-purple[The mobile factor is *not clearly* better or worse off with trade.]
   - Labor
 
 ]
@@ -959,8 +968,8 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](../images/gmworkers.jpg)
-![](../images/gmbuilding.jpg)
+![:scale 50%](../images/gmworkers.jpg)
+![:scale 50%](../images/gmbuilding.jpg)
 ]
 ]
 
@@ -977,18 +986,47 @@ class: inverse, center, middle
 - More .hi-purple[mobile] and .hi-purple[nonspecific] workers left Detroit for other industries
   - e.g. maybe they went to Texas to work in booming oil industry
 
-- More .hi-purple[immobile] and .hi-purple[specific] workers lost income &amp; jobs
-  - Maybe geographically stuck in Detroit (family, friends, mortgage)
+- More .hi-purple[immobile] and .hi-purple[specific] workers lost jobs
+  - Maybe geographically stuck in Detroit
   - Skills were too specific to auto industry, not transferrable to other industries
-]
 ]
 ]
 
 .pull-right[
 .center[
-![](../images/japan.jpg)
-![](../images/car.png)
+![:scale 50%](../images/japan.jpg)
+![:scale 50%](../images/car.png)
 ]
+]
+
+---
+
+# Some More Examples
+
+.center[
+![:scale 80%](../images/feenstramanuf.png)
+
+.source[Source: Feenstra &amp; Taylor (2017)]
+]
+
+---
+
+# Some More Examples
+
+.center[
+![:scale 60%](../images/feenstrawages.png)
+
+.source[Source: Feenstra &amp; Taylor (2017)]
+]
+
+---
+
+# Some More Examples
+
+.center[
+![:scale 80%](../images/feenstralosses.png)
+
+.source[Source: Feenstra &amp; Taylor (2017)]
 ]
 
 ---
@@ -996,7 +1034,7 @@ class: inverse, center, middle
 # Takeways from The Specific Factors Model
 
 .pull-left[
-
+.smallest[
 - Again, .hi-purple[changes in trade fall mainly upon the fixed/specific factors of production]
   - Increase in relative prices (exports) benefit fixed factor producing exports
   - Decrease in relative prices (imports) harm fixed factor competing with imports
@@ -1008,7 +1046,7 @@ class: inverse, center, middle
   - make labor, capital, land markets *more flexible* to reduce shocks from trade on domestic workers, capital-, &amp; land-owners
 
 ]
-
+]
 .pull-right[
 .center[
 ![](../images/stuck.jpg)

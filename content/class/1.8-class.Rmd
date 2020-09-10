@@ -19,7 +19,7 @@ Today, we cover the specific factors model.
 
 # Readings
 
-Feenstra and Taylor do a good job discussing the specific factors model, so see [today's suggested readings](/readings/1.8-reading).
+Feenstra and Taylor do a good job discussing the specific factors model, so see [today's suggested readings](/reading/1.8-reading).
 
 # Slides
 

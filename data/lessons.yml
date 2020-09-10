@@ -27,21 +27,21 @@ lessons:
     class: "1.5-class"
     slides: "1.5-slides"
 
-  - title: "1.6 The Neoclassical Model I"
+  - title: "1.6 The Standard Trade Model I"
     class: "1.6-class"
     slides: "1.6-slides"
     
-  - title: "1.7 The Neoclassical Model II: Terms of Trade Changes"
+  - title: "1.7 The Standard Trade Model II: Terms of Trade Changes"
     class: "1.7-class"
     slides: "1.7-slides"
     
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
-    assignment: "01-problem-set"
-
   - title: "1.8 The Specific Factors Model"
     class: "1.8-class"
     slides: "1.8-slides"
     reading: "1.8-reading"
+    
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due Sunday Sep 13**'
+    assignment: "01-problem-set"
     
   - title: "1.9 The Hecksher-Ohlin Model"
 
