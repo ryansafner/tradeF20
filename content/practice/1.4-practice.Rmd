@@ -9,9 +9,8 @@ library(tidyverse)
 library(pander)
 ```
 
-- [<i class="fas fa-file-pdf"></i> `Download as PDF`](/practice/1.3-practice-pdf.pdf)
-<!--- [<i class="fas fa-file-pdf"></i> `Answer Key`](/practice/1.3-practice-answers.pdf)
--->
+- [<i class="fas fa-file-pdf"></i> `Download as PDF`](/practice/1.4-practice-pdf.pdf)
+- [<i class="fas fa-file-pdf"></i> `Answer Key`](/practice/1.4-practice-answers.pdf)
 
 Suppose the following facts to set up:
 
