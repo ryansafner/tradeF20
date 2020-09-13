@@ -956,7 +956,7 @@ foreign_new_tot
   - country can buy more imports per export
   - Caused by price of exports increasing or price of imports decreasing
   
-- Increases in a country's TOT (lower relative price of its exports) is generally worse
+- Decreases in a country's TOT (lower relative price of its exports) is generally worse
   - country can buy fewer imports per export
   - Caused by price of exports decreasing or price of imports increasing
 ]
