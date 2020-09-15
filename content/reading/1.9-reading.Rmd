@@ -1,0 +1,14 @@
+---
+title: "1.9 — The Hecksher Ohlin Model — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Tuesday, September 15, 2020*
+
+# Recommended Readings:
+
+- Chapter 4.1, 4.3 in Feenstra & Taylor
+
+We will cover 4.2 (Testing the Hecksher-Ohlin Model next class)

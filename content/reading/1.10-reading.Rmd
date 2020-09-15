@@ -1,0 +1,12 @@
+---
+title: "1.10 — The Hecksher Ohlin Model: Empirics — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Thursday, September 17, 2020*
+
+# Recommended Readings:
+
+- Chapter 4.2 in Feenstra & Taylor

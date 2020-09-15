@@ -43,11 +43,15 @@ lessons:
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due Sunday Sep 13**'
     assignment: "01-problem-set"
     
-  - title: "1.9 The Hecksher-Ohlin Model"
-
-  - title: "1.10 New Trade Theory I"
-
-  - title: "1.11 New Trade Theory II: Economic Geography"
+  - title: "1.9 The Hecksher-Ohlin Model: Theory"
+    class: "1.9-class"
+    slides: "1.9-slides"
+    reading: "1.9-reading"
+    
+  - title: "1.10 The Hecksher-Ohlin Model: Empirics"
+    reading: "1.10-reading"
+    
+  - title: "1.11 New Trade Theory I"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due**'
 
