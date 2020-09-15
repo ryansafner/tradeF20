@@ -1373,8 +1373,8 @@ foreign_raise
 
 .smallest[
 - .hi-purple[Relative factor prices equalize across both countries] (at w2/r2)
-- .blue[Home]: $\uparrow$ wages, $\downarrow$ capital returns
-- .red[Foreign]: $\downarrow$ wages, $\uparrow$ capital returns
+- .blue[Home]: $\downarrow$ wages $w$, $\uparrow$ capital returns $r$
+- .red[Foreign]: $\uparrow$ wages $w$, $\downarrow$ capital returns $r$
 ]
 
 ---
@@ -1438,7 +1438,7 @@ $$p_c * MPL_c = w = p_s*MPL_s$$
 
 - Change in real income to capital:
 $$p_c * MPK_c =r=p_s*MPK_s$$
-  - $\uparrow MPK_c=\frac{w}{p_c}$ & $\uparrow MPK_s=\frac{w}{p_s}$
+  - $\uparrow MPK_c=\frac{r}{p_c}$ & $\uparrow MPK_s=\frac{r}{p_s}$
   - .hi-purple[Real return to capital rises]
 ]
 ]
@@ -1493,7 +1493,7 @@ $$p_c * MPL_c = w = p_s*MPL_s$$
 
 - Change in real income to capital:
 $$p_c * MPK_c =r=p_s*MPK_s$$
-  - $\downarrow MPK_c=\frac{w}{p_c}$ & $\downarrow MPK_s=\frac{w}{p_s}$
+  - $\downarrow MPK_c=\frac{r}{p_c}$ & $\downarrow MPK_s=\frac{r}{p_s}$
   - .hi-purple[Real return to capital falls]
 ]
 ]
