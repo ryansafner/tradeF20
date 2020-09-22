@@ -1,5 +1,5 @@
 ---
-title: "1.10 — The Hecksher-Ohlin Model: Empirics — Class Notes"
+title: "1.11 — New Trade Theory I — Class Notes"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
@@ -11,11 +11,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-*Thursday, September 17, 2020*
+*Tuesday, September 22, 2020*
 
 # Overview
 
-Today, we cover the empirical findings and tests of the Hecksher-Ohlin model.
+Today, we begin New Trade Theory.
 
 # Readings
 
@@ -23,11 +23,17 @@ See [today's suggested readings](/reading/1.10-reading).
 
 # Slides
 
-- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/1.10-slides.html)
-- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.10-slides.pdf)
+- [<i class="fas fa-chalkboard-teacher"></i> View Lecture Slides](/slides/1.11-slides.html)
+- [<i class="fas fa-file-pdf"></i> Download as PDF](/slides/1.11-slides.pdf)
 
 # Live Class Session on Zoom
 
 The live class <i class="fas fa-video"></i> Zoom meeting link can be found on Blackboard (see `LIVE ZOOM MEETINGS` on the left navigation menu), starting at 2:00 PM.
 
 If you are unable to join today's live session, or if you want to review, you can find the recording stored on Blackboard via Panopto (see `Class Recordings` on the left navigation menu).
+
+# Assignments: Problem Set 2
+
+[Problem set 2](/assignment/01-problem-set) will be posted very shortly this afternoon, and due by 11:59 PM Sunday September 27 by PDF upload to Blackboard Assignments.
+
+We will discuss the timing of the midterm exam today as well.

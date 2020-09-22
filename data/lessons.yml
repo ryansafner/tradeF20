@@ -54,8 +54,14 @@ lessons:
     slides: "1.10-slides"
     
   - title: "1.11 New Trade Theory I"
+    reading: "1.11-reading"
+    class: "1.11-class"
+    slides: "1.11-slides"
+    
+  - title: "1.11 New Trade Theory II: Monopolistic Competition & Economic Geography"
+    reading: "1.12-reading"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due** Sunday Sep 27'
 
   - title: '<span class="fake-header-table">II. Trade Policy </span>'
     header: True

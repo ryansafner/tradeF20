@@ -1,0 +1,20 @@
+---
+title: "1.11 — New Trade Theory I — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Thursday, September 17, 2020*
+
+# Recommended Readings:
+
+- Chapter 6.4 in Feenstra & Taylor
+
+We will cover 6.1-6.2 next class.
+
+I also strongly suggest you consume Paul Krugman’s [2008 Economics Nobel Prize address](https://www.nobelprize.org/prizes/economic-sciences/2008/krugman/lecture/) in some format. There is a video, his slides, and his written lecture posted there. I will be drawing from some of that today.
+
+# Primary Sources Mentioned:
+
+- [<i class="fas fa-file-pdf"></i> Krugman (1980), “Scale Economies, Product Differentiation, and Pattern of Trade”](/readings/Krugman-1980.pdf)
