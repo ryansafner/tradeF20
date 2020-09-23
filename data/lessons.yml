@@ -62,6 +62,9 @@ lessons:
     reading: "1.12-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due** Sunday Sep 27'
+    assignment: "02-problem-set"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam** Week of Sep 28'
 
   - title: '<span class="fake-header-table">II. Trade Policy </span>'
     header: True
