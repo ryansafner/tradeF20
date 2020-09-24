@@ -58,8 +58,10 @@ lessons:
     class: "1.11-class"
     slides: "1.11-slides"
     
-  - title: "1.11 New Trade Theory II: Monopolistic Competition & Economic Geography"
+  - title: "1.12 New Trade Theory II: Monopolistic Competition"
     reading: "1.12-reading"
+    class: "1.12-class"
+    slides: "1.12-slides"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due** Sunday Sep 27'
     assignment: "02-problem-set"
