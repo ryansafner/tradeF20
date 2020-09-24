@@ -43,9 +43,11 @@ class: inverse
 
 # Outline
 
-### [Increasing Returns](#21)
+### [Increasing Returns](#3)
 
-### [External Economies of Scale](#41)
+### [Trade and Variety](#14)
+
+### [Monopolistic Competition](#14)
 
 ---
 
@@ -454,7 +456,7 @@ v
 
 class: inverse, center, middle
 
-# Monopolistic Competition and Product Differentiation
+# Trade and Variety
 
 ---
 
@@ -477,7 +479,7 @@ class: inverse, center, middle
 
 ---
 
-# Trade and Variety: The Tradeoff Between Variety and Cost
+# Trade & Variety: Tradeoff Between Variety & Cost
 
 .pull-left[
 
@@ -517,7 +519,7 @@ acp
 
 ---
 
-# Trade and Variety: The Tradeoff Between Variety and Cost
+# Trade & Variety: Tradeoff Between Variety & Cost
 
 .pull-left[
 
@@ -548,7 +550,7 @@ acp+
 
 ---
 
-# Trade and Variety: The Tradeoff Between Variety and Cost
+# Trade & Variety: Tradeoff Between Variety & Cost
 
 .pull-left[
 
@@ -731,9 +733,9 @@ Each country ends up with 4 units of 2 varieties
 
 .pull-right[
 .center[
-![:scale 50%](../images/chinamcdonalds.jpg)
+![:scale 70%](../images/chinamcdonalds.jpg)
 
-![:scale 50%](../images/nycchinese.jpg)
+![:scale 70%](../images/nycchinese.jpg)
 
 .quitesmall[
 A McDonalds in China, and a Chinese restaurant in the U.S.
@@ -752,7 +754,7 @@ class: inverse, center, middle
 # The Role of the Firm in Trade
 
 .pull-left[
-
+.smaller[
 - Classical trade theory (Ricardo, Hecksher-Ohlin, etc) has no role for the firm!
   - might as well be people directly selling wheat or computers, etc.
 
@@ -760,6 +762,7 @@ class: inverse, center, middle
 
 - We move to a theory of .hi[imperfect competition]: where firms have market power (but not full market power, as in a monopoly)
 
+]
 ]
 
 .pull-right[
@@ -799,12 +802,6 @@ class: inverse, center, middle
 .center[
 ![](https://www.dropbox.com/s/0tpwuxdb39yuxv0/comp_spectrum_4.png?raw=1)
 ]
-
----
-
-class: inverse, center, middle
-
-# Monopolistic Competition
 
 ---
 
@@ -1522,7 +1519,7 @@ ggplot(data.frame(x=c(0,12)), aes(x=x))+
 
 ---
 
-# Monopolistic Competition with Trade: Productivity Boost
+# Monopolistic Competition with Trade: Productivity
 
 .pull-left[
 - With fewer firms, the remaining .orange[(low cost)] firms can further increase their output
