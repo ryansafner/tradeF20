@@ -67,7 +67,8 @@ lessons:
     assignment: "02-problem-set"
 
   - title: '<i class="fas fa-laptop-code"></i> **Midterm Exam** Week of Sep 28'
-
+    assignment: "01-exam"
+    
   - title: '<span class="fake-header-table">II. Trade Policy </span>'
     header: True
 
