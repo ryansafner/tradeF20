@@ -72,17 +72,21 @@ lessons:
   - title: '<span class="fake-header-table">II. Trade Policy </span>'
     header: True
 
-  - title: "2.1 A Brief Economic History of Trade"
+  - title: "2.1 Tariffs"
+    class: "2.1-class"
+    slides: "2.1-slides"
+    reading: "2.1-reading"
 
-  - title: "2.2 Tariffs"
+  - title: "2.2 Quotas and Non-Tariff Barriers"
+    reading: "2.2-reading"
+    
+  - title: "2.3 Industrial Policy and State-Led Development I"
 
-  - title: "2.3 Quotas and Non-Tariff Barriers"
+  - title: "2.4 Industrial Policy and State-Led Development II"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3 Due**'
-  
-  - title: "2.4 Industrial Policy and State-Led Development I"
 
-  - title: "2.5 Industrial Policy and State-Led Development II"
+  - title: "2.5 Economic History of Trade"
 
   - title: "2.6 The Political Economy of Trade Policy I"
 
