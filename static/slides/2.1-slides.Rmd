@@ -1807,7 +1807,7 @@ tt+
   - 4¢/lb $\times$ 6 bn lbs = .green[$0.240 bn]
 
 - DWLs from productive and consumption inefficiencies
-  - 2 $\times$ $-0.045 bn = .b[-$0.900 bn]
+  - 2 $\times$ $-0.045 bn = .b[-$0.090 bn]
 
 - But: .hi-purple[gain in tariff revenue exceeds inefficiency (DWL)!]
   - .hi-purple[Tariff brings a net increase in U.S. national welfare!]
@@ -1963,7 +1963,7 @@ imp_tt2+
 | Country | $p^*$ | $q^*$ | Domestic $q$ | .orange[Imports] | $\Delta$ .blue[CS] | $\Delta$ .red[PS] | .green[Tax Revenue] | .b[DWL] |
 |---------|------:|------:|----:|--------:|---:|---:|---:|---:|
 | Small (Belgium) | $0.08 | 12 bn | 8 bn | 4 bn | -$0.560 bn | $0.240 bn | $0.160 bn | -$0.160 bn |
-| Large (U.S.) | $0.07 | 13 bn | 7 bn | 6 bn | -$0.435 bn | $0.035 bn | $0.240 bn | -$0.900 bn |
+| Large (U.S.) | $0.07 | 13 bn | 7 bn | 6 bn | -$0.435 bn | $0.035 bn | $0.240 bn | -$0.090 bn |
 
 ]
 
@@ -2072,3 +2072,259 @@ class: inverse, center, middle
 # The Effective Rate of Protection
 
 ---
+
+# The Effective Rate of Protection
+
+.pull-left[
+.smaller[
+- .hi-purple[How much do tariffs protect domestic industry?]
+
+- Seems logical to just count the percent an *ad valorem* tariff raises price over free trade price
+  - This is the .hi[nominal rate of protection]: the % increase in price
+  - e.g. a 50% *ad valorem* tariff raises price 50%
+  - for specific tariffs, divide $\frac{\text{price with tariff}}{\text{price without tariff}}$
+]
+]
+.pull-right[
+.center[
+![:scale 100%](../images/tradebarriers.jpg)
+]
+]
+
+---
+
+# The Effective Rate of Protection
+
+.pull-left[
+.smaller[
+- Two problems with nominal rate of protection:
+
+1. If the country is “large”, part of the tariff’s effect will be to *lower foreign export prices* rather than just raise domestic prices
+
+2. Tariffs may have different effects on different *stages* of production for a good
+]
+]
+.pull-right[
+.center[
+![:scale 100%](../images/tradebarriers.jpg)
+]
+]
+
+---
+
+# The Effective Rate of Protection
+
+.pull-left[
+.smaller[
+- Better to think about the .hi[effective rate of protection] as the percent change in .hi-purple[domestic value added]
+
+- .content-box-green[
+.hi-green[Example]: Suppose **cars** sell on world market for $8,000, and **car parts** sell for $6,000. If a country buys car parts and assembles them into cars, the .hi-purple[domestic value added] is:
+$$\$8,000-\$6,000=\$2,000$$
+
+]
+]
+]
+.pull-right[
+.center[
+![:scale 100%](../images/car.png)
+
+![:scale 100%](../images/carparts.jpeg)
+
+]
+]
+
+---
+
+# The Effective Rate of Protection: Example
+
+.pull-left[
+
+- Suppose .blue[Home] wants to develop a domestic **auto assembly** industry
+  - .pink[Domestic value] added from .green[imports] is:
+$$\$8,000-\color{green}{\$6,000}=\color{magenta}{\$2,000}$$
+
+- .blue[Home] places a **25% tariff** on **imported cars**, raising the price of cars in .blue[Home] to $10,000
+  - .pink[Domestic value] added from .green[imports] is:
+$$\$10,000-\color{green}{\$6,000}=\color{magenta}{\$4,000}$$
+
+- .hi[Domestic value added] changes by:
+$$\frac{\$4,000-\$2,000}{\$2,000} \times 100% = 100%$$
+
+]
+
+.pull-right[
+```{r}
+bars<-tibble(x = c("Free Trade", "Free Trade", "Tariff", "Tariff"),
+            y = c(6000, 2000, 6000, 4000),
+            type = factor(c("Import", "VA", "Import", "VA"), levels = c("VA", "Import")))
+
+colors<-c("Import" = "turquoise", "VA" = "red")
+
+ggplot(data = bars)+
+  geom_col(aes(x = x, y = y, fill = type, order = type), stat = "identity", position = "stack", alpha = 0.75)+
+  annotate("segment", x = 2, xend = 2, y = 8000, yend = 10000, color = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x = 2, y = 9000, color = "black", label = "+100%")+
+  geom_label(x = 1, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 1, y = 7000, label = "Car Assembly", color = "red", alpha = 0.75)+
+  geom_label(x = 2, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 2, y = 7000, label = "Car Assembly", color = "red", alpha = 0.75)+
+  labs(x = "",
+       y = "Price")+
+  scale_y_continuous(breaks = seq(0,10000,1000),
+                     labels = scales::dollar)+
+  scale_fill_manual(values = colors)+
+  guides(fill = F)+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size = 16)
+```
+]
+
+---
+
+# The Effective Rate of Protection: Example
+
+.pull-left[
+
+- Suppose .blue[Home] instead wants to develop a domestic **car parts** industry
+  - .pink[Domestic value] added from .green[imports] is:
+$$\$8,000-\color{green}{\$6,000}=\color{magenta}{\$2,000}$$
+
+- .blue[Home] places a **25% tariff** on **imported car _parts_**, raising the price of car parts in .blue[Home] to $7,500
+  - .pink[Domestic value added] for **car parts manufacturers** is:
+$$\$\color{magenta}{\$7,500}$$
+- Changes by:
+$$\frac{\$7,500-\$6,000}{\$6,000} \times 100% = 25%$$
+
+]
+
+.pull-right[
+```{r}
+bars2<-tibble(x = c("Free Trade", "Free Trade", "Tariff", "Tariff"),
+            y = c(6000, 2000, 7500, 500),
+            type = factor(c("Import", "VA", "Import", "VA"), levels = c("VA", "Import")))
+
+colors<-c("Import" = "turquoise", "VA" = "red")
+
+ggplot(data = bars2)+
+  geom_col(aes(x = x, y = y, fill = type, order = type), stat = "identity", position = "stack", alpha = 0.75)+
+  annotate("segment", x = 2, xend = 2, y = 8000, yend = 7500, color = "black", size=1, alpha=1, arrow=arrow(length=unit(0.1,"cm"), ends="both", type="closed"))+
+  geom_label(x = 1.75, y = 8000, label = "+25%", color = "green", alpha =0.75)+
+  geom_label(x = 1, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 1, y = 7000, label = "Car Assembly", color = "red", alpha = 0.75)+
+  geom_label(x = 2, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 2, y = 8500, label = "Car Assembly", color = "red", alpha = 0.75)+
+  labs(x = "",
+       y = "Price")+
+  scale_y_continuous(breaks = seq(0,10000,1000),
+                     labels = scales::dollar,
+                     limits = c(0,10000))+
+  scale_fill_manual(values = colors)+
+  guides(fill = F)+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size = 16)
+```
+]
+
+---
+
+# The Effective Rate of Protection: Example
+
+.pull-left[
+
+- Suppose .blue[Home] instead wants to develop a domestic **car parts** industry
+  - .pink[Domestic value] added from .green[imports] is:
+$$\$8,000-\color{green}{\$6,000}=\color{magenta}{\$2,000}$$
+
+- What about for **assemblers** of cars? 
+  - .pink[Domestic value added] for **car assemblers** is:
+$$\$8,000-\color{green}{\$7,500}=\color{magenta}{\$500}$$
+- Changes by:
+$$\frac{\$500-\$2,000}{\$2,000} \times 100% = -75%$$
+
+]
+
+.pull-right[
+```{r}
+bars2<-tibble(x = c("Free Trade", "Free Trade", "Tariff", "Tariff"),
+            y = c(6000, 2000, 7500, 500),
+            type = factor(c("Import", "VA", "Import", "VA"), levels = c("VA", "Import")))
+
+colors<-c("Import" = "turquoise", "VA" = "red")
+
+ggplot(data = bars2)+
+  geom_col(aes(x = x, y = y, fill = type, order = type), stat = "identity", position = "stack", alpha = 0.75)+
+  annotate("segment", x = 2, xend = 2, y = 8000, yend = 7500, color = "black", size=1, alpha=1, arrow=arrow(length=unit(0.1,"cm"), ends="both", type="closed"))+
+  geom_label(x = 1.75, y = 8000, label = "+25%", color = "green", alpha =0.75)+
+  geom_label(x = 2.25, y = 8000, label = "-75%", color = "red", alpha =0.75)+
+  geom_label(x = 1, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 1, y = 7000, label = "Car Assembly", color = "red", alpha = 0.75)+
+  geom_label(x = 2, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 2, y = 8500, label = "Car Assembly", color = "red", alpha = 0.75)+
+  labs(x = "",
+       y = "Price")+
+  scale_y_continuous(breaks = seq(0,10000,1000),
+                     labels = scales::dollar,
+                     limits = c(0,10000))+
+  scale_fill_manual(values = colors)+
+  guides(fill = F)+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size = 16)
+```
+]
+
+---
+
+# The Effective Rate of Protection: Example
+
+.pull-left[
+
+- We can see that the .hi-purple[structure of tariffs] often impact different stages of the production process differently
+
+- Here, a tariff on car parts gave 25% more protection to domestic car parts producers, at the expense of a 75% loss to domestic car assemblers
+
+]
+
+.pull-right[
+```{r}
+bars2<-tibble(x = c("Free Trade", "Free Trade", "Tariff", "Tariff"),
+            y = c(6000, 2000, 7500, 500),
+            type = factor(c("Import", "VA", "Import", "VA"), levels = c("VA", "Import")))
+
+colors<-c("Import" = "turquoise", "VA" = "red")
+
+ggplot(data = bars2)+
+  geom_col(aes(x = x, y = y, fill = type, order = type), stat = "identity", position = "stack", alpha = 0.75)+
+  annotate("segment", x = 2, xend = 2, y = 8000, yend = 7500, color = "black", size=1, alpha=1, arrow=arrow(length=unit(0.1,"cm"), ends="both", type="closed"))+
+  geom_label(x = 1.75, y = 8000, label = "+25%", color = "green", alpha =0.75)+
+  geom_label(x = 2.25, y = 8000, label = "-75%", color = "red", alpha =0.75)+
+  geom_label(x = 1, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 1, y = 7000, label = "Car Assembly", color = "red", alpha = 0.75)+
+  geom_label(x = 2, y = 3000, label = "Car Parts", color = "green", alpha = 0.75)+
+  geom_label(x = 2, y = 8500, label = "Car Assembly", color = "red", alpha = 0.75)+
+  labs(x = "",
+       y = "Price")+
+  scale_y_continuous(breaks = seq(0,10000,1000),
+                     labels = scales::dollar,
+                     limits = c(0,10000))+
+  scale_fill_manual(values = colors)+
+  guides(fill = F)+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size = 16)
+```
+]
+
+---
+
+# The Effective Rate of Protection
+
+.pull-left[
+.smaller[
+- In general, we see that effective rate of protection $\neq$ nominal tariff rate
+  - May be higher or lower, or even negative
+
+- Tariffs on foreign inputs generate *negative* effective rates of protection, and tariffs on final products generate *positive* eeffective rates of protection for a country’s domestic industry
+
+]
+]
+.pull-right[
+.center[
+![:scale 100%](../images/tradebarriers.jpg)
+]
+]
