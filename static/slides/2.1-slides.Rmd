@@ -2139,18 +2139,18 @@ $$\$8,000-\$6,000=\$2,000$$
 # The Effective Rate of Protection: Example
 
 .pull-left[
-
+.quitesmall[
 - Suppose .blue[Home] wants to develop a domestic **auto assembly** industry
   - .pink[Domestic value] added from .green[imports] is:
-$$\$8,000-\color{green}{\$6,000}=\color{magenta}{\$2,000}$$
+$$\$8,000-\color{green}{\$6,000}=\color{red}{\$2,000}$$
 
 - .blue[Home] places a **25% tariff** on **imported cars**, raising the price of cars in .blue[Home] to $10,000
   - .pink[Domestic value] added from .green[imports] is:
-$$\$10,000-\color{green}{\$6,000}=\color{magenta}{\$4,000}$$
+$$\$10,000-\color{green}{\$6,000}=\color{red}{\$4,000}$$
 
 - .hi[Domestic value added] changes by:
-$$\frac{\$4,000-\$2,000}{\$2,000} \times 100% = 100%$$
-
+$$\frac{\$4,000-\$2,000}{\$2,000} \times 100 = 100\%$$
+]
 ]
 
 .pull-right[
@@ -2184,19 +2184,19 @@ ggplot(data = bars)+
 # The Effective Rate of Protection: Example
 
 .pull-left[
-
+.quitesmall[
 - Suppose .blue[Home] instead wants to develop a domestic **car parts** industry
   - .pink[Domestic value] added from .green[imports] is:
-$$\$8,000-\color{green}{\$6,000}=\color{magenta}{\$2,000}$$
+$$\$8,000-\color{green}{\$6,000}=\color{red}{\$2,000}$$
 
 - .blue[Home] places a **25% tariff** on **imported car _parts_**, raising the price of car parts in .blue[Home] to $7,500
   - .pink[Domestic value added] for **car parts manufacturers** is:
-$$\$\color{magenta}{\$7,500}$$
+$$\$\color{red}{\$7,500}$$
 - Changes by:
-$$\frac{\$7,500-\$6,000}{\$6,000} \times 100% = 25%$$
+$$\frac{\$7,500-\$6,000}{\$6,000} \times 100% = 25\%$$
 
 ]
-
+]
 .pull-right[
 ```{r}
 bars2<-tibble(x = c("Free Trade", "Free Trade", "Tariff", "Tariff"),
@@ -2229,17 +2229,17 @@ ggplot(data = bars2)+
 # The Effective Rate of Protection: Example
 
 .pull-left[
-
+.quitesmall[
 - Suppose .blue[Home] instead wants to develop a domestic **car parts** industry
   - .pink[Domestic value] added from .green[imports] is:
-$$\$8,000-\color{green}{\$6,000}=\color{magenta}{\$2,000}$$
+$$\$8,000-\color{green}{\$6,000}=\color{red}{\$2,000}$$
 
 - What about for **assemblers** of cars? 
   - .pink[Domestic value added] for **car assemblers** is:
-$$\$8,000-\color{green}{\$7,500}=\color{magenta}{\$500}$$
+$$\$8,000-\color{green}{\$7,500}=\color{red}{\$500}$$
 - Changes by:
-$$\frac{\$500-\$2,000}{\$2,000} \times 100% = -75%$$
-
+$$\frac{\$500-\$2,000}{\$2,000} \times 100% = -75\%$$
+]
 ]
 
 .pull-right[

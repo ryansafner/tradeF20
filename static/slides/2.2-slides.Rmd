@@ -43,15 +43,9 @@ class: inverse
 
 # Outline
 
-### [Tariffs](#3)
+### [Effects of an Import Quota in a Small Country](#14)
 
-### [Effects of an Import Tariff in a Small Country](#14)
-
-### [Effects of an Import Tariff in a Large Country](#14)
-
-### [Optimal Tariff Theory](#14)
-
-### [The Effective Rate of Protection](#14)
+### [Export Subsidies](#14)
 
 ---
 
@@ -780,10 +774,10 @@ g+
 ]
 .pull-right[
 ```{r}
-g+
-  geom_hline(yintercept = 4, size = 2, color = "orange")+
+g+geom_hline(yintercept = 4, size = 2, color = "orange")+
   geom_label(x = 10, y = 4, color = "orange", label = "World Supply")+
   geom_vline(xintercept=c(8,12), size = 2)+
+  geom_rect(xmin = 8, xmax = 12, ymin = 4, ymax = 8, fill ="green", alpha = 0.5)+
   annotate("segment", x = 8, xend = 12, y = 18, yend = 18, color = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
   geom_label(x = 10, y = 18, label = "Quota \n 4 bn lbs")+
   geom_segment(x = 12, y = 8, xend = 12, yend = 0, linetype="dotted", size = 1)+
@@ -2110,7 +2104,7 @@ dwl2
 .smaller[
 - Domestic consequences of subsidy:
 
-- A $56 bn gain to a small group of domestic sugar producers at a $24 expense to consumers, $48 bn expense to taxpayers
+- A $56 bn gain to a small group of domestic sugar producers at a $24 bn expense to consumers, $48 bn expense to taxpayers
 
 ]
 ]
@@ -2132,15 +2126,15 @@ dwl2
 - Members of the EU & Schengen agreement have removed all tariffs between member countries
 	
 - The EU’s .hi-purple[Common Agricultural Policy (CAP)] is essentially one giant continental export subsidy of European agricultural products
-  - protects inefficient agriculture in countries like France
+  - protects inefficient agriculture in countries
 
 ]
 
 .pull-right[
 .center[
-![](../images/eu1.png)
+![:scale 50%](../images/eu1.png)
 
-![](../images/farmsubsidy1.png)
+![:scale 50%](../images/farmsubsidy1.png)
 ]
 ]
 
@@ -2157,7 +2151,7 @@ dwl2
 # Subsidies and the European Union
 
 .center[
-![:scale 80%](../images/EUexportsubsidies2.jpg)
+![:scale 50%](../images/EUexportsubsidies2.jpg)
 ]
 
 ---
@@ -2183,7 +2177,7 @@ dwl2
 # Hidden Export Subsidies
 
 .center[
-![](../images/boeingexim.jpg)
+![:scale 70%](../images/boeingexim.jpg)
 
 Source: Mercatus Center 2014, [“Export-Import Bank is Still Boeing's Bank”](https://www.mercatus.org/publication/export-import-still-boeing-s-bank)]
 
@@ -2192,6 +2186,7 @@ Source: Mercatus Center 2014, [“Export-Import Bank is Still Boeing's Bank”](
 # Dumping
 
 .pull-left[
+.smallest[
 - Export subsidies are a form of .hi[“dumping”], where a country sells a good at a lower price in a foreign market than it charges at home
     - With an export subsidy, exporter can provide more exports at lower prices than if just selling domestically
     
@@ -2200,7 +2195,7 @@ Source: Mercatus Center 2014, [“Export-Import Bank is Still Boeing's Bank”](
 - Similar to .hi[predatory pricing] in industrial organization between firms in a market (price below cost to drive out competitors) 
 
 - Very hard to “prove”
-
+]
 ]
 
 .pull-right[
