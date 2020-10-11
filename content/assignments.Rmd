@@ -3,7 +3,7 @@ title: "Assignments"
 slug: assignments
 ---
 
-- [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/thought_grade_calculator/)
+- [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryansafner.shinyapps.io/trade_grade_calculator/)
 
 Use this tool to calculate your final course grade and predict what grades you would need on remaining assignments to obtain a desired course grade.
 

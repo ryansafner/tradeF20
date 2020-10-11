@@ -1,0 +1,12 @@
+name: trade_grade_calculator
+title: trade_grade_calculator
+username:
+account: ryansafner
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2989855
+bundleId: 3726897
+url: https://ryansafner.shinyapps.io/trade_grade_calculator/
+when: 1602443035.24988
+asMultiple: FALSE
+asStatic: FALSE
