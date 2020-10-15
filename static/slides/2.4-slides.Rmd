@@ -47,12 +47,9 @@ class: inverse
 
 ## [Mercantilist Europe (c.1500-c.1800)](#16)
 
-## [Thomas Mun](#39)
+## [Classical Economics and the Rejection of Mercantilism](#48)
 
-## [Sir William Petty](#42)
-
-## [Bernard de Mandeville](#49)
-
+## [The Corn Laws](#72)
 ---
 
 class: inverse, center, middle
@@ -548,6 +545,28 @@ Friedrich Engels (1820-1895)
 
 ---
 
+# Policy Implications of Mercantilism II
+
+.left-column[
+.center[
+![:scale 80%](../images/mun.png)
+
+Thomas Mun
+
+1571-1641
+
+]
+]
+
+.right-column[
+
+> "The ordinary means therefore to encrease our wealth and treasure is by Forraign Trade, wherein wee must ever observe this rule; to sell more to strangers yearly than wee consume of theirs in value [sic]"
+
+]
+.source[Mun, Thomas, 1664, *England's Treasure by Forraign Trade or the Ballance of our Forraign Trade is the Rule of our Treasure*]
+
+---
+
 # Policy Implications of Mercantilism III
 
 .pull-left[
@@ -642,12 +661,56 @@ Chief Justice (King's Bench)
 
 > "[N]o goods of the growth, production, or manufacture of Asia, Africa, or America, shall be imported only by ships that belong to the people of the British Commonwealth."
 
-- All trade with Britainand her colonies must use British ships and British seamen
+- All trade with Britain and her colonies must use British ships and British seamen
 
 - Intended to target rival European empires (esp. Dutch)
 
 - A major grievance for the American colonists
 ]
+]
+
+---
+
+
+# Trading Monopolies V
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/9g6u6fwdwuk74ix/smugglers.jpg?raw=1)
+]
+
+]
+
+.pull-right[
+
+- Such mercantilist-inspired laws upset a lot of merchants (not politically-connected to the crown)
+
+- Lots of resistance: golden age of piracy, smuggling, "interloping"
+  - How many "Founding Fathers" of the U.S. made their fortunes!
+
+- Empires needed to continuously patrol the oceans with their navies against smugglers, pirates, and other Imperial navies
+
+- Navies are expensive, often turned to **privateers** and **Letters of Marque**
+]
+
+---
+
+# Trading Monopolies VI
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/etupkcrco63wxd9/marque.jpg?raw=1)
+]
+
+]
+
+.pull-right[
+
+> The Congress shall have Power...
+> To define and punish Piracies and Felonies committed on the high Seas, and Offenses against the Law of Nations;
+> To declare War, **grant Letters of Marque and Reprisal**, and make Rules concerning Captures on Land and Water;
+> - Constitution of the United States, Article I, $\S$ 8, Clauses 10-11
+
 ]
 
 ---
@@ -704,25 +767,142 @@ Acemoglu, Daron and James A Robinson, (2012), *Why Nations Fail: The Origins of 
 
 ---
 
-# Thomas Mun
+# Extractive Institutions I
 
-.left-column[
+.pull-left[
 .center[
-![:scale 80%](../images/mun.png)
+![](https://www.dropbox.com/s/9yoq6eohm32apzx/encomienda3.png?raw=1)
+]
+]
 
-Thomas Mun
+.pull-right[
 
-1571-1641
+- .shout[Extractive colonies]: focused on exploiting indigenous population to extract resources to export to mother country
+
+- Examples: Latin America, West Indies, sub-Saharan Africa, India
+]
+
+---
+
+# Extractive Institutions II
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/dhh5cdalulwr0js/encomienda.jpeg?raw=1)
+
+Potosi silver mines in (modern day) Bolivia
+]
+]
+
+.pull-right[
+
+- Set up highly stratified colonial elite with monopolies and privileges and enslave indigenous peoples
+
+- Ex: Spanish *encomienda* system rewarded conquistadors with land and forced labor from conquered indigenious peoples, especially for mining gold and silver through the *mita*
+]
+
+---
+
+# Extractive Institutions III
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/z8mansavqsyemaj/encomienda1.jpg?raw=1)
 
 ]
 ]
 
-.right-column[
+.pull-right[
 
-> "The ordinary means therefore to encrease our wealth and treasure is by Forraign Trade, wherein wee must ever observe this rule; to sell more to strangers yearly than wee consume of theirs in value [sic]"
+- Monopolies and property rights only for privileged colonial elite
+
+- Wealth from extracted minerals and coerced labor
+
+- Colonial elites stood to lose a lot from innovation, experimentation, creative destruction
 
 ]
-.source[Mun, Thomas, 1664, *England's Treasure by Forraign Trade or the Ballance of our Forraign Trade is the Rule of our Treasure*]
+
+---
+
+# Inclusive Institutions I
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/3wohf12mfnt5pvb/jamestown.jpg?raw=1)
+]
+]
+
+.pull-right[
+- .shout[Inclusive colonies]: focused on creating mini "Neo-Europes"
+
+- Less indigenous population to coerce into labor, had to sustain themselves from European settlers
+
+- Settlers demanded more inclusive institutions
+
+- Examples: United States, Canada, Australia, New Zealand
+
+]
+
+---
+
+# Inclusive Institutions II
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/mpaor1j3ro6xsh2/colonialtrade.jpg?raw=1)
+]
+]
+
+.pull-right[
+- Set up local self-governing institutions, a society of small landholders
+
+- Focused primarily on agriculture and producing cash crops
+
+- Trade with the mother countries: sell raw materials & buy manufactures
+
+]
+
+---
+
+# Inclusive Institutions III
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/woqh4k8h6xqgg7t/temperate.jpg?raw=1)
+]
+]
+
+.pull-right[
+- Colonies are **labor scarce** and **land abundant** (the exact opposite of late Medieval Europe!)
+
+- Frontier opens up possibility of **exit**: if your colony's governance is not effective, leave and **go on your own**
+  - Colonies constrained to have effective governance to avoid losing their populations
+  - Requires including citizens in political and economic life
+]
+
+---
+
+# Inclusive Institutions IV
+
+.pull-left[
+.center[
+![](https://www.dropbox.com/s/mpaor1j3ro6xsh2/colonialtrade.jpg?raw=1)
+]
+]
+
+.pull-right[
+.smaller[
+- Economy and politics were (*relatively*) open to competition
+
+- Stronger protection of property rights, rule of law, "town-hall" style meetings
+
+- Incentives for experimentation, innovation, creative destruction
+
+- Some settlers were refugees or (often religious) dissidents fleeing Europe 
+  - strong desire for autonomy and liberty,
+  - strong suspicion of tyranny and monopoly
+]
+]
 
 ---
 
@@ -732,23 +912,49 @@ class: inverse, center, middle
 
 ---
 
-# Common Themes of Classical Writers: Policy
+# Classical Economics Emerges in Opposition
 
 .pull-left[
+- .shout[Classical Economics] (1770s-1870) emerges through *joint opposition to mercantilism*
+  - Half of Smith's *Wealth of Nations* (1776) is about why mercantilism is stupid
 
-- Focus on .hi-purple[competitive markets] in .hi-purple[full-employment]
-  - suspicious of monopolies, mercantilist restrictions & privileges
+- Wealth $\neq$ money, but a nation's ability to consume (by production and trade)
 
-- Advocate .hi-purple[free trade], .hi-purple[lassiez-faire], minimal government interference
+- Monopolies and tariffs benefit a small group of domestic producers at the expense of everyone else
 
-- Malthus & Marx reject full-employment & policy recommendations
-  - force a (convincing?) response
+- Colonies and empire are expensive and often immoral
+
+- .shout[(Classical) Liberalism]: focus on individual liberty, autonomy, democracy, free trade, pluralism; opposition to slavery, monopoly, and intolerance
 ]
 
 .pull-right[
 .center[
-![](../images/classicaleconomists.png)
+![](https://www.dropbox.com/s/f2m8g8vc38n058c/classical.png?raw=1)
 ]
+]
+
+---
+
+# Mercantilism: Wrong on the Source of Wealth
+
+.left-column[
+.center[
+![:scale 80%](../images/hume.png)
+
+David Hume
+
+1711-1776
+]
+]
+
+.right-column[
+
+> “Money is not, properly speaking, one of the subjects of commerce; but only the instrument which men have agreed upon to facilitate the exchange of one commodity for another. It is none of the wheels of trade: It is theoilwhich renders the motion of the wheels moresmooth and easy,” (p.135 in *Reader*) 
+
+> “If we consider any one kingdom by itself, it is evident, that the greater or less plenty of money is of no consequence; since the prices of commodities are always proportioned to the plenty of money”
+
+.source[Hume, David, 1752, “On Money” in *Political Discourses*]
+
 ]
 
 ---
@@ -820,6 +1026,61 @@ Adam Smith
 
 .left-column[
 .center[
+![:scale 80%](../images/hume.png)
+
+David Hume
+
+1711-1776
+]
+]
+
+.right-column[
+
+
+.smallest[
+- Explodes mercantilist “balance of trade” doctrine via his great .hi[“price-specie flow mechanism”]:
+
+> “Suppose four-fifths of all the money in Great Britain be annihilated in one night...what would be the consequence? Must not the price of all labour and commodities sink in proprtion, and everything be sold as cheap? What nation could then dispute with us in any foreign market...which to us would afford sufficient profit? In how little time, therefore, must this bring back the money which we had lost, and raise us to the level of all the neighbouring nations? Where, after we arrived, we immediately lose the advantage of the cheapness of labour and commodities; and the farther flowing in of money is stopped by our fulness and repletion,” (pp.146-147 in *Reader*)
+
+]
+
+.source[Hume, David, 1752, “Of the Balance of Trade” in *Political Discourses*]
+
+]
+
+---
+
+# Mercantilism: Wrong on the *Balance of Trade* II
+
+.left-column[
+.center[
+![:scale 80%](../images/hume.png)
+
+David Hume
+
+1711-1776
+]
+]
+
+.right-column[
+
+.smallest[
+- Gives the example inversely to underline the process:
+
+> “Again, suppose, that all the money of Great Britain were multiplied fivefold in a night, must not the contrary effect follow? Must not all labour and commodities rise to such an exorbitant height, that no neighbouring nations could afford to buy from us; while their commodities, on the other hand, became comparatively so cheap, that, in spite of all the laws which could be formed, they would be run in upon us, and our money flow out; till we fall to a level with foreigners, and lose that great superiority of riches, which had laid us under such disadvantages?” (p.147 in *Reader*)
+
+]
+
+.source[Hume, David, 1752, “Of the Balance of Trade” in *Political Discourses*]
+
+]
+
+---
+
+# Mercantilism: Wrong on the *Balance of Trade* III
+
+.left-column[
+.center[
 ![:scale 80%](../images/smith.png)
 
 Adam Smith
@@ -838,7 +1099,7 @@ Adam Smith
 
 ---
 
-# Mercantilism: Wrong on The *Balance of Trade* II
+# Mercantilism: Wrong on The *Balance of Trade* IV
 
 .left-column[
 .center[
@@ -857,7 +1118,7 @@ Frederic Bastiat
 
 ---
 
-# Mercantilism: Wrong on The *Balance of Trade* III
+# Mercantilism: Wrong on The *Balance of Trade* V
 
 .left-column[
 .center[
@@ -872,35 +1133,6 @@ Frederic Bastiat
 
 > “The truth is we should reverse the principle...and calculate the national profit from foreign trade in terms of the excess of imports over exports...But this theory, which is the correct one, leads directly to the principle of free trade...Assume, if it amuses you, that foreigners flood our shores with all kinds of useful goods, without asking anything from us; even if our imports are *infinite* and our exports *nothing*, I defy you to prove to me that we should be the poorer for it,” ([The Balance of Trade](http://www.econlib.org/library/Bastiat/basEss13.html\#Chapter 13l) 1848).
 
-]
-
----
-
-# Aside: Frederic Bastiat
-
-.left-column[
-.center[
-![:scale 80%](../images/bastiat.png)
-
-Frederic Bastiat
-
-1801-1850
-]
-]
-.right-column[
-.smallest[
-- A 19<sup>th</sup> Century French economist after the French Revolution
-
-- Member of French National Assembly (1848-1850)
-
-- Advocate and popularizer of Adam Smith in France
-
-- One of the greatest economic writers: wrote parables, satires, and essays to explain Classical economic principles and ridicule mercantilism
-  - “What is Seen and What is Not Seen” (“Parable of the Broken Window”)
-  - “A Negative Railroad”
-  - “The Balance of Trade”
-  - “The Candlemakers Petition”
-]
 ]
 
 ---
@@ -997,7 +1229,7 @@ Frederic Bastiat
 
 ---
 
-# Mercantilism: End the Artificial Restrictions I
+# End the Artificial Restrictions I
 
 .left-column[
 .center[
@@ -1019,7 +1251,7 @@ Adam Smith
 
 ---
 
-# Mercantilism: End the Artificial Restrictions II
+# End the Artificial Restrictions II
 
 .left-column[
 .center[
@@ -1197,4 +1429,349 @@ Adam Smith
 
 ]
 
+---
 
+class: inverse, center, middle
+
+# The Corn Laws
+
+---
+
+# The Corn Laws
+
+.pull-left[
+
+.smallest[
+- Britain, long an exporter of corn, with population growth was no longer self-sufficient, became a net *importer* of corn after 1790
+  - “Corn” = grains, wheat, barley, corn, etc.
+  
+- Corn prices (and land rents) rising rapidly
+]
+
+.quitesmall[
+| Period | Price per quarter ton |
+|--------|-------|
+| 1770-1779 | 45 shillings |
+| 1780-1789 | 45 shillings |
+| 1790-1799 | 55 shillings |
+| 1800-1809 | 82 shillings |
+| 1810-1813 | 106 shillings |
+
+]
+]
+
+.pull-right[
+.center[
+
+![:scale 80%](../images/wheat.jpeg)
+
+]
+]
+
+---
+
+# The Corn Laws
+
+.pull-left[
+
+- Britain at war with France in Napoleonic Wars (1803-1815)
+
+- Further disrupting imports of corn into Britain (and further raising corn prices)
+  - and artificially protecting British corn producers from cheaper foreign competition
+
+]
+
+.pull-right[
+.center[
+
+![:scale 80%](../images/trafalgar.png)
+
+]
+]
+
+---
+
+# The Corn Laws
+
+.pull-left[
+
+- Landlords, fearing the end of the war, petitioned Parliament to get legal protection from cheaper, imported Corn
+
+- .hi[The Corn Laws]: a series of tariffs and price floors by Parliament
+  - 1791: Floor at 50 shillings
+  - 1803: Floor at 63 shillings
+]
+
+.pull-right[
+.center[
+
+![:scale 75%](../images/cornlaws.png)
+
+]
+]
+
+---
+
+# The Corn Laws
+
+.pull-left[
+
+- Landlords argues high tariffs will keep grain prices low
+  - Encourages greater investment in British agriculture, increasing supply which would lower prices
+
+- Also argue that it corn prices allowed to fall, land would no longer be cultivated, leading to a greater shortage of corn than ever
+]
+
+.pull-right[
+.center[
+
+![:scale 75%](../images/cornlaws.png)
+
+]
+]
+
+---
+
+# Opposition to the Corn Laws
+
+.left-column[
+.center[
+![:scale 80%](../images/ricardo2.jpg)
+
+David Ricardo
+
+1772-1823
+]
+]
+
+.right-column[
+
+.quitesmall[
+> “If the interests of the landlord be of sufficient consequence, to determine us not to avail ourselves of all the benefits which would follow from importing corn at a cheap price, they should also influence us in rejecting all improvements in agriculture, and in the implements of husbandry; for it is as certain that corn is rendered cheap, rents are lowered, and the ability of the landlord to pay taxes, is for a time, at least, as much impaired by such improvements, as by the importation of corn. To be consistent then, let us by the same act arrest improvement, and prohibit importation.”
+
+]
+
+- 👆 satire!
+
+.source[Ricardo, David, 1815, *Essay on the Influence of a Low Price of Corn on the Profits of Stock*]
+
+]
+
+---
+
+# Ricardian Comparative Advantage
+
+.left-column[
+.center[
+![:scale 80%](../images/ricardo2.jpg)
+
+David Ricardo
+
+1772-1823
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “To produce the wine in Portugal, might require only the labour of 80 men for one year, and to produce the cloth in the
+same country, might require the labour of 90 men for the same time. It would therefore be advantageous for her to export wine in exchange for cloth. This exchange might even take place, notwithstanding that the commodity imported by Portugal could be produced there with less labour than in England. Though she could make the cloth with the labour of 90 men, she would import it from a country where it required the labour of 100 men to produce it, because it would be advantageous to her rather to employ her capital in the production of wine, for which she would obtain more cloth from England, than she could produce by diverting a portion of her capital from the cultivation of vines to the manufacture of cloth.”
+]
+]
+
+.source[Ricardo, David, 1817, [*Principles of Political Economy and Taxation*](https://www.econlib.org/library/Ricardo/ricP.html?chapter_num=7#book-reader)]
+
+---
+
+# Ricardian Comparative Advantage
+
+.left-column[
+.center[
+![:scale 80%](../images/ricardo2.jpg)
+
+David Ricardo
+
+1772-1823
+]
+]
+
+.right-column[
+
+.center[
+Maximum Possible Production
+]
+
+|    | Wine | Cloth |
+|----|-----:|--------:|
+| .blue[England] | 5 | 10 |
+| .red[Portugal] | 4 | 2 |
+
+.center[
+Opportunity Costs
+]
+
+|    | 1 Wine | 1 Cloth |
+|----|-----:|--------:|
+| .blue[England] | 2c | .b[0.5w] |
+| .red[Portugal] | .b[0.5c] | 2w |
+
+]
+
+---
+
+# Ricardian Comparative Advantage
+
+.left-column[
+.center[
+![:scale 80%](../images/ricardo2.jpg)
+
+David Ricardo
+
+1772-1823
+]
+]
+
+.right-column[
+.smallest[
+- Even in the presence of .hi[absolute advantage] (one country is more efficient at producing *all* goods), still better for them to specialize
+  - A high opportunity cost of producing everything
+
+- Pay others to perform a task, or purchase a good, and specialize in producing goods where you have the .hi-purple[lowest opportunity cost]
+
+- This is the principle of .hi[comparative advantage]
+
+- Ricardo called this the principle of “comparative cost”; Torrens calls it “comparative advantage” (and to be fair, Torrens wrote about it first)
+  - in favor of free trade (import cheaper corn!)
+  - preventing imports is like preventing superior production at home!
+]
+]
+
+---
+
+# The Corn Laws
+
+.pull-left[
+.smallest[
+- Another claim that high prices were caused by high rents
+  - Ricardo disgreed: believed rent was price-determined, not price-determining
+
+- Ricardo concerned about how high tariffs would affect economic distribution in society: clearly favors landlords at others’ expense
+  - Smith wasn’t clear enough on this
+
+- Clear how the Corn Laws controversy forced Ricardo to think about these issues and build his own theory...
+]
+]
+.pull-right[
+.center[
+
+![:scale 80%](../images/cornlaws.png)
+
+]
+]
+
+---
+
+# The Corn Laws Controversy...After Ricardo
+
+.pull-left[
+.smaller[
+- Corn Laws remained a huge political issue in England in 1830s-1840s
+
+- Industralization, rising population, but rising price of bread
+
+- Great Famine in Ireland 1845-1849
+
+- Radical liberals Richard Cobden & John Bright create the *Anti-Corn Law League* 1838
+  - large rallies, major riots in London
+  - Classical economists wrote vehemently against Corn Laws
+
+]
+]
+
+.pull-right[
+.center[
+A Meeting of the Anti-Corn Law League
+
+![:scale 80%](../images/anticornlawleague.png)
+
+]
+]
+
+---
+
+# The Corn Laws Controversy...After Ricardo
+
+.left-column[
+.center[
+![](../images/cobden.jpg)
+
+Richard Cobden
+
+1804-1865
+
+]
+
+]
+
+.right-column[
+
+.smallest[
+> "[Repealing the Corn laws would solve four problems.] First, it would guarantee the prosperity of the manufacturer by affording him outlets for his products. Second, it would relieve the Condition of England question by cheapening the price of food and ensuring more regular employment. Third, it would make English agriculture more efficient by stimulating demand for its products in urban and industrial areas. Fourth, it would introduce through mutually advantageous international trade a new era of international fellowship and peace. The only barrier to these four beneficent solutions was the ignorant self-interest of the landlords, the "bread-taxing oligarchy, unprincipled, unfeeling, rapacious and plundering."
+
+]
+]
+
+---
+
+# The Corn Laws Controversy...After Ricardo
+
+.left-column[
+.center[
+![:scale 80%](../images/peel2.jpg)
+
+Robert Peel
+
+1788-1850
+
+]
+
+]
+
+.right-column[
+
+- Tory Robert Peel becomes P.M. 1841-1846
+
+- Repeals the Corn Laws in 1846
+  - ruins his political career
+  - splits the Tory Party into the Whigs; radicals leave and become the Liberal Party
+
+- Price of corn plummets
+  - working classes can now afford food, more shift from farms to factories
+  - last vestiges of feudal privileges eroding
+]
+
+---
+
+# The Corn Laws Controversy...After Ricardo
+
+.left-column[
+.center[
+![:scale 100%](../images/meinfrontofpeel.jpg)
+
+]
+
+]
+
+.right-column[
+
+- Tory Robert Peel becomes P.M. 1841-1846
+
+- Repeals the Corn Laws in 1846
+  - ruins his political career
+  - splits the Tory Party into the Whigs; radicals leave and become the Liberal Party
+
+- Price of corn plummets
+  - working classes can now afford food, more shift from farms to factories
+  - last vestiges of feudal privileges eroding
+]
