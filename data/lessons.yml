@@ -88,12 +88,15 @@ lessons:
     slides: "2.3-slides"
     
   - title: "2.4 An Intellectual History of Trade II: Mercantilism"
+    reading: "2.4-reading"
+    class: "2.4-class"
+    slides: "2.4-slides"
+    
+  - title: "2.5 An Intellectual History of Trade III: Protectionist Arguments"
 
-  - title: "2.5 Industrial Policy and State-Led Development"
+  - title: "2.6 Industrial Policy and State-Led Development"
 
-  - title: "2.6 The Political Economy of Trade Policy I"
-
-  - title: "2.7 The Political Economy of Trade Policy II"
+  - title: "2.7 The Political Economy of Trade Policy"
   
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3 Due**'
 

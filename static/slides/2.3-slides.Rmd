@@ -996,7 +996,7 @@ class: inverse, center, middle
 
 .pull-left[
 .smallest[
-- Trade requires peace and stability of property rights
+- Trade requires peace & stable property rights
   - Merchants, particularly **foreign** merchants, are easy pickings for a corrupt ruler
 
 - After a ruler *promises* to protect trade, incentives arise for him/her to renege on promise! 
@@ -1004,13 +1004,13 @@ class: inverse, center, middle
 
 - Can trade exist with cours that are partial to **local** merchants over **foreign** merchants?
   - How can merchants be secure in their property and person?
-  - Must have been overcome!
+  - Must have solved this problem!
 ]
 ]
 
 .pull-right[
 .center[
-![:scale 70%](../images/charter.png)
+![:scale 100%](../images/cerseiripspaper.jpg)
 ]
 ]
 
@@ -1034,7 +1034,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![:scale 70%](../images/charter.png)
+![:scale 100%](../images/medievaltown2.jpg)
 ]
 ]
 
@@ -1055,7 +1055,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/o8pro6u6dlm4w80/guilds.jpg?raw=1)
+![:scale 80%](../images/guildcrests.jpg)
 ]
 
 ]
@@ -1090,7 +1090,7 @@ Most famous guild: Hanseatic League (German “Hansa”) of Northern Europe
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/o8pro6u6dlm4w80/guilds.jpg?raw=1)
+![](../images/medievaltradefairs2.jpg)
 ]
 
 ]
@@ -1119,7 +1119,7 @@ Most famous guild: Hanseatic League (German “Hansa”) of Northern Europe
 ]
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/o8pro6u6dlm4w80/guilds.jpg?raw=1)
+![](../images/medievaltown2.jpg)
 ]
 
 ]
@@ -1138,9 +1138,45 @@ Most famous guild: Hanseatic League (German “Hansa”) of Northern Europe
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/o8pro6u6dlm4w80/guilds.jpg?raw=1)
+![](../images/medievaltown2.jpg)
 ]
 
+]
+
+---
+
+# Reputation: A Repeated Prisoners' Dilemma
+
+.pull-left[
+- Long distance international trade took place in fairs, like the Champagne Fair
+
+- Transactions at fairs: transfer of goods in exchange for promissory note to be paid *at next fair*
+    - Ample room for dishonest merchants to trade
+
+- No established commercial law or State enforcement of contracts
+]
+
+.pull-right[
+.center[
+![](../images/medievaltradefairs2.jpg)
+]
+]
+
+---
+
+# Reputation: A Repeated Prisoners' Dilemma
+
+.pull-left[
+- What prevents a merchant from cheating?
+  - .hi-purple[Reputation] and threat of sanction by other merchants
+  
+.source[Milgrom, Paul R, Douglass C North, and Barry R Weingast, 1990, “The Role of Institutions in the Revival of Trade: The Law Merchant, Private Judges, and the Champagne Fairs,” *Economics and Politics* 2(1): 1-23]
+]
+
+.pull-right[
+.center[
+![:scale 80%](../images/merchant3.png)
+]
 ]
 
 ---
@@ -1183,6 +1219,78 @@ Most famous guild: Hanseatic League (German “Hansa”) of Northern Europe
 
 Each player will always Cooperate iff:
 $$\infty \text{-payoff stream of (C,C)} > \text{payoff of 1 (D,C)} + \infty \text{-payoff stream of (D,D)}$$
+
+---
+
+# Reputation: A Repeated Prisoners' Dilemma
+
+.pull-left[
+- If two specific merchants repeatedly interact, honesty can be sustained by trigger strategies
+  
+- Then why need a legal system? 
+  - Merchants require *information* about other merchants and their histories
+  - Role of third party
+
+.source[Milgrom, Paul R, Douglass C North, and Barry R Weingast, 1990, “The Role of Institutions in the Revival of Trade: The Law Merchant, Private Judges, and the Champagne Fairs,” *Economics and Politics* 2(1): 1-23]
+
+]
+
+.pull-right[
+.center[
+![](../images/medievaltradefairs2.jpg)
+]
+]
+
+---
+
+# Reputation: A Repeated Prisoners' Dilemma
+
+.pull-left[
+.quitesmall[
+- Milgrom, North, and Weingast (1990) model these interactions as a multi-stage repeated game (p.11)
+
+1. Traders may (at a cost $Q>0$) ask LM (publicly reports whether any trader has any unpaid judgments) about their current partner
+2. Two traders play a prisoners' dilemma (*Honest* or *Cheat*)
+3. If LM was asked before (in stage 1), either player may *Appeal* outcome to LM at a cost $C>0$
+4. If *Appealed*, LM awards damages $(J)$ to Plaintiff if he was Honest and his partner Cheated; otherwise nothing 
+5. Defendant chooses to *Pay* $J$ or *Not*
+6. Unpaid judgments recorded by LM
+]
+
+.center[
+![:scale 50%](../images/milgromPD.png)
+]
+.source[Milgrom, Paul R, Douglass C North, and Barry R Weingast, 1990, “The Role of Institutions in the Revival of Trade: The Law Merchant, Private Judges, and the Champagne Fairs,” *Economics and Politics* 2(1): 1-23]
+
+]
+
+.pull-right[
+.center[
+![:scale 80%](../images/merchant3.png)
+]
+]
+
+---
+
+# Reputation: A Repeated Prisoners' Dilemma
+
+.pull-left[
+.smaller[
+- Milgrom, North, and Weingast (1990) model these interactions as a multi-stage repeated game (p.11)
+
+- If costs of asking judge are not too high, and if players are sufficiently patient, can sustain honest trade
+  - Merchant courts have strong incentive to be quick and efficient (promotes commerce)
+  - State/local courts biased against foreigners, inefficient]
+
+.source[Milgrom, Paul R, Douglass C North, and Barry R Weingast, 1990, “The Role of Institutions in the Revival of Trade: The Law Merchant, Private Judges, and the Champagne Fairs,” *Economics and Politics* 2(1): 1-23]
+
+]
+
+.pull-right[
+.center[
+![:scale 80%](../images/merchant3.png)
+]
+]
 
 ---
 

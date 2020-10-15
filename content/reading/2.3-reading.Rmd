@@ -1,12 +1,49 @@
 ---
-title: "2.2 — Quotas and Non-Tariff Barriers — Readings"
+title: "2.3 — Intellectual History of Trade I: Feudalism — Readings"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 ---
 
-*Thursday, October 8, 2020*
+*Tuesday, October 13, 2020*
 
-# Recommended Readings:
+# Required Readings:
 
-- Chapter 8.5-8.6 in Feenstra & Taylor
+- [<i class="fas fa-file-pdf"></i> Benson, 1989, "The Spontaneous Evolution of Commercial Law"](/readings/Benson-1989.pdf)
+- [<i class="fas fa-file-pdf"></i> Greif, 2004, "Reputation and Coalitions in Medieval Trade: Evidence on the Maghribi Traders"](/readings/Greif-2004.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Xd_zkMEgkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Optional Readings (Primary Sources Mentioned):
+
+- [<i class="fas fa-file-pdf"></i> Milgrom, North, and Weingast, 1990, "The Role of Institutions in the Revival of Trade: The Law Merchant, Private Judges, and the Champagne Fairs"](/readings/Milgrom-North-Weingast-1990.pdf)
+- [<i class="fas fa-file-pdf"></i> Greif, Milgrom, and Weingast, 1994, "Coordination, Commitment, and Encorcement: The Case of the Merchant Guild"](/readings/Milgrom-North-Weingast-1990.pdf)
+- [<i class="fas fa-file-pdf"></i> Greif, 2000, "The Fundamental Problem of Exchange: A Research Agenda in Historical Institutional Analysis"](/readings/Greif-2000.pdf)
+
+# Questions To Help Your Reading
+
+- What are the credible commitment problems present in each situation described in the papers?
+- What specific institutions are created to address these problems? How do they fix them?
+- How do these institutions appear, change, and/or disappear over time? (There are economic reasons!)
+- Are cartels always economically harmful?
+- How are these same problems present today?
+- Were monopolies, guilds, and other mercantilist restrictions all as bad as we economists often say they are?
+
+# Discussion Board
+
+Starting this week, we will occasionally have a weekly discussion board open on Blackboard.^[Not every week. I will let you know when we have one open at the beginning of each week.] You will be expected to contribute to the discussion board at least twice by Sunday night. Your weekly contribution will be graded out of 5 points. At the end of the semester, I will apply the average of your weekly participation grades to apply (20%) towards your final course grade.
+
+I am interested in your thoughts, reactions, comments, and questions about any of the material (lectures and/or readings). You do not need to write more than a paragraph. Anything more than that, including continuing to reply to each others’ thoughts, questions, or comments, (which I strongly hope you do!) is solely based on your own interest and curiosity. I will jump in to answer questions the group is stuck on, give my two cents, and stir the pot as needed. I strontly hope we still keep a conversation going and can learn from each other, that was always my goal, not to lecture at you!
+
+Rubric:
+
+| Category | 3 Points | 2 Points | 1 Point | 0 points |
+|----------|----------|----------|---------|----------|
+| Quantity | More than 2 replies/started threads | 2 replies/started threads | 1 reply | 0 posts |
+| Quality | Extremely thought provoking, demonstrates clear grappling with readings, adds to conversation | Provides a well-reasoned reply, suggests familiarity with readings, keeps conversation going | A simple reply, may make no reference to readings or ideas, makes further conversation difficult | Minimal effort |
+
+
+Recall, these are out of 5 points. Notice it is possible to get above 5 points for a truly remarkable week of contributions, but I give these sparingly.
+
+At the end of the semester, I will drop your lowest participation score.
