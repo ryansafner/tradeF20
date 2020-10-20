@@ -1,0 +1,798 @@
+---
+title: "2.5 — More Protectionist Arguments"
+subtitle: "ECON 324 • International Trade • Fall 2020"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/tradeF20"><i class="fa fa-github fa-fw"></i>ryansafner/tradeF20</a><br> <a href="https://tradeF20.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>tradeF20.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    df_print: paged
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina=3,
+                      fig.align="center")
+library(tidyverse)
+library(ggrepel)
+library(mosaic)
+set.seed(256)
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+```
+
+class: inverse
+
+# Outline
+
+## [Torrens, Mill, and the Terms of Trade Argument](#3)
+
+## [Hamilton, List, and Economic Nationalism](#25)
+
+## [The Infant Industries Argument](#)
+---
+
+# Free Trade & Classical Economics
+
+.pull-left[
+.smallest[
+- With the classical economists demolishing mercantilist policy, the ideology of the 19<sup>th</sup> century favored free trade
+
+- However, free trade has rarely been good politics (we will see why soon)
+  - Many tariffs & restrictions remained
+
+- Mercantilism and protectionism have always been crude self-interest arguments at others’ expense
+
+- Needed more sophisticated protectionist arguments to rebut economic theory
+]
+]
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/f2m8g8vc38n058c/classical.png?raw=1)
+]
+
+]
+
+---
+
+# Free Trade & Classical Economics
+
+.pull-left[
+.smallest[
+- A number of 19<sup>th</sup> and 20<sup>th</sup> century writers emerged challenging classical economics on trade
+
+- Torrens/Mill and the “Terms of Trade” argument
+
+- A nationalist-protectionist tradition:
+  - Alexander Hamilton
+  - Friedrich List
+
+- .hi[Infant industries arguments] for *specific* protection
+  - Political variant: national security argument
+  - 20<sup>th</sup> century variant: increasing returns argument
+  - New twist: protection against international disease?
+]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/f2m8g8vc38n058c/classical.png?raw=1)
+]
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Torrens, Mill, and the Terms of Trade Argument
+
+---
+
+# Torrens-Mill and the Terms of Trade Argument
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+
+.smallest[
+- A Royal Marines officer, fought in Napoleonic Wars; became a member of Parliament and a colonial administrator
+  - helped found South Australia as a colony
+  - in favor of peaceful colonization as mutually beneficial, promote trade
+
+- Classical economist, wrote with Ricardo, founding member of London’s Political Economy club
+  - A fervent free-trader; argued for repeal of the Corn Laws
+  - Came up with the term “territorial division of labor”
+  - Arguably came up with principle of comparative advantage (3 years *before*, and *better than* Ricardo’s example)
+
+- But later in 1840s, started having second thoughts?
+]
+]
+
+---
+
+# Torrens-Mill and the Terms of Trade Argument
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+
+.smallest[
+- 1844 book *The Budget, on Commercial and Colonial Policy*
+
+- Two “heretical” arguments against unilateral free trade
+  - convinced it created disadvantages for Britain
+
+- Major cost of removing protectionism is the cost of transition from protection to free trade; requires a “cautious and skillful hand”
+
+]
+]
+
+---
+
+# Torrens-Mill and the Terms of Trade Argument
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+.smallest[
+1. The “terms of trade argument”
+  - Reducing tariffs can harm a country’s terms of trade
+
+2. In favor of the “principle of reciprocity” rather than unilateral free trade; what we now call .hi[strategic trade policy]
+  - Goal: “to adopt, with all foreign powers, the principle of reciprocity”
+  - Better to get countries to agree to reduce tariffs in unison
+  - A single country reducing tariffs can hurt its terms of trade
+  - thought that in the long run, this would lead to freer trade around the world
+  - thought (correctly), that the British Empire had the influence to successfully engage in strategic trade policy
+]
+]
+
+---
+
+# Torrens-Mill and the Terms of Trade Argument
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+
+> “[W]hen any particular country imposes import duties upon the productions of other countries, while those other countries continue to receive her products duty free, then such particular country draws to herself a larger proportion of the precious metals, maintains a higher range of general prices than her neighbours, and obtains, in exchange for the produce of a given quantity of her labour, the produce of a greater quantity of foreign labour.”
+
+.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
+]
+
+---
+
+# Torrens-Mill and the Terms of Trade Argument
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+
+.smallest[
+- Example, suppose Britain and Cuba trade, and Cuba imposes tariffs against imports from Britain
+
+> “[T]he ultimate incidence of the import duty imposed on British goods would be upon British producers. The wealth of Engaland would be decreased by the amount of the duty—the ewalth of Cuba would be increased by its amount.”
+
+- Under a gold standard, gold would flow out of Britain into Cuba
+
+- Torrens is more worried about the consequences of *this*, as he thinks it could lead to severe deflation, “national bankruptcy and revolution...the probable result.” 
+
+> “A rise in the value of money [deflation] is one of the greatest evils which can occur”
+
+]
+
+.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
+
+]
+
+---
+
+# Torrens: Strategic Trade Policy & Reciprocity
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+
+.smaller[
+> “First,—to adopt, with respect to all foreign powers, the principle of reciprocity.—Second,—To lower the import duties upon the goods produced in countries receiving British goods upon terms equally favourable.—Third,—To impose high or prohibitive duties upon goods, the produce of countries imposing high or prohibitive duties upon British goods.—Fourth,—To admit, duty free, all raw materials employed in the process of reproduction.”
+
+]
+
+.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
+
+]
+
+---
+
+# Torrens: Strategic Trade Policy & Reciprocity
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+
+> “[Reciprocity] would hold out to [foreign countries] a powerful inducement to act upon the principles of reciprocal freedom”
+
+> “The sound principle of commercial policy is, to oppose foreign tariffs by retaliatory duties, and to lower our import duties in favour of those countries which may consent to trade with us on our terms of reciprocity”.
+
+.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
+
+]
+
+---
+
+# Torrens: Strategic Trade Policy & Reciprocity
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+
+> “If there be, in the science of commercial legislation, any one maxim to which it is imperative upon a statesman to conform, it is - AVOID SUDDEN CHANGE. Human industry, like the human constitution, adapts itself to the circumstances in which it has long been placed.”
+
+]
+
+---
+
+# Torrens: A Cautious Free-Trader
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+.smallest[
+- Recognizes free trade benefits everyone, in general
+
+> “Unrestricted interchange of commodities between different countries, would increase the wealth of the world.”
+
+- But criticizes Parliament for letting Britain ruin its lead
+
+> “[We have] deprived the country of the advantages which our manufacturing superiority would otherwise have secured [and this has] lowered the prices of British goods in foreign markets.”
+
+]
+
+.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
+
+]
+
+---
+
+# Response by the Classicals
+
+.left-column[
+.center[
+![:scale 80%](../images/nassausenior.jpg)
+
+Nassau Senior
+
+1790-1864
+]
+]
+
+.right-column[
+
+> “Torrens assumes, first, that a country can exclude foreign commodities without diminishing the efficiency of its own labour...It is a great mistake to suppose that a country which rejects the territorial division of labour, suffers merely by the greater dearness of the commodities which it is forced to produce instead of importing them. It incurs a further, and in many instances greater, injury—in the general diminution of the efficiency of its own industry, occasioned by the misdirection of capital and the diminished division of labour.”
+
+.source[Senior, Nassau, 1843, *Free Trade and Retaliation*]
+]
+
+---
+
+# Response by the Classicals
+
+.left-column[
+.center[
+![:scale 80%](../images/nassausenior.jpg)
+
+Nassau Senior
+
+1790-1864
+]
+]
+
+.right-column[
+
+> “We believe [Torrens’ claim that using tariffs can positively affect the terms of trade] to be true; but we believe it to be one of those barren truths from which no practical inferences can be drawn...In short, when he seriously urges us to act as if his hypothesis represented the actual state of things, we utterly dissent from, and repudiate his doctrine.”
+
+.source[Senior, Nassau, 1843, *Free Trade and Retaliation*]
+]
+
+---
+
+# John Stuart Mill’s Qualified Defense of Torrens
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smallest[
+
+- Mill shares concerns that foreign tariffs on imports from Britain are “the real source of alarm”
+  - this harms British exports, and wages to British labor
+  - encourages Parliament to spread free trade ideas to rest of the world (to lower tariffs)
+  
+> “[I question] whether any country, by its own legislative policy, can engross to itself a larger share of the benefits of foreign commerce than would fall to it in the natural or spontaneous course of trade.”
+
+]
+
+.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
+]
+
+---
+
+# John Stuart Mill’s Qualified Defense of Torrens
+
+.pull-left[
+.smallest[
+- Mill reasons that it is possible, but it depends on the elasticity of foreign supply for our imports
+  - without using those words, as “price elasticity” has not been “discovered” yet
+
+- Perfectly elastic foreign demand $\implies$ no terms of trade effect
+
+- Non-perfectly elastic foreign demand $\implies$ a terms of trade effect
+
+- Recall our discussion of a large vs. a small country putting a tariff on imports!
+]
+]
+
+.pull-right[
+.center[
+![:scale 80%](2.1-slides_files/figure-html/unnamed-chunk-32-1.png)
+
+![:scale 80%](https://tradef20.classes.ryansafner.com/slides/2.1-slides_files/figure-html/unnamed-chunk-51-1.png)
+
+]
+]
+
+---
+
+# John Stuart Mill’s Qualified Defense of Torrens
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “[T]he determining circumstances are of a nature so perfectly ascertainable, that it must be almost impossible to decide with any certainty, evan after the tax has been imposed, whether we have been gainers by it or losers...even on the most selfish principles, therefore, the benefits of such a tax is always extermely precarious...A protecting duty can never be a cause of gain, but always and necessarily of loss, to the country imposing it.”
+
+]
+
+.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
+]
+
+---
+
+# John Stuart Mill’s Qualified Defense of Torrens
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smaller[
+
+> “[C]onsiderations of reciprocity...are of material importance when the repeal of duties...is discussed. A country cannot be expected to renounce the power of taxing foreigners, unless foreigners will in return practise towards itself the same forbearance. The only mode in which a country can save itself from being a loser by the duties imposed by other countries on its commodities, is to impose corresponding duties on theirs.”
+
+]
+
+.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
+]
+
+---
+
+# John Stuart Mill’s Qualified Defense of Torrens
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “It is evidently the common interest of all nations that each of them should abstain from every measure by which the aggregate wealth of the commercial world would be diminished, although of this smaller sum total [a country] might thereby be enabled to attract to itself a larger share.”
+
+> “As is not unusual with [Torrens, he] to us to overstate the immediate cicumstances of the country”
+]
+
+.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
+]
+
+---
+
+
+# The Torrens-Mill Theory
+
+.pull-left[
+
+- Developed two theories:
+
+1. Under certain circumstances, lowering a (pre-existing) tariff can deteriorate a country’s terms of trade
+2. A country lowering a tariff may suffer a net loss
+
+- The first is clear, the second is speculative
+  - would lowering a tariff lower TOT more than the gains from greater trade??
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/xvrtcn0zofmxh2h/seaport.png?raw=1)
+]
+]
+
+---
+
+# The Torrens-Mill Theory
+
+.left-column[
+.center[
+![:scale 80%](../images/Edgeworth.jpeg)
+
+.smallest[
+Francis Ysidro Edgeworth
+
+1845—1926
+]
+]
+]
+
+
+.right-column[
+
+> “Mill obscures the subject by taking the measure of the gain of trade the alteration in the rate of exchange between exports and imports rather than the truer measure of advantage which the principles of consumers’ and producers’ rent [surplus!] afford”
+
+.source[Edgeworth, Francis Y, 1894, “The Theory of International Values,” *Economic Journal* 4: 424-443]
+]
+
+---
+
+# The Torrens-Mill Theory
+
+
+.left-column[
+.center[
+![:scale 80%](../images/Edgeworth.jpeg)
+
+.smallest[
+Francis Ysidro Edgeworth
+
+1845—1926
+]
+]
+]
+
+.right-column[
+![:scale 80%](https://tradef20.classes.ryansafner.com/slides/2.1-slides_files/figure-html/unnamed-chunk-30-1.png)
+]
+
+---
+
+class: inverse, center, middle
+
+# Hamilton, List, and Economic Nationalism
+
+---
+
+# Alexander Hamilton
+
+.left-column[
+.center[
+![](../images/hamilton.jpg)
+
+.smallest[
+Alexander Hamilton
+
+1755—1804
+]
+]
+]
+
+.right-column[
+
+- 1790 *Report on Manufactures* as (1<sup>st</sup>) U.S. Treasury Secretary
+  - opens by arguing against Adam Smith
+  - asserts that the U.S. must become a nation of manufacturing
+  - U.S. must place protective tariffs on imported manufactures to stimulate domestic manufacturing — .hi-purple[import substitution]
+
+]
+
+---
+
+# Alexander Hamilton
+
+.left-column[
+.center[
+![](../images/hamilton.jpg)
+
+.smallest[
+Alexander Hamilton
+
+1755—1804
+]
+]
+]
+
+.right-column[
+
+- 1790 *Report on Public Credit*
+  - U.S. should assume all State debts from American Revolution as National debt
+  - U.S. should adopt a National Bank
+  - Tariffs on imported goods and alcohol to fund the government
+
+]
+
+---
+# Alexander Hamilton
+
+.left-column[
+.center[
+![](../images/hamilton.jpg)
+
+.smallest[
+Alexander Hamilton
+
+1755—1804
+]
+]
+]
+
+.right-column[
+.smallest[
+> “[New American industries are prevented by] the strong influence of habit and the spirit of imitation — the fear of want of success in untried enterprises — the intrinsic difficulties incident to first essays toward a competition with those who have previously attained to perfection in the business to be attempted — the bounties, permiums, and other artificial encouragements, with which foreign nations second the exertions of their own citizens in the branches, in which they are to be rivaled...[Overcoming these obstacles] may therefore require the incitement and patronage of government.”
+
+]
+
+.source[Hamilton, Alexander, 1790, *Report on Manufactures*]
+
+]
+
+---
+
+# Thomas Jefferson
+
+.left-column[
+.center[
+![](../images/jefferson1.jpg)
+
+.smallest[
+Thomas Jefferson
+
+1743—1826
+]
+]
+]
+
+.right-column[
+
+- Classical liberal, Smithean free trader
+
+- Skeptical of large State power or activist interventions
+
+- Envisioned U.S. as an agricultural, self-governing society
+
+]
+
+---
+
+# Hamiltonian America
+
+.left-column[
+.center[
+![](../images/tariff1789.jpg)
+
+.smallest[
+The Tariff of 1789
+]
+]
+]
+
+.right-column[
+
+- In the end, America became Hamiltonian
+
+- First Act of Congress was the Tariff of 1789:
+
+> “Whereas it is necessary for that support of government, for the discharge of the debts of the United States, and the encouragement and protection of manufactures, that duties be laid on goods, wares and merchandise”
+
+]
+
+---
+
+# Hamilton vs. Jefferson
+
+.center[
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/notJuFGXQ9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Jefferson (Stephen Dillane) and Hamilton (Rufus Sewell) in HBO’s *John Adams*
+]
+
+---
+
+# Hamilton vs. Jefferson
+
+.center[
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mhsxd3NUat0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Jefferson (Daveed Diggs, left) and Hamilton (Lin-Manuel Miranda, right) from *Hamilton*, "Cabinet Battle #1"
+]
+
+---
+
+# Hamilton vs. Jefferson
+
+.center[
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KLFWzCucV7I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+“The Room Where it Happens”
+]
+
+---
+
+# “The American System”
+
+.left-column[
+.center[
+![](../images/henryclay.png)
+
+.smallest[
+Henry Clay
+
+1777—1852
+]
+]
+]
+.right-column[
+
+- .hi[“The American System”] of political economy
+  1. High tariff to protect New England manufacturing from European imports
+  2. National bank
+  3. Federal subsidies for “internal improvements” to settle the West
+    - canals, roads, railroads
+  
+- Strong opposition to British lassiez-faire political economy
+]
+
+---
+
+# “The American System”
+
+.center[
+![:scale 75%](../images/ustariffhistory.jpg)
+]
+
+---
+
+# “The American System”
+
+.center[
+![:scale 50%](../images/americansystem1.png)
+]
+
+---
+
+# “The American System”
+
+.center[
+![:scale 80%](../images/americansystem2.png)
+]

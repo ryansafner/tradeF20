@@ -777,7 +777,7 @@ Acemoglu, Daron and James A Robinson, (2012), *Why Nations Fail: The Origins of 
 
 .pull-right[
 
-- .shout[Extractive colonies]: focused on exploiting indigenous population to extract resources to export to mother country
+- .hi[Extractive colonies]: focused on exploiting indigenous population to extract resources to export to mother country
 
 - Examples: Latin America, West Indies, sub-Saharan Africa, India
 ]
@@ -833,7 +833,7 @@ Potosi silver mines in (modern day) Bolivia
 ]
 
 .pull-right[
-- .shout[Inclusive colonies]: focused on creating mini "Neo-Europes"
+- .hi[Inclusive colonies]: focused on creating mini "Neo-Europes"
 
 - Less indigenous population to coerce into labor, had to sustain themselves from European settlers
 
@@ -915,18 +915,19 @@ class: inverse, center, middle
 # Classical Economics Emerges in Opposition
 
 .pull-left[
-- .shout[Classical Economics] (1770s-1870) emerges through *joint opposition to mercantilism*
+.smallest[
+- .hi[Classical Economics] (1770s-1870) emerges through *joint opposition to mercantilism*
   - Half of Smith's *Wealth of Nations* (1776) is about why mercantilism is stupid
 
-- Wealth $\neq$ money, but a nation's ability to consume (by production and trade)
+- Wealth $\neq$ money, but a nation’s ability to consume (by production and trade)
 
-- Monopolies and tariffs benefit a small group of domestic producers at the expense of everyone else
+- Monopolies & tariffs benefit a small group of domestic producers at expense of everyone else
 
-- Colonies and empire are expensive and often immoral
+- Colonies/empire are expensive, often immoral
 
-- .shout[(Classical) Liberalism]: focus on individual liberty, autonomy, democracy, free trade, pluralism; opposition to slavery, monopoly, and intolerance
+- .hi[(Classical) Liberalism]: individual liberty, autonomy, democracy, free trade, equality, & pluralism; opposition to slavery, monopoly, & intolerance
 ]
-
+]
 .pull-right[
 .center[
 ![](https://www.dropbox.com/s/f2m8g8vc38n058c/classical.png?raw=1)
@@ -935,6 +936,47 @@ class: inverse, center, middle
 
 ---
 
+# Mercantilism: Objectives
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+> “The great object of the mercantile system is to diminish as much as possible the importation of foreign goods for home consumption, and to increase as much as possible thee exportation of the produce of domestic industry. Its two great engines for enriching the country, therefore, were restraints upon importation, and encouragements to exportation,”
+
+]
+
+.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*, (Book IV, Chapter 1: Of the Principle of the Mercantile System)]
+
+---
+
+# Mercantilism: Has a Cost
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+> “No regulation of commerce can increase the quantity of industry in any society beyond what its capital can maintain. It can only divert a part of it into a direction into which it might not otherwise have gone; and it is by no means certain that this artificial direction is likely to be more advantageous to the society than that into which it would have gone of its own accord,”
+
+]
+
+.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*, (Book IV, Chapter 1: Of the Principle of the Mercantile System)]
+
+---
 # Mercantilism: Wrong on the Source of Wealth
 
 .left-column[
@@ -1431,6 +1473,205 @@ Adam Smith
 
 ---
 
+# Adam Smith on Free Trade
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+> “If a foreign country can supply us with a commodity cheaper than we ourselves can make it, better buy it of them with some part of the produce of our own industry, employed in a way in which we have some advantage...It is certainly not employed to the greatest advantage, when it is thus directed towards an object which it can buy cheaper than it can make...The industry of the country, therefore, is thus turned away from a more, to a less advantageous employment, and the exchangeable value of its annual produce...must necessarily be diminished by ever regulation”
+
+]
+
+.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*, (Book IV, Chapter 1: Of the Principle of the Mercantile System)]
+
+---
+
+# Adam Smith on Free Trade
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+> “Between whatever places foreign trade is carreid on, they all of them derive two distinct benefits from it. [Trade allows them to] satisfy a part of their wants, and increase their enjoyments. [Second], by opening a more extensive market for whatever part of the produce of their labour may exceed home consumption, it encourages them to improve its productive powers, and to augment its annual produce to the utmost, and thereby to increase the real revenue and wealth of society.”
+
+]
+
+.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*, (Book IV, Chapter 1: Of the Principle of the Mercantile System)]
+
+---
+
+# Adam Smith: Two Exceptions to Free Trade
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+.smallest[
+- Smith gave two exceptions for when we should not have free trade:
+
+> “The first is when some particular sort of industry is necessary for the defense of the country...Defense...is of much more importance than opulence”
+
+- The second is when domestic goods are subject to taxes not levied on imported goods; imposing equivalent tariffs equalize the tax base
+
+> “[Such a tariff] would leave the competition between foreign and domestic industry, after the tax, as nearly as possible upon the same footing as before it.”
+
+]
+]
+
+.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*, (Book IV, Chapter 1: Of the Principle of the Mercantile System)]
+
+---
+
+# Adam Smith: Strategic Trade Policy
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+.quitesmall[
+
+> “[I]t may sometimes be a matter of deliberation [how to remove tariffs] when some foreign nation restrains by high duties or prohibitions the importation of some of our manufactures into their country. Revenge in this case naturally dictates retaliation, and that we should impose the like duties and prohibitions upon the importation of some or all of their manufactures into our country...nations accordingly seldom fail to retaliate in this manner.”
+
+> “There may be a good policy in retaliations of this kind...The recovery of a great foreign market will generatlly more than compensate the transitory inconveniency of paying dearer during a short time for some sorts of goods. To judge whether such retaliations are likely to produce such an effect...[belongs] to the skill of that insidious and crafty animal, vulgarly called the statesman or politician, whose councils are directed by the momentary fluctuations of affairs.”
+
+]
+
+.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*, (Book IV, Chapter 2]
+]
+
+---
+
+# James Mill on Free Trade
+
+.left-column[
+.center[
+![:scale 80%](../images/jamesmill.jpg)
+
+James Mill
+
+1773-1836
+]
+]
+.right-column[
+
+.quitesmall[
+
+> “The commerce of one country with another, is in fact merely an extension of that division of labour by which so many benefits are conferred upon the human race. As the same country is rendered the richer by the trade of one province with another; as its labour becomes thus infinitely more divided, and more productive than it otherwise have been; and as the mutual supply to each other of all the accommodations which one province has and another wamts, multiplies the accommodations of the whole, and the country becomes thus in a wonderful degree more opulent and happy; the same beautiful train of consequences is observable in the world at large...The labour of the human race thus becomes much more productive, and every species of accommodation is afforded in much greater abundance”
+
+]
+
+.source[Mill, James, 1808, *Commerce Defended*]
+]
+
+---
+
+# James Mill: Imports are Benefits, Exports are Costs
+
+.left-column[
+.center[
+![:scale 80%](../images/jamesmill.jpg)
+
+James Mill
+
+1773-1836
+]
+]
+.right-column[
+
+.quitesmall[
+
+> “If we import, we must pay for what we import, with the produce of a portion of our labour exported. But why not employ that labour in raising the same portion at home? The answer is, because it will procure more [goods] by going in the shape of commodities to purchase [goods] abroad, than if it had been employed in raising it at home...A law, therefore, to prevent the importation of [goods], can have only one effect,—to make a greater portion of the labour of the community necessary for the production of its [goods].”
+
+> “The benefit which is derived from exchanging one commodity for another, arises, in all cases, from the commodity *received*, not from the commodity given...[A country] gains nothing in parting with its commodities.” (1821, *Outline of Political Economy*)
+
+]
+
+.source[Mill, James, 1814, *Corn Laws*]
+]
+
+---
+
+# John Stuart Mill: The Cosmopolitanism of Free Trade
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “[T]he economical benefits of commerce are surpassed in importance by those of its effects which are intellectual and moral. IT is hardly possible to overrate the value, for the improvement of human beings, of things which bring them into contact with persons dissimilar to themselves, and with modes of thought and action unlike those with which they are familiar...it is indispensable to be perpetually comparing [one’s] own notions and customs with the experience and example of persons in different circumstances...there is no nation which does not need to borrow from others” 
+
+]
+
+.source[Mill, John Stuart, 1825, *The Corn Laws*]
+]
+
+---
+
+# John Stuart Mill: The Costs of Protectionism
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “[Domestic protection would] render the labour and capital of the country less efficient in production than they would otherwise be; and compel a waste...All is sheer loss, to the country as well as to the consumer.”
+
+> “The alternative is not between employing our own country-people and foreigners, but between employing one class and another of our own country-people [because] the imported commodity is always paid for, directly or indirectly, with the produce of our own industry.”
+
+]
+
+.source[Mill, John Stuart, 1825, *The Corn Laws*]
+]
+
+---
+
 class: inverse, center, middle
 
 # The Corn Laws
@@ -1532,6 +1773,33 @@ class: inverse, center, middle
 
 ---
 
+# Thomas Malthus: In Favor of the Corn Laws
+
+.left-column[
+.center[
+![:scale 80%](../images/malthus.jpg)
+
+Thomas Robert Malthus
+
+1766-1834
+]
+]
+
+.right-column[
+
+- Famous for his “population principle” and debates with David Ricardo
+
+- Only Classical Economist to defend the Corn Laws, on two grounds:
+  1. “National security”: Britain should not depend on other countries for her food supply; in bad times, they will feed themselves and not export to Britain
+  2. A sudden fall in Corn prices would destabilize the British economy
+
+.source[Malthus, Thomas, 1814, *Observations on the Effects of the Corn Laws*
+
+1815, *The Grounds of an Opinion on the Policy of Restricting the Importation of Foreign Corn*]
+]
+
+---
+
 # Opposition to the Corn Laws
 
 .left-column[
@@ -1559,6 +1827,53 @@ David Ricardo
 
 ---
 
+# Comparative Advantage
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+.smallest[
+> “Let us suppose, that there are, in England, unreclaimed districts, from which corn might be raised at as small an expense of labour and capital, as from the fertile plains of Poland. This being the case, and all other things the same, the person who should cultivate our unreclaimed districts, could afford to sell his produce at as cheap a rate as the cultivator of Poland; and it seems natural to conclude, that if industry were left to take its most profitable direction, capital would be employed in raising corn at home, rather than bringing it in from Poland at an equal prime cost, and at much greater expense of carriage.”
+
+]
+
+.source[Torrens, Robert, 1815, *Essay on the External Corn Trade*]
+]
+
+---
+
+# Comparative Advantage
+
+.left-column[
+.center[
+![:scale 80%](../images/torrens.png)
+
+Col. Robert Torrens
+
+1780—1864
+]
+]
+
+.right-column[
+.smallest[
+
+> “But this conclusion, however obvious and natural it may, at first sight, appear, might, on closer examination, be found entirely erroneous. If England should have acquired such a degree of skills in manufacturews, that, with any given portion of her capital, she could prepare a quantity of cloth, for which the Polish cultivator would give a greater quantity of corn, than she [England] could, with the same portion of capital, raise from her own soil, then, tracts of her territory, though they should be equal, nay, even though they should be superior, to the lands in Poland, will be neglected; and a part of her supply of corn will be imported from that country.”
+
+]
+
+.source[Torrens, Robert, 1815, *Essay on the External Corn Trade*]
+]
+
+---
+
 # Ricardian Comparative Advantage
 
 .left-column[
@@ -1576,7 +1891,7 @@ David Ricardo
 .smallest[
 
 > “To produce the wine in Portugal, might require only the labour of 80 men for one year, and to produce the cloth in the
-same country, might require the labour of 90 men for the same time. It would therefore be advantageous for her to export wine in exchange for cloth. This exchange might even take place, notwithstanding that the commodity imported by Portugal could be produced there with less labour than in England. Though she could make the cloth with the labour of 90 men, she would import it from a country where it required the labour of 100 men to produce it, because it would be advantageous to her rather to employ her capital in the production of wine, for which she would obtain more cloth from England, than she could produce by diverting a portion of her capital from the cultivation of vines to the manufacture of cloth.”
+ ame country, might require the labour of 90 men for the same time. It would therefore be advantageous for her to export wine in exchange for cloth. This exchange might even take place, notwithstanding that the commodity imported by Portugal could be produced there with less labour than in England. Though she could make the cloth with the labour of 90 men, she would import it from a country where it required the labour of 100 men to produce it, because it would be advantageous to her rather to employ her capital in the production of wine, for which she would obtain more cloth from England, than she could produce by diverting a portion of her capital from the cultivation of vines to the manufacture of cloth.”
 ]
 ]
 
@@ -1649,6 +1964,30 @@ David Ricardo
 
 ---
 
+# James Mill on Comparative Advantage
+
+.left-column[
+.center[
+![:scale 80%](../images/jamesmill.jpg)
+
+James Mill
+
+1773-1836
+]
+]
+.right-column[
+
+.smallest[
+
+> “When a country can either import a commodity or produce it at home, it compares the cost of producing at home with the cost of procuring from abroad; if the latter cost is less than the first, it imports. The cost at which a country can import from abroad depends, not upon the cost at which the foreign country produces the commodity, but upon what the commodity costs which it sends in exchange, compared with the cost which it must be to produce the commodity in question, if it did not import it.”
+
+]
+
+.source[Mill, James, 1821, *Elements of Political Economy*]
+]
+
+---
+
 # The Corn Laws
 
 .pull-left[
@@ -1672,7 +2011,59 @@ David Ricardo
 
 ---
 
-# The Corn Laws Controversy...After Ricardo
+# John Stuart Mill: The Costs of Protectionism
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “[I]f there were nothing in the whole process but a transfer; if whatever is lost by the consumer and by the capitalist were gains by the landlord; there might be robbery, but there would not be waste, there might be a worse distribution of the national wealth, but there would be no positive diminution of this aggregate wealth.”
+
+> “[But the Corn Laws] occasion in all cases an absolute loss, greatly exceeding the gain which can be derived from them by the receivers of rent; and for every pound which finds its way in the pockets of the landlords...the community is robbed of several.”
+
+]
+
+.source[Mill, John Stuart, 1825, *The Corn Laws*]
+]
+
+---
+
+# John Stuart Mill: The Costs of Protectionism
+
+.left-column[
+.center[
+![:scale 80%](../images/jsmill.jpg)
+
+John Stuart Mill
+
+1806-1873
+]
+]
+
+.right-column[
+
+.smallest[
+
+> “It would be better, however, to have a repeal of the Corn Laws, even clogged by a compensation [to landlords], than to not [repeal] at all; and if [reapeal with compensation to landlords] were our only alternative, no one could complain of a chance, by which, though an enormous amount of evil would be prevented, no one would lose.”
+
+]
+
+.source[Mill, John Stuart, 1825, *The Corn Laws*]
+]
+
+---
+
+# The Corn Laws Controversy...into the 1840s
 
 .pull-left[
 .smaller[
@@ -1700,7 +2091,7 @@ A Meeting of the Anti-Corn Law League
 
 ---
 
-# The Corn Laws Controversy...After Ricardo
+# The Corn Laws Controversy...into the 1840s
 
 .left-column[
 .center[
@@ -1724,7 +2115,7 @@ Richard Cobden
 
 ---
 
-# The Corn Laws Controversy...After Ricardo
+# The Corn Laws Controversy...into the 1840s
 
 .left-column[
 .center[
@@ -1753,7 +2144,7 @@ Robert Peel
 
 ---
 
-# The Corn Laws Controversy...After Ricardo
+# The Corn Laws Controversy...into the 1840s
 
 .left-column[
 .center[

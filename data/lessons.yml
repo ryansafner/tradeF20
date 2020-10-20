@@ -92,8 +92,11 @@ lessons:
     class: "2.4-class"
     slides: "2.4-slides"
     
-  - title: "2.5 An Intellectual History of Trade III: Protectionist Arguments"
-
+  - title: "2.5 An Intellectual History of Trade III: Better Protectionist Arguments"
+    reading: "2.5-reading"
+    class: "2.5-class"
+    slides: "2.5-slides"
+    
   - title: "2.6 Industrial Policy and State-Led Development"
 
   - title: "2.7 The Political Economy of Trade Policy"
