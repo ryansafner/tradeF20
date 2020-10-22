@@ -1,0 +1,27 @@
+---
+title: "2.5 — An Intellectual History of Trade III: Better Protectionist Arguments — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Tuesday, October 20, 2020* and *Thursday, October 22, 2020*
+
+# Required Readings:
+
+- [<i class="fas fa-external-link-square-alt"></i> Nye, 2003, "The Myth of Free Trade Britain"](https://www.econlib.org/library/Columns/y2003/Nyefreetrade.html)
+- [<i class="fas fa-podcast"></i> *Econtalk*: Nye on Wine, War and Trade"](https://www.econtalk.org/nye-on-wine-war-and-trade/)
+- [<i class="fas fa-file-pdf"></i> Lind, 2003, "Free Trade Fallacy"](/readings/Lind-2003.pdf)
+
+# Optional Readings
+
+Much of my intellectual history serires of lectures comes from Chapters 5-9 of Douglas Irwin’s^[One of the best economic historians on trade.] excellent book:
+
+- [<i class="fas fa-book"></i> Irwin, 1996, *Against the Tide: An Intellectual History of Free Trade*](https://www.amazon.com/Against-Tide-Intellectual-History-Trade/dp/0691058962)
+
+# Questions To Help Your Reading
+
+- What were the available means for governments to raise revenues over the last few centuries? How and why did they choose certain policies? (Nye and Irwin papers)
+- What is the "American system" described by Lind? How was it supposed to work? 
+- According to Nye, how were England and France different in their approach to mercantilism? Hint: what were the differences in their internal vs. external markets. 
+- Also interesting in Nye (more the podcast than the paper), why is/was alcohol such an important good? 
