@@ -97,7 +97,10 @@ lessons:
     class: "2.5-class"
     slides: "2.5-slides"
     
-  - title: "2.6 An Intellectual History of Trade IV: 20th Century Industrial Policy"
+  - title: "2.6 An Intellectual History of Trade IV: Increasing Returns & Industrial Policy"
+    reading: "2.6-reading"
+    class: "2.6-class"
+    slides: "2.6-slides"
 
   - title: "2.7 The Political Economy of Trade Policy"
   
@@ -118,6 +121,7 @@ lessons:
   
   - title: "3.5 Trade and Disease"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Country Profile Presentations**'
+  - title: '<i class="fas fa-laptop-code"></i> **Country Profile Presentations November 19**'
+    assignment: "country-profile"
 
   - title: '<i class="fas fa-laptop-code"></i> **Final Exam**'

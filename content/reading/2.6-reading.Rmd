@@ -1,0 +1,34 @@
+---
+title: "2.6 — An Intellectual History of Trade IV: Increasing Returns & Industrial Policy — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Tuesday, October 27, 2020*
+
+# Required Readings:
+
+- [<i class="fas fa-file-pdf"></i> Powell, 2004, "State Development Planning: Did it Create an East Asian Miracle?"](/readings/Powell-2004.pdf) (at least up to section 2.1)
+- [<i class="fas fa-file-pdf"></i> Stiglitz, 2014, "Creating a Learning Society"](/readings/Stiglitz-2014.pdf) (at least up to section 2.1)
+- [<i class="fas fa-file-pdf"></i> Gangotena and Safner, 2020, "The Production of Increasing Returns: Physical Technology, Institutional Technology, and the Pitfalls of Production Functions"](/readings/Gangotena-Safner-2020.pdf) (at least up to section 2.1)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/etkd57lPfPU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+John Oliver’s *Last Week Tonight* covers the trade policies (in 2018) of the current administration, the brainchild of economist [Peter Navarro](https://en.wikipedia.org/wiki/Peter_Navarro).
+
+# Optional Readings
+
+- [<i class="fas fa-file-pdf"></i> Krugman, 1993, "What Do Undergrads Need to Know About Trade?"](/readings/Krugman-1993.pdf)
+
+Much of my intellectual history series of lectures comes from Chapters 5-9 of Douglas Irwin’s^[One of the best economic historians on trade.] excellent book:
+
+- [<i class="fas fa-book"></i> Irwin, 1996, *Against the Tide: An Intellectual History of Free Trade*](https://www.amazon.com/Against-Tide-Intellectual-History-Trade/dp/0691058962)
+
+# Questions To Help Your Reading
+
+- What is the role of the State in promoting development?
+- How do we identify which industries might be worth protecting via industrial policy?
+- What are the supposed successes of industrial policy (e.g. Singapore, Korea, Japan, Hong Kong) and how/why were they succesful?
+- What are the politics of the infant industry argument?
+- What should our trade policy be, and what should we tell other poor countries to do, if they want rapid growth? 

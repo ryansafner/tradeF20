@@ -37,762 +37,1498 @@ library(ggrepel)
 library(mosaic)
 set.seed(256)
 update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+theme_slides<-ggthemes::theme_pander(base_family="Fira Sans Condensed", base_size = 14)
 ```
 
 class: inverse
 
 # Outline
 
-## [Torrens, Mill, and the Terms of Trade Argument](#3)
+## [Graham & The Increasing Returns Argument](#3)
 
-## [Hamilton, List, and Economic Nationalism](#25)
+## [Responses to Graham](#25)
 
-## [The Infant Industries Argument](#)
----
+## [External Economies Again](#)
 
-# Free Trade & Classical Economics
+## [Endogenous Growth & The Economics of Ideas](#)
 
-.pull-left[
-.smallest[
-- With the classical economists demolishing mercantilist policy, the ideology of the 19<sup>th</sup> century favored free trade
+## [Evidence for Industrial Policy Success?](#)
 
-- However, free trade has rarely been good politics (we will see why soon)
-  - Many tariffs & restrictions remained
-
-- Mercantilism and protectionism have always been crude self-interest arguments at others’ expense
-
-- Needed more sophisticated protectionist arguments to rebut economic theory
-]
-]
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/f2m8g8vc38n058c/classical.png?raw=1)
-]
-
-]
-
----
-
-# Free Trade & Classical Economics
-
-.pull-left[
-.smallest[
-- A number of 19<sup>th</sup> and 20<sup>th</sup> century writers emerged challenging classical economics on trade
-
-- Torrens/Mill and the “Terms of Trade” argument
-
-- A nationalist-protectionist tradition:
-  - Alexander Hamilton
-  - Friedrich List
-
-- .hi[Infant industries arguments] for *specific* protection
-  - Political variant: national security argument
-  - 20<sup>th</sup> century variant: increasing returns argument
-  - New twist: protection against international disease?
-]
-]
-
-.pull-right[
-.center[
-![](https://www.dropbox.com/s/f2m8g8vc38n058c/classical.png?raw=1)
-]
-
-]
+## [Modern Protectionism](#)
 
 ---
 
 class: inverse, center, middle
 
-# Torrens, Mill, and the Terms of Trade Argument
+# Graham & The Increasing Returns Argument
 
 ---
 
-# Torrens-Mill and the Terms of Trade Argument
+# Graham: Increasing Returns Argument
 
 .left-column[
 .center[
-![:scale 80%](../images/torrens.png)
+![:scale 80%](../images/frankgraham.jpg)
 
-Col. Robert Torrens
+Frank D. Graham
 
-1780—1864
+1890—1949
 ]
 ]
 
 .right-column[
 
-.smallest[
-- A Royal Marines officer, fought in Napoleonic Wars; became a member of Parliament and a colonial administrator
-  - helped found South Australia as a colony
-  - in favor of peaceful colonization as mutually beneficial, promote trade
+- Princeton economist that argued comparative advantage is not an “infallable principle” for commercial policy
 
-- Classical economist, wrote with Ricardo, founding member of London’s Political Economy club
-  - A fervent free-trader; argued for repeal of the Corn Laws
-  - Came up with the term “territorial division of labor”
-  - Arguably came up with principle of comparative advantage (3 years *before*, and *better than* Ricardo’s example)
+- Argued that some industries might warrant *permanent* protection
+  - recall infant industries argument is just about *temporary* protection
 
-- But later in 1840s, started having second thoughts?
-]
+- Main argument hinges on .hi[increasing returns to scale] (decreasing cost industry)
+
+.source[Graham, Frank D, 1923, “Some Aspects of Protection Further Considered,” *The Quarterly Journal of Economics*, 199–227.]
 ]
 
 ---
 
-# Torrens-Mill and the Terms of Trade Argument
+# Graham: Increasing Returns Argument
 
 .left-column[
 .center[
-![:scale 80%](../images/torrens.png)
+![:scale 80%](../images/frankgraham.jpg)
 
-Col. Robert Torrens
+Frank D. Graham
 
-1780—1864
-]
-]
-
-.right-column[
-
-.smallest[
-- 1844 book *The Budget, on Commercial and Colonial Policy*
-
-- Two “heretical” arguments against unilateral free trade
-  - convinced it created disadvantages for Britain
-
-- Major cost of removing protectionism is the cost of transition from protection to free trade; requires a “cautious and skillful hand”
-
-]
-]
-
----
-
-# Torrens-Mill and the Terms of Trade Argument
-
-.left-column[
-.center[
-![:scale 80%](../images/torrens.png)
-
-Col. Robert Torrens
-
-1780—1864
-]
-]
-
-.right-column[
-.smallest[
-1. The “terms of trade argument”
-  - Reducing tariffs can harm a country’s terms of trade
-
-2. In favor of the “principle of reciprocity” rather than unilateral free trade; what we now call .hi[strategic trade policy]
-  - Goal: “to adopt, with all foreign powers, the principle of reciprocity”
-  - Better to get countries to agree to reduce tariffs in unison
-  - A single country reducing tariffs can hurt its terms of trade
-  - thought that in the long run, this would lead to freer trade around the world
-  - thought (correctly), that the British Empire had the influence to successfully engage in strategic trade policy
-]
-]
-
----
-
-# Torrens-Mill and the Terms of Trade Argument
-
-.left-column[
-.center[
-![:scale 80%](../images/torrens.png)
-
-Col. Robert Torrens
-
-1780—1864
-]
-]
-
-.right-column[
-
-> “[W]hen any particular country imposes import duties upon the productions of other countries, while those other countries continue to receive her products duty free, then such particular country draws to herself a larger proportion of the precious metals, maintains a higher range of general prices than her neighbours, and obtains, in exchange for the produce of a given quantity of her labour, the produce of a greater quantity of foreign labour.”
-
-.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
-]
-
----
-
-# Torrens-Mill and the Terms of Trade Argument
-
-.left-column[
-.center[
-![:scale 80%](../images/torrens.png)
-
-Col. Robert Torrens
-
-1780—1864
-]
-]
-
-.right-column[
-
-.smallest[
-- Example, suppose Britain and Cuba trade, and Cuba imposes tariffs against imports from Britain
-
-> “[T]he ultimate incidence of the import duty imposed on British goods would be upon British producers. The wealth of Engaland would be decreased by the amount of the duty—the ewalth of Cuba would be increased by its amount.”
-
-- Under a gold standard, gold would flow out of Britain into Cuba
-
-- Torrens is more worried about the consequences of *this*, as he thinks it could lead to severe deflation, “national bankruptcy and revolution...the probable result.” 
-
-> “A rise in the value of money [deflation] is one of the greatest evils which can occur”
-
-]
-
-.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
-
-]
-
----
-
-# Torrens: Strategic Trade Policy & Reciprocity
-
-.left-column[
-.center[
-![:scale 80%](../images/torrens.png)
-
-Col. Robert Torrens
-
-1780—1864
+1890—1949
 ]
 ]
 
 .right-column[
 
 .smaller[
-> “First,—to adopt, with respect to all foreign powers, the principle of reciprocity.—Second,—To lower the import duties upon the goods produced in countries receiving British goods upon terms equally favourable.—Third,—To impose high or prohibitive duties upon goods, the produce of countries imposing high or prohibitive duties upon British goods.—Fourth,—To admit, duty free, all raw materials employed in the process of reproduction.”
+- If manufacturing has increasing returns to scale:
+
+> “protection to manufactures may advantageously be continued much longer than would seem adequate to cover the infant stage, whether or not the industry could maintain itself without such aid,” (p.200).
+
+> “[I]t may be to a country’s economic advantage to protect an industry which could not grow up or survive without protection and which never will be able to survive without it, an industry which has no comparative advantage when the protective duty is first levied nor ever attains one under it,” (pp.202-203).
 
 ]
 
-.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
-
+.source[Graham, Frank D, 1923, “Some Aspects of Protection Further Considered,” *The Quarterly Journal of Economics*, 199–227.]
 ]
 
 ---
 
-# Torrens: Strategic Trade Policy & Reciprocity
+# Graham: Increasing Returns Argument
 
 .left-column[
 .center[
-![:scale 80%](../images/torrens.png)
+![:scale 80%](../images/frankgraham.jpg)
 
-Col. Robert Torrens
+Frank D. Graham
 
-1780—1864
+1890—1949
 ]
 ]
 
 .right-column[
 
-> “[Reciprocity] would hold out to [foreign countries] a powerful inducement to act upon the principles of reciprocal freedom”
+- Graham’s numerical example (essentially):
 
-> “The sound principle of commercial policy is, to oppose foreign tariffs by retaliatory duties, and to lower our import duties in favour of those countries which may consent to trade with us on our terms of reciprocity”.
-
-.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
-
-]
-
----
-
-# Torrens: Strategic Trade Policy & Reciprocity
-
-.left-column[
-.center[
-![:scale 80%](../images/torrens.png)
-
-Col. Robert Torrens
-
-1780—1864
-]
-]
-
-.right-column[
-
-> “If there be, in the science of commercial legislation, any one maxim to which it is imperative upon a statesman to conform, it is - AVOID SUDDEN CHANGE. Human industry, like the human constitution, adapts itself to the circumstances in which it has long been placed.”
-
-]
-
----
-
-# Torrens: A Cautious Free-Trader
-
-.left-column[
-.center[
-![:scale 80%](../images/torrens.png)
-
-Col. Robert Torrens
-
-1780—1864
-]
-]
-
-.right-column[
-.smallest[
-- Recognizes free trade benefits everyone, in general
-
-> “Unrestricted interchange of commodities between different countries, would increase the wealth of the world.”
-
-- But criticizes Parliament for letting Britain ruin its lead
-
-> “[We have] deprived the country of the advantages which our manufacturing superiority would otherwise have secured [and this has] lowered the prices of British goods in foreign markets.”
-
-]
-
-.source[Torrens, Robert, 1844, *The Budget, on Commercial and Colonial Policy*]
-
-]
-
----
-
-# Response by the Classicals
-
-.left-column[
-.center[
-![:scale 80%](../images/nassausenior.jpg)
-
-Nassau Senior
-
-1790-1864
-]
-]
-
-.right-column[
-
-> “Torrens assumes, first, that a country can exclude foreign commodities without diminishing the efficiency of its own labour...It is a great mistake to suppose that a country which rejects the territorial division of labour, suffers merely by the greater dearness of the commodities which it is forced to produce instead of importing them. It incurs a further, and in many instances greater, injury—in the general diminution of the efficiency of its own industry, occasioned by the misdirection of capital and the diminished division of labour.”
-
-.source[Senior, Nassau, 1843, *Free Trade and Retaliation*]
-]
-
----
-
-# Response by the Classicals
-
-.left-column[
-.center[
-![:scale 80%](../images/nassausenior.jpg)
-
-Nassau Senior
-
-1790-1864
-]
-]
-
-.right-column[
-
-> “We believe [Torrens’ claim that using tariffs can positively affect the terms of trade] to be true; but we believe it to be one of those barren truths from which no practical inferences can be drawn...In short, when he seriously urges us to act as if his hypothesis represented the actual state of things, we utterly dissent from, and repudiate his doctrine.”
-
-.source[Senior, Nassau, 1843, *Free Trade and Retaliation*]
-]
-
----
-
-# John Stuart Mill’s Qualified Defense of Torrens
-
-.left-column[
-.center[
-![:scale 80%](../images/jsmill.jpg)
-
-John Stuart Mill
-
-1806-1873
-]
-]
-
-.right-column[
-
-.smallest[
-
-- Mill shares concerns that foreign tariffs on imports from Britain are “the real source of alarm”
-  - this harms British exports, and wages to British labor
-  - encourages Parliament to spread free trade ideas to rest of the world (to lower tariffs)
+- Suppose two countries have two industries:
+  - agriculture (diminishing returns)
+  - manufacturing (increasing returns)
   
-> “[I question] whether any country, by its own legislative policy, can engross to itself a larger share of the benefits of foreign commerce than would fall to it in the natural or spontaneous course of trade.”
+- Suppose labor is the main input in each industry
 
-]
 
-.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
-]
-
----
-
-# John Stuart Mill’s Qualified Defense of Torrens
-
-.pull-left[
-.smallest[
-- Mill reasons that it is possible, but it depends on the elasticity of foreign supply for our imports
-  - without using those words, as “price elasticity” has not been “discovered” yet
-
-- Perfectly elastic foreign demand $\implies$ no terms of trade effect
-
-- Non-perfectly elastic foreign demand $\implies$ a terms of trade effect
-
-- Recall our discussion of a large vs. a small country putting a tariff on imports!
-]
-]
-
-.pull-right[
-.center[
-![:scale 80%](2.1-slides_files/figure-html/unnamed-chunk-32-1.png)
-
-![:scale 80%](https://tradef20.classes.ryansafner.com/slides/2.1-slides_files/figure-html/unnamed-chunk-51-1.png)
-
-]
+.source[Graham, Frank D, 1923, “Some Aspects of Protection Further Considered,” *The Quarterly Journal of Economics*, 199–227.]
 ]
 
 ---
 
-# John Stuart Mill’s Qualified Defense of Torrens
-
-.left-column[
-.center[
-![:scale 80%](../images/jsmill.jpg)
-
-John Stuart Mill
-
-1806-1873
-]
-]
-
-.right-column[
-
-.smallest[
-
-> “[T]he determining circumstances are of a nature so perfectly ascertainable, that it must be almost impossible to decide with any certainty, evan after the tax has been imposed, whether we have been gainers by it or losers...even on the most selfish principles, therefore, the benefits of such a tax is always extermely precarious...A protecting duty can never be a cause of gain, but always and necessarily of loss, to the country imposing it.”
-
-]
-
-.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
-]
-
----
-
-# John Stuart Mill’s Qualified Defense of Torrens
-
-.left-column[
-.center[
-![:scale 80%](../images/jsmill.jpg)
-
-John Stuart Mill
-
-1806-1873
-]
-]
-
-.right-column[
-
-.smaller[
-
-> “[C]onsiderations of reciprocity...are of material importance when the repeal of duties...is discussed. A country cannot be expected to renounce the power of taxing foreigners, unless foreigners will in return practise towards itself the same forbearance. The only mode in which a country can save itself from being a loser by the duties imposed by other countries on its commodities, is to impose corresponding duties on theirs.”
-
-]
-
-.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
-]
-
----
-
-# John Stuart Mill’s Qualified Defense of Torrens
-
-.left-column[
-.center[
-![:scale 80%](../images/jsmill.jpg)
-
-John Stuart Mill
-
-1806-1873
-]
-]
-
-.right-column[
-
-.smallest[
-
-> “It is evidently the common interest of all nations that each of them should abstain from every measure by which the aggregate wealth of the commercial world would be diminished, although of this smaller sum total [a country] might thereby be enabled to attract to itself a larger share.”
-
-> “As is not unusual with [Torrens, he] to us to overstate the immediate cicumstances of the country”
-]
-
-.source[Mill, John Stuart, 1844, “Of the Laws of Interchange between Nations and the Distribution of the Gains of Commerce among the Countries of the Commercial World” in *Essays on Some Unsettled Questions of Political Economy*]
-]
-
----
-
-
-# The Torrens-Mill Theory
+# Graham: Increasing Returns Argument
 
 .pull-left[
 
-- Developed two theories:
+- Country A specializes in agriculture
 
-1. Under certain circumstances, lowering a (pre-existing) tariff can deteriorate a country’s terms of trade
-2. A country lowering a tariff may suffer a net loss
+- More labor allocated to agriculture, lowers $MP_L$ in agriculture
 
-- The first is clear, the second is speculative
-  - would lowering a tariff lower TOT more than the gains from greater trade??
+- Less labor allocated to manufacturing, *also* lowers $MP_L$ in manufacturing
+
+- Consumers in $A$ can consume *less* agriculture and *less* manufacturing goods
+
 ]
 
 .pull-right[
-.center[
-![](https://www.dropbox.com/s/xvrtcn0zofmxh2h/seaport.png?raw=1)
-]
+
+```{r}
+prod_1=function(x){2*sqrt(x)}
+
+a_tp<-ggplot(data.frame(x=c(0,6)), aes(x=x))+
+  stat_function(fun=prod_1, geom="line", size=2, color="red")+
+  geom_label(aes(x=5,y=prod_1(5)), color = "red", label="TP", size = 6)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_colour_manual("I.C. equations", values = colors)+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output (q)",
+       title = "Agriculture")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+mp=function(x){1/sqrt(x)}
+
+a_mp<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mp, geom="line", size=2, color="blue")+
+  geom_label(aes(x=1,y=mp(1)), color = "blue", label=expression(MP[l]), size = 4)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_colour_manual("I.C. equations", values = colors)+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output per Worker (q/l)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+prod_2=function(x){0.5*x^3}
+
+m_tp<-ggplot(data.frame(x=c(0,6)), aes(x=x))+
+  stat_function(fun=prod_2, geom="line", size=2, color="red")+
+  geom_label(aes(x=2,y=prod_2(2)), color = "red", label="TP", size = 6)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output (q)",
+       title = "Manufacturing")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+mp_2=function(x){x^2}
+
+m_mp<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mp_2, geom="line", size=2, color="blue")+
+  geom_label(aes(x=1,y=mp(1)), color = "blue", label=expression(MP[l]), size = 4)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output per Worker (q/l)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+
+library(patchwork)
+
+(a_tp+m_tp)/(a_mp+m_mp)
+```
+
 ]
 
 ---
 
-# The Torrens-Mill Theory
+# Graham: Increasing Returns Argument
 
-.left-column[
-.center[
-![:scale 80%](../images/Edgeworth.jpeg)
+.pull-left[
 
-.smallest[
-Francis Ysidro Edgeworth
+- Country B specializes in manufacturing
 
-1845—1926
+- Less labor allocated to agriculture, *raises* $MP_L$ in agriculture
+
+- More labor allocated to manufacturing, *also raises* $MP_L$ in manufacturing
+
+- Consumers in $B$ can consume *more* agriculture and *more* manufacturing goods
+
 ]
-]
-]
+
+.pull-right[
+
+```{r}
+prod_1=function(x){2*sqrt(x)}
+
+a_tp<-ggplot(data.frame(x=c(0,6)), aes(x=x))+
+  stat_function(fun=prod_1, geom="line", size=2, color="red")+
+  geom_label(aes(x=5,y=prod_1(5)), color = "red", label="TP", size = 6)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_colour_manual("I.C. equations", values = colors)+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output (q)",
+       title = "Agriculture")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+mp=function(x){1/sqrt(x)}
+
+a_mp<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mp, geom="line", size=2, color="blue")+
+  geom_label(aes(x=1,y=mp(1)), color = "blue", label=expression(MP[l]), size = 4)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_colour_manual("I.C. equations", values = colors)+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output per Worker (q/l)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+prod_2=function(x){0.5*x^3}
+
+m_tp<-ggplot(data.frame(x=c(0,6)), aes(x=x))+
+  stat_function(fun=prod_2, geom="line", size=2, color="red")+
+  geom_label(aes(x=2,y=prod_2(2)), color = "red", label="TP", size = 6)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output (q)",
+       title = "Manufacturing")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+
+mp_2=function(x){x^2}
+
+m_mp<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mp_2, geom="line", size=2, color="blue")+
+  geom_label(aes(x=1,y=mp(1)), color = "blue", label=expression(MP[l]), size = 4)+
+    scale_x_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,6,1),
+                     limits=c(0,6),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(color = F)+
+  labs(x = "Input (l)",
+       y = "Output per Worker (q/l)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
 
 
-.right-column[
+library(patchwork)
 
-> “Mill obscures the subject by taking the measure of the gain of trade the alteration in the rate of exchange between exports and imports rather than the truer measure of advantage which the principles of consumers’ and producers’ rent [surplus!] afford”
+(a_tp+m_tp)/(a_mp+m_mp)
+```
 
-.source[Edgeworth, Francis Y, 1894, “The Theory of International Values,” *Economic Journal* 4: 424-443]
 ]
 
 ---
 
-# The Torrens-Mill Theory
-
+# Graham: Increasing Returns Argument
 
 .left-column[
 .center[
-![:scale 80%](../images/Edgeworth.jpeg)
+![:scale 80%](../images/frankgraham.jpg)
 
-.smallest[
-Francis Ysidro Edgeworth
+Frank D. Graham
 
-1845—1926
-]
+1890—1949
 ]
 ]
 
 .right-column[
-![:scale 80%](https://tradef20.classes.ryansafner.com/slides/2.1-slides_files/figure-html/unnamed-chunk-30-1.png)
+.smallest[
+- The more the countries specialize and trade:
+  - the more *both* goods become *more expensive* for the country specializing in the diminishing returns industry (agriculture)
+  - and the *both* goods become *cheaper* for the country specializing in the increasing returns industry (manufacturing)
+
+> “The final result of the specialization is to bring about a situation in which the citizens of the [country specializing in agriculture] get less reward for their efforts than if they had never carried on international trade at all,” (p.207).
+
+]
+.source[Graham, Frank D, 1923, “Some Aspects of Protection Further Considered,” *The Quarterly Journal of Economics*, 199–227.]
+]
+
+---
+
+# Graham: Increasing Returns Argument
+
+.left-column[
+.center[
+![:scale 80%](../images/frankgraham.jpg)
+
+Frank D. Graham
+
+1890—1949
+]
+]
+
+.right-column[
+
+> “The conclusion that [the] country under the conditions assumed [specializing in agriculture] must lose by free trade is inevitable...[instead it requires] advantageous permanent protection [since the country is better off in autarky, or with less trade, it is] economically benefitted by protection and may do well to keep it indefinitely,” (p.208).
+
+.source[Graham, Frank D, 1923, “Some Aspects of Protection Further Considered,” *The Quarterly Journal of Economics*, 199–227.]
+]
+
+---
+
+# Graham: Increasing Returns Argument
+
+.left-column[
+.center[
+![:scale 80%](../images/frankgraham.jpg)
+
+Frank D. Graham
+
+1890—1949
+]
+]
+
+.right-column[
+
+> “It may well be disadvantageous for a nation to concentrate in production of commodities of increasing cost despite a comparative advantage in those lines; it will the more probably be disadvantageous to do so if the world demand for goods produced at decreasing cost is growing in volume more rapidly than that for goods produced at increasing cost,” (p.210).
+
+.source[Graham, Frank D, 1923, “Some Aspects of Protection Further Considered,” *The Quarterly Journal of Economics*, 199–227.]
+]
+
+---
+
+# Graham: Terms of Trade?
+
+.left-column[
+.center[
+![:scale 80%](../images/frankgraham.jpg)
+
+Frank D. Graham
+
+1890—1949
+]
+]
+
+.right-column[
+
+- But wouldn’t the country specializing in agriculture obtain more favorable terms of trade??
+  - More manufacturing available (imported) for fewer agriculture (exports)
+
+> “There is no reason for supposing that this would happen,” (p.210).
+
+- No explanation given 🤷
+
+.source[Graham, Frank D, 1923, “Some Aspects of Protection Further Considered,” *The Quarterly Journal of Economics*, 199–227.]
 ]
 
 ---
 
 class: inverse, center, middle
 
-# Hamilton, List, and Economic Nationalism
+# Response to Graham
 
 ---
 
-# Alexander Hamilton
+# Knight’s Response
 
 .left-column[
 .center[
-![](../images/hamilton.jpg)
+![:scale 80%](https://www.dropbox.com/s/0odct9z45lzonyb/frankknight.png?raw=1)
 
 .smallest[
-Alexander Hamilton
+Frank H. Knight
 
-1755—1804
+1885-1972
 ]
 ]
 ]
 
 .right-column[
 
-- 1790 *Report on Manufactures* as (1<sup>st</sup>) U.S. Treasury Secretary
-  - opens by arguing against Adam Smith
-  - asserts that the U.S. must become a nation of manufacturing
-  - U.S. must place protective tariffs on imported manufactures to stimulate domestic manufacturing — .hi-purple[import substitution]
+.smallest[
+- Counter against Graham’s “ingenious” but “fallacious” argument
 
+- Took major issue with a footnote in Graham:
+
+> “The reasoning in the text simply assumes that a decreasing [average] cost is obtained by an expansion of the production of [manufacturing]; whether the cause of it be external or internal economies is immaterial to the theory, though it would, of course, affect the degree of its applicability,” (p.204n).
+
+- It turns out it makes all the difference whether we are talking about internal economies of scale or external economies of scale!
+]
 ]
 
 ---
 
-# Alexander Hamilton
+# Knight’s Response
 
 .left-column[
 .center[
-![](../images/hamilton.jpg)
+![:scale 80%](https://www.dropbox.com/s/0odct9z45lzonyb/frankknight.png?raw=1)
 
 .smallest[
-Alexander Hamilton
+Frank H. Knight
 
-1755—1804
+1885-1972
 ]
 ]
 ]
 
 .right-column[
 
-- 1790 *Report on Public Credit*
-  - U.S. should assume all State debts from American Revolution as National debt
-  - U.S. should adopt a National Bank
-  - Tariffs on imported goods and alcohol to fund the government
+.smallest[
+- Knight: increasing returns *internal* to the firm are not compatible with competition
+  - if a single firm has significant economies of scale, it would serve the entire industry and become a monopoly!
+
+> “If competition is effective, the size of the production unit will tend to grow until *either* no further economies are obtainable, *or* there is only one establishment left and the idnustry is a monopoly...When all establishments have been brought to the efficient size, variation in total output is a matter of changing their *number*, in which no technical economies are involved...an increase in the output of a commodity must increase its cost of production unless the industry is, or becomes, a monopoly,” (p.597)
 
 ]
 
+.source[Knight, Frank H, 1924, “Some Fallacies in the Interpretation of Social Cost,” *The Quarterly Journal of Economics* 38 (4): 582–606.]
+]
+
 ---
-# Alexander Hamilton
+
+# Knight’s Response
 
 .left-column[
 .center[
-![](../images/hamilton.jpg)
+![:scale 80%](https://www.dropbox.com/s/0odct9z45lzonyb/frankknight.png?raw=1)
 
 .smallest[
-Alexander Hamilton
+Frank H. Knight
 
-1755—1804
+1885-1972
+]
+]
+]
+
+.right-column[
+
+> “The rejoinder to [this] argument is the doctrine of ‘external economies’ [but] this surely rests upon a misconception. External economies in one [firm] are internal economies in some other, within the industry. Any branch or stage in the creation of a product which offers continuously a chance for [internal] economies [of scale] with increase in the scale of operations must eventuate either in monopoly or in leaving the tendency behind and establishing the normal relation of increasing cost with increasing size,” (p.597)
+
+.source[Knight, Frank H, 1924, “Some Fallacies in the Interpretation of Social Cost,” *The Quarterly Journal of Economics* 38 (4): 582–606.]
+]
+
+---
+
+# Knight’s Response
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/0odct9z45lzonyb/frankknight.png?raw=1)
+
+.smallest[
+Frank H. Knight
+
+1885-1972
 ]
 ]
 ]
 
 .right-column[
 .smallest[
-> “[New American industries are prevented by] the strong influence of habit and the spirit of imitation — the fear of want of success in untried enterprises — the intrinsic difficulties incident to first essays toward a competition with those who have previously attained to perfection in the business to be attempted — the bounties, permiums, and other artificial encouragements, with which foreign nations second the exertions of their own citizens in the branches, in which they are to be rivaled...[Overcoming these obstacles] may therefore require the incitement and patronage of government.”
+> “What Professor Graham has to do to establish his theoretica lposition is to show that...industry really operates under decreasing cost, *without tending toward monopoly*...if one can make his assumptions in regard to decreasing cost, his conclusion is correct. [However] to vindicate decreasing costs in the sense required, it must be shown that there are, or may be, industries, in a condition of stable competition, in which no producer already engaged could decrease his real costs by expandind his output at the expense of other producers, and yet in which real costs would be decreased all around by new producers entering the industry in competition with those already there.” (p.331)
+
+]
+.source[Knight, Frank H, 1925, “On Decreasing and Comparative Costs: A Rejoinder,” *The Quarterly Journal of Economics* 39: 331-333.]
+]
+
+---
+
+# Knight’s Response
+
+.left-column[
+.center[
+![:scale 80%](https://www.dropbox.com/s/0odct9z45lzonyb/frankknight.png?raw=1)
+
+.smallest[
+Frank H. Knight
+
+1885-1972
+]
+]
+]
+
+.right-column[
+
+.smallest[
+- New entrants would bid factors of production away from established firms, raise their price, or use lesser quality 
+
+> “These inevitable sources of increasing cost must be more than offset by some kind of purely ‘external’ economies in organization. In spite of the weight of authority which may be cited for such economies [i.e. Marshall], I have never succeeded in picturing in them in my mind, or finding any convincing reason to believe they exist; and the hypothetical examples cited by Professor Graham...has not assisted me in doing so. I cannot believe such conditions general enough to justify a special law in economic theory, or a special provision in tariff legislation,” (p.331).
+
+]
+.source[Knight, Frank H, 1925, “On Decreasing and Comparative Costs: A Rejoinder,” *The Quarterly Journal of Economics* 39: 331-333.]
+]
+
+---
+
+# Viner on Technological vs. Pecuniary Externalities
+
+.left-column[
+.center[
+![:scale 80%](../images/viner.png)
+.smallest[
+Jacob Viner
+
+1892-1970
+]]
+]
+
+.right-column[
+
+.smaller[
+> “These extraordinary results are the consequence, and wholly the consequence, of value-theory reasoning, implicit or explicit in Graham's argument, which is either unambiguously erroneous or is of very limited practical significance,” (p.478).
+
+- Implications of trade policies depend on whether external economies depend on *domestic* output or *world* output (to lower all firms’ costs)
+  - If world output, would not matter much if domestic firms reduced their output (other foreign firms would expand), domestic firms would still get the benefit of external economies (from foreign firms)
 
 ]
 
-.source[Hamilton, Alexander, 1790, *Report on Manufactures*]
+.source[Viner, Jacob, 1937, *Studies in The Theory of International Trade*]
 
 ]
 
 ---
 
-# Thomas Jefferson
+# Viner on Technological vs. Pecuniary Externalities
 
 .left-column[
 .center[
-![](../images/jefferson1.jpg)
+![:scale 80%](../images/viner.png)
+.smallest[
+Jacob Viner
+
+1892-1970
+]]
+]
+
+.right-column[
+
+- Also depends on whether external economies are:
+  - .hi-purple[technical economies]: interdependence between each firm’s *production function* and output of whole industry (as whole industry $\uparrow Q$, each individual firm $i$’s $\downarrow C(q_i))$
+  - .hi-purple[pecuniary economies]: interdependence between each firm’s *profits* depend on activities of other (upstream or downstream) firms in the industry
+
+> “[If the external economies are pecuniary] then they are not real national economies and nothing is lost to the country when they disappear,” (p.480).
+
+.source[Viner, Jacob, 1937, *Studies in The Theory of International Trade*]
+
+
+]
+
+---
+
+# Viner on Technological vs. Pecuniary Externalities
+
+.left-column[
+.center[
+![:scale 80%](../images/viner.png)
+.smallest[
+Jacob Viner
+
+1892-1970
+]]
+]
+
+.right-column[
 
 .smallest[
+> “A concievable case for protection on the basis of the existence of external economies in an industry which from the individual producer’s point of view is at a comparative disadvantage in costs can be made out, therefore, only where these external economies are (a) dependent on the size of the national and not the world industry and (b) are technological rather than pecuniary, or if pecuniary, are not at the expense of domestic sellers or services or materials to the industry. The scope for application of the argument is extremely limited, especially as it seems difficult even to suggest plausible hypothetical cases of the existence of genuine technological external economies...[Graham’s increasing returns argument for protectionism is] little more than a theoretical curiosity” (pp.480-481).
+
+]
+
+.source[Viner, Jacob, 1937, *Studies in The Theory of International Trade*]
+]
+
+---
+
+# Recall: Internal vs. External Economies of Scale
+
+.pull-left[
+.smaller[
+- Economies of scale come in two flavors:
+
+- .hi-purple[*Internal* economies]: firm-level features that improve a **firm's** productivity, often leading to market power for that firm 
+  - e.g. firm produces more and lowers its average costs
+
+- .hi-purple[*External* economies]: industry-wide features that spill over to the productivity **all** firms in the industry
+  - e.g. more firms producing more lowers **all firms'** average costs
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/factoryrobots.jpg)
+]
+]
+
+---
+
+# Recall: Internal vs. External Economies of Scale
+
+.left-column[
+.center[
+![:scale 80%](../images/marshall.png)
+.smallest[
+Alfred Marshall
+
+1842-1924
+]]
+]
+
+.right-column[
+.smallest[
+
+- Internal economies of scale:
+
+> “...are dependent on the resources of individual houses of business engaged in [the industry], on their organization and the efficiency of their management,” (p.220).
+
+- External economies of scale:
+
+> “...are dependent on the general development of the industry [some of which] depend on the aggregate volume of production of the kind in the neighborhood while others again, especially those connected with the growth of knowledge and the progress of the arts, depend chiefly on the aggregate volume of production in the whole civilized world,” (p.220).
+
+]
+.source[Marshall, Alfred, 1890, *Principles of Economics*]
+
+]
+
+---
+
+# Recall: Internal vs. External Economies of Scale
+
+.left-column[
+.center[
+![:scale 80%](../images/marshall.png)
+.smallest[
+Alfred Marshall
+
+1842-1924
+]]
+]
+
+.right-column[
+
+- What are some common sources of *external* economies?
+  - knowledge spillovers between firms
+  - subsidiary supplier industries
+  - local pools of skilled labor
+
+> “The most important of these result from the growth of correlated branches of industry which mutually assist one another, perhaps being concentrated in the same localities, but anyhow availing themselves of the modern facilities for communication offered by steam transport, by the telegraph and by the printing press,” (p.264).
+
+.source[Marshall, Alfred, 1890, *Principles of Economics*]
+
+]
+
+---
+
+# Summing Up
+
+.pull-left[
+- It must be proven that there are genuine **external** and **technological** economies of scale in order for it to make sense to abandon free trade & protect a domestic industry with increasing returns
+
+- A search for *sources* of increasing returns
+  - Ideas
+  - knowledge spillovers
+  - “learning by doing”
+]
+
+.pull-right[
+.center[
+![](../images/mind.png)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Endogeneous Growth & The Economics of Ideas
+
+---
+
+# The Economic *Problem* with Ideas I
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/32yfwsk7g4sfvvr/privatesign.png?raw=1)
+]
+
+]
+
+--
+
+.pull-right[
+
+```{r, results="asis"}
+library(kableExtra)
+
+publicgoods<-tribble(
+  ~"", ~Rivalrous, ~Nonrival,
+  "Excludable", "PRIVATE GOODS", "COMMON RESOURCES",
+  "Excludable", "(Houses, Jeans)", "(Fisheries, Environment)",
+  "Nonexcludable", "CLUB GOODS", "PUBLIC GOODS",
+  "Nonexcludable", "(Wifi, Cable TV)", "(Asteroid Defense)"
+)
+
+kable(publicgoods, format="html") %>%
+  kable_styling(full_width=F) %>%
+  #add_header_above(c(" " = 1, "Column" = 2)) %>%
+  column_spec(c(1,1), bold=T) %>%
+  collapse_rows(columns = 1, latex_hline = "major", valign = "middle")
+```
+]
+
+---
+
+# The Economic *Problem* with Ideas II
+
+
+.left-column[
+
+.center[
+![:scale 75%](https://www.dropbox.com/s/wyifyyvs8xbyijc/jefferson1.jpg?raw=1)
+
 Thomas Jefferson
 
-1743—1826
-]
+(1743-1826)
 ]
 ]
 
 .right-column[
-
-- Classical liberal, Smithean free trader
-
-- Skeptical of large State power or activist interventions
-
-- Envisioned U.S. as an agricultural, self-governing society
-
-]
-
----
-
-# Hamiltonian America
-
-.left-column[
-.center[
-![](../images/tariff1789.jpg)
 
 .smallest[
-The Tariff of 1789
-]
-]
-]
-
-.right-column[
-
-- In the end, America became Hamiltonian
-
-- First Act of Congress was the Tariff of 1789:
-
-> “Whereas it is necessary for that support of government, for the discharge of the debts of the United States, and the encouragement and protection of manufactures, that duties be laid on goods, wares and merchandise”
+> "He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me. That ideas should freely spread from one to another over the globe, for the moral and mutual instruction of man, and improvement of his condition, seems to have been peculiarly and benevolently designed by nature, when she made them, like fire, expansible over all space, without lessening their density in any point, and like the air in which we breathe, move, and have our physical being, incapable of confinement or exclusive appropriation."
 
 ]
+]
+
+.source[Jefferson, Thomas, 13 Aug 1813, "Letter to Isaac MacPherson," ]
+
 
 ---
 
-# Hamilton vs. Jefferson
+# The Economic *Problem* with Ideas II
 
-.center[
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/notJuFGXQ9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Jefferson (Stephen Dillane) and Hamilton (Rufus Sewell) in HBO’s *John Adams*
-]
-
----
-
-# Hamilton vs. Jefferson
-
-.center[
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mhsxd3NUat0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Jefferson (Daveed Diggs, left) and Hamilton (Lin-Manuel Miranda, right) from *Hamilton*, "Cabinet Battle #1"
-]
-
----
-
-# Hamilton vs. Jefferson
-
-.center[
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KLFWzCucV7I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-“The Room Where it Happens”
-]
-
----
-
-# “The American System”
 
 .left-column[
+
 .center[
-![](../images/henryclay.png)
+![:scale 75%](https://www.dropbox.com/s/8xrpsdf2mj2z4fj/macaulay.png?raw=1)
 
-.smallest[
-Henry Clay
+Thomas Macaulay
 
-1777—1852
+(1800-1859)
 ]
 ]
-]
+
 .right-column[
 
-- .hi[“The American System”] of political economy
-  1. High tariff to protect New England manufacturing from European imports
-  2. National bank
-  3. Federal subsidies for “internal improvements” to settle the West
-    - canals, roads, railroads
+.smallest[
+
+> "It is then on men whose profession is literature, and whose private means are not ample, that you must rely for a supply of valuable books. Such men must be remunerated for their literary labour...It is desirable that we should have a supply of good books; we cannot have such a supply unless men of letters are liberally remunerated, and the least objectionable way of remunerating them is by means of copyright...The system of copyright has great advantages, and great disadvantages...Copyright is monopoly, and produces all the effects which the general voice of mankind attributes to monopoly...Monopoly is an evil...For the sake of the good we must submit to the evil; but the evil ought not to last a day longer than is necessary for the purpose of securing the good..."
+
+]
+\
+.source[Macaulay, Thomas, 1841 Parliamentay speech against Serjeant Talfourd's 1841 Copyright Bill]
+
+---
+
+# High Fixed Costs, Low Marginal Costs I
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/j5rxriut8sinvob/pharmaceutical.png?raw=1)
+]
+]
+
+.pull-right[
+.center[
+![](https://www.dropbox.com/s/4ibyb8oohmmge5z/genericpill.jpg?raw=1)
+]
+]
+
+- It costs about $1,000,000,000 and 10 years on average to create a new drug. Once discovered, it costs the firm (or it's competitors!) about $0.50/pill to manufacture.
+
+---
+
+# High Fixed Costs, Low Marginal Costs II
+
+.pull-left[
+
+.center[
+![](https://www.dropbox.com/s/5kfldu00lodqa1s/got1.png?raw=1)
+]
+]
+
+--
+
+.pull-right[
+.center[
+![:scale 75%](https://www.dropbox.com/s/lt9c30lpwho7uh8/gotpirated.png?raw=1)
+
+Source: [Washington Post (Sept 8, 2017)](https://www.washingtonpost.com/news/morning-mix/wp/2017/09/08/game-of-thrones-was-pirated-more-than-a-billion-times-far-more-than-it-was-watched-legally/)
+]
+]
+
+---
+
+# Positive Spillovers
+
+.left-column[
+
+.center[
+![:scale 80%](https://www.dropbox.com/s/10htmt0dupcb3kb/nordhaus.jpg?raw=1)
+
+.smallest[
+William Nordhaus
+
+(1941-)
+
+Economics Nobel 2018
+]
+]
+]
+
+.right-column[
+
+> "We conclude that [about 2.2%] of the social returns from technological advances over the 1948-2001 period was captured by producers, indicating that most of the benefits of technological change are passed on to consumers rather than captured by producers," (p.1)
+
+]
+
+.source[Nordhaus, William, 2004, ["Schumpeterian Profits in the American Economy: Theory and Measurement,"](https://www.nber.org/papers/w10433) *NBER Working Paper* 10433]
+
+---
+
+# Property Rights in Innovation
+
+.pull-left[
+
+- For these economic reasons, .hi[patent] (for ideas and inventions) and .hi[copyright] (for expressions) laws exist
+
+- Grant *temporary* monopoly to holder in order to recover their fixed costs and provide incentive to undertake (risky and expensive) research/creativity
+
+- A utilitarian *tradeoff* between incentives and access
+
+]
+
+.pull-right[
+
+.center[
+![:scale 60%](https://www.dropbox.com/s/cihnj15juyus7wj/patent.png?raw=1)
+
+![:scale 60%](https://www.dropbox.com/s/l4vep529mbzckfh/copyright.png?raw=1)
+
+]
+
+]
+
+---
+
+# Endogeneous Growth Theory
+
+.pull-left[
+
+- Some macroeconomic background:
+
+- Famous .hi[Solow (1956, 1957) model] of economic growth
+  - Sought to show that capital accumulation leads to economic growth
+  - Empirically found that *most* growth is explained by an unexplainable **exogenous** .hi-purple[“residual”] (technology, ideas, institutions that we cannot measure)
   
-- Strong opposition to British lassiez-faire political economy
+]
+
+.pull-right[
+.center[
+![](../images/capitalacc.png)
+]
 ]
 
 ---
 
-# “The American System”
+# Endogeneous Growth Theory
 
+.pull-left[
+
+- .hi[Endogenous growth theory] seeks to **endogenize** that residual and explain growth by explaining how *technology* grows
+  - Technology/knowledge/ideas described as $A$
+  - $A$ grows proportional to the *existing* stock of knowledge $\frac{\partial A}{\partial t} \propto A$
+  - $A$ is non-rival and exhibits increasing returns
+
+- Paul Romer and others
+]
+
+.pull-right[
 .center[
-![:scale 75%](../images/ustariffhistory.jpg)
+![:scale 100%](../images/ideas.png)
+]
 ]
 
 ---
 
-# “The American System”
+# Knowledge is Nonrival
+
+.left-column[
 
 .center[
-![:scale 50%](../images/americansystem1.png)
+![:scale 75%](https://www.dropbox.com/s/zj5nl5b7y5036ja/paulromer.jpg?raw=1)
+
+Paul Romer
+
+(1955-)
+
+Economics Nobel 2018
+]
+]
+
+.right-column[
+
+> "Although other assumptions about secrecy and property rights could be considered, the equilibrium here is based on the assumption that anyone engaged in research has free access to the entire stock of knowledge. This is feasible because knowledge is a nonrival input. All researchers can take advantage of $A$ at the same time," (p.S83).
+
+]
+
+.source[Romer, Paul M, 1990, "Endogenous Technological Change," *Journal of Political EConomy* 98(5-2): S71-S102]
+
+---
+
+# The Nature of "Knowledge" II
+
+.pull-left[
+
+.smallest[
+> "[A] college-educated engineer working today and one working 100 years ago have the same human capital, which is measured in terms of years of forgone participation in the labor market. The engineer working today is more productive because he or she can take advantage of all of the additional knowledge accumulated as design problems were solved during the last 100 years," (pp. S83-S84).
+
+]
+]
+
+.pull-right[
+
+.center[
+![](../images/mind.png)
+]
+
 ]
 
 ---
 
-# “The American System”
+# This Implies Market Power
+
+.left-column[
 
 .center[
-![:scale 80%](../images/americansystem2.png)
+![:scale 75%](https://www.dropbox.com/s/zj5nl5b7y5036ja/paulromer.jpg?raw=1)
+
+Paul Romer
+
+(1955-)
+
+Economics Nobel 2018
+]
+]
+
+.right-column[
+
+.smallest[
+> "If all inputs were paid their value marginal product, the firm would suffer losses," (p.S76).
+
+> "There is little doubt that much of the value to society of any given innovation or discovery is not captured by the inventor, and any model that missed these spillovers would miss important elements of the growth process. Yet it is still the case that private, profit-maximizing agents make investments in the creation of new knowledge and that they earn a return on these investments by charging a price for the resulting goods that is greater than the marginal cost of producing the goods," (p.S90).
+
+]
+]
+
+.source[Romer, Paul M, 1990, "Endogenous Technological Change," *Journal of Political EConomy* 98(5-2): S71-S102]
+
+---
+
+# Romer Model Implication I - R&D Is Critical
+
+.smallest[
+- Economies tend to undersupply human capital to research:
+]
+
+.quitesmall[
+> The most obvious reason is that research has positive external effects. An additional design raises the productivity of all future individuals who do research, but because this benefit is nonexcludable, it is not reflected at all in the market price for designs. The second and an equally important reason...is that research produces an input that is purchased by a sector that engages in monopoly pricing. The markup of price over marginal cost forces a wedge between the marginal social product of an input used in this sector and its market compensation," (p.S96)
+
+]
+
+--
+
+.smallest[
+- Policy implications:
+]
+
+.quitesmall[
+> "Within the confines of the model, the social optimum can be achieved by subsidizing the accumulation of A," (p.S97)
+
+> "A subsidy to physical capital accumulation may be a very poor substitute for direct subsidies that increase the incentive to undertake research. In the absence of feasible policies that can remove the divergence between the social and private returns to research, a second-best policy would be to subsidize the accumulation of total human capital," (p.S99)
+
+]
+
+---
+
+# Romer Model Implication II - Trade Liberalization
+
+.smallest[
+- A large population is *not* sufficient for greater technology (and thus, economic growth), it requires access to a *larger market* (division of labor)!
+]
+
+.quitesmall[
+> If access to a large number of workers or consumers were all that mattered, having a large population would be a good substitute for trade with other nations. The model here suggests that what is important for growth is integration not into an economy with a large number of people but rather into one with a large amount of human capital, (p.S98)
+
+> "The most interesting positive implication of the model is that an economy with a larger total stock of human capital will experience faster growth. This finding suggests that free international trade can act to speed up growth. It also suggests a way to understand what it is about developed economies in the twentieth century that permitted rates of growth of income per capita that are unprecedented in human history. The model also suggests that low levels of human capital may help explain why growth is not observed in underdeveloped economies that are closed and why a less developed economy with a very large population can still benefit from economic integration with the rest of the world," (p.S99)
+
+]
+
+---
+
+# Market Failure in R&D
+
+.left-column[
+.center[
+![:scale 80%](../images/josephstiglitz.jpg)
+
+
+.smallest[
+Joseph Stiglitz
+
+1943—
+
+Economics Nobel 2001
+]
+]
+]
+
+.right-column[
+.smallest[
+- Because of their strange public good properties, there is a market failure in the production of ideas and entrepreneurship
+
+- Society underinvests in entrepreneurship and innovation
+
+- Government intervention via well-calibrated industrial policy can fix the market failure
+]
+
+.quitesmall[
+> “Industrial policies – in which governments intervene in the allocation of resources among sectors or favor some technologies over others – can help ”infant economies” learn. Learning may be more marked in some sectors (such as industrial manufacturing) than in others, and the benefits of that learning, including the institutional development required for success, may spill over to other economic activities,” 
+
+]
+
+.source[Stiglitz, Joseph, and Bruce C. Greenwald, 2014, *Creating a Learning Society*]
+]
+
+---
+
+class: inverse, center, middle
+
+# Evidence for Industrial Policy Success?
+
+---
+
+# Political vs. Economic Freedom I
+
+```{r, load-data, echo=F}
+polfreedom<-read.csv("~/Dropbox/Teaching/Hood College/ECON 324 - International Trade/freedomhouse2018.csv")
+econfreedom<-read.csv("~/Dropbox/Teaching/Hood College/ECON 205 - Principles of Macroeconomics/econfreedom.csv") 
+
+suppressPackageStartupMessages(library("tidyverse"))
+```
+
+```{r, data-wrangle,echo=F}
+
+polfreedom2<-polfreedom %>%
+  select(Country.Territory, Total)
+
+polfreedom2<-rename(polfreedom2,Country=Country.Territory)
+
+# combine datasets
+freedom<-left_join(econfreedom, polfreedom2, by="Country")
+
+#add korea
+korea<-data.frame(X=113,
+                  Country=as.factor("South Korea"),
+                  ISO=as.factor("KOR"),
+                  ef=7.40,
+                  gdp=25022.8023,
+                  continent=as.factor("Asia"),
+                  Total=84)
+freedom<-rbind(freedom,korea)
+
+tigers<-filter(freedom, ISO %in% c("SGP", "KOR", "JPN", "USA"))
+
+notigers<-filter(freedom, !ISO %in% c("SGP", "KOR", "JPN", "USA"))
+```
+
+```{r, plot1, echo=F, fig.width=14}
+ggplot(data=notigers, aes(x=ef,y=Total))+
+  geom_point(aes(color=continent))+
+  geom_smooth(data=freedom,method="lm")+
+  geom_label(data=tigers, aes(ef, Total, label=ISO, color = continent))+
+  xlab("Economic Freedom Score")+ylab("Political Freedom Score")+theme_slides+labs(caption="Economic Freedom Score (2016) from Frasier Institute [1], Political Freedom Score from FreedomHouse (2017) [2]")+theme(legend.position="bottom")
+```
+
+.source[
+1: [Fraser Institute Data](https://www.fraserinstitute.org/economic-freedom/dataset?geozone=world&year=2016&page=dataset)
+2: [FreedomHouse Data](https://freedomhouse.org/content/freedom-world-data-and-resources)
+]
+---
+
+# Economic Freedom vs. GDP Per Capita
+
+```{r, plot2, echo=F, fig.width=14}
+ggplot(data=notigers, aes(x=ef,y=gdp))+
+  geom_point(aes(color=continent))+
+  #geom_smooth(data=freedom,method="lm")+
+  geom_label(data=tigers, aes(ef, gdp, label=ISO, color = continent))+
+  scale_y_continuous(name="GDP per Capita ($)", labels=scales::dollar, breaks=seq(0,100000,20000))+
+  xlab("Economic Freedom Score")+ylab("GDP per Capita")+theme_slides+theme(legend.position="bottom")+labs(caption="Economic Freedom Score (2016) from Frasier Institute [1], GDP per Capita from Gapminder (2018) [2]")
+```
+
+.source[
+1: [Fraser Institute Data](https://www.fraserinstitute.org/economic-freedom/dataset?geozone=world&year=2016&page=dataset)
+2: [Gapminder](https://gapminder.org/tools)
+]
+
+---
+
+# Political Freedom vs. GDP per Capita
+
+```{r, plot3, echo=F, fig.width=14}
+ggplot(data=notigers, aes(x=Total,y=gdp))+
+  geom_point(aes(color=continent))+
+  #geom_smooth(data=freedom,method="lm")+
+  geom_label(data=tigers, aes(Total, gdp, label=ISO, color = continent))+
+  scale_y_continuous(name="GDP per Capita ($)", labels=scales::dollar, breaks=seq(0,100000,20000))+
+  xlab("Political Freedom Score")+ylab("GDP per Capita")+labs(caption="Political Freedom Score (2017) from FreedomHouse [1], GDP per Capita from Gapminder (2018) [2]")+theme_slides+theme(legend.position="bottom")
+```
+
+.source[
+1: [FreedomHouse Data](https://freedomhouse.org/content/freedom-world-data-and-resources)
+2: [Gapminder](https://gapminder.org/tools)
+]
+
+---
+
+# The Rapid Growth of the “Asian Tigers”
+
+.center[
+![](../images/tigers.gif)
+
+]
+
+---
+
+# South Korea: A Case Study
+
+.center[
+![](../images/koreagdp.png)
+]
+
+---
+
+# South Korea: A Case Study
+
+.left-column[
+.center[
+![:scale 80%](../images/parkchunghee.jpg)
+
+
+.smallest[
+Park Chung Hee 
+
+Ruler/President of South Korea
+
+1961—1979
+]
+]
+]
+.right-column[
+
+- Korea in 1960: As poor as Africa
+
+- Today: As wealthy as Japan
+
+- Korean War: 1950-1953 devastates country
+
+- Military Coup in 1961, repressive dictatorship until 1979
+]
+
+---
+
+# South Korea: A Case Study
+
+.pull-left[
+
+- From 1963-1973: exports grow almost 2,000%
+
+- Government sponsors and protects family-run industrial conglomerates (.hi-purple[“chaebols”])
+  - Primarily shipbuilding (largest in world), manufacturing
+
+- Frequent high-level corruption
+]
+
+.pull-right[
+.center[
+![](../images/hyundai1.png)
+
+![](../images/hyundai2.jpg)
+
+]
+]
+
+---
+
+# South Korea: A Case Study
+
+.pull-left[
+.center[
+![](../images/koreacorruption1.PNG)
+
+Source: [BBC](http://bbc.com/news/world-asia-43666134)
+]
+]
+
+.pull-right[
+.center[
+![](../images/koreacorruption2.PNG)
+
+Source: [Washington Post](http://washingtonpost.com/world/asia_pacific/another-former-south-korea-president-jailed-for-corruption/2018/10/05/7e216cc6-c866-11e8-9158-09630a6d8725_story.html)
+]
+]
+
+---
+
+# South Korea: A Case Study
+
+.center[
+![](../images/chaebol1.jpg)
+]
+
+---
+
+# South Korea: A Case Study
+
+.center[
+![](../images/chaebol2.jpg)
+]
+
+---
+
+# South Korea: A Case Study
+
+.center[
+![](../images/chaebol3.png)
+]
+
+---
+
+# South Korea: How Did it Work?
+
+.pull-left[
+.smaller[
+- Change in institutions: land reform for middle class (less for elites), more property rights, (export-oriented) markets
+
+- World class primary education
+
+- Ethic of discipline and hard work
+
+- Rode Japan's 1960s-1970s economic miracle (a nearby lower-wage country for Japanese manufacturing)
+]
+]
+
+.pull-right[
+.center[
+![](../images/skoreaflag.png)
+]
+]
+
+---
+
+# Is This Industrial Policy?
+
+.pull-left[
+
+.quitesmall[
+- Government was very active in promoting South Korean business and export-focused industries
+
+- Moved **away** from **import-substitution** (the classic industrial policy recipe)!
+
+- Allowed international markets to dictate relative prices (did not try to distort markets)
+  - *Chaebols'* .hi-purple[“export discipline”]: exporting companies expected to compete on their own in world markets
+  - Losers that failed the market test were not bailed out, allowed to fail!
+  
+- Most policy measures were providing low-interest subsidized loans for exporting companies
+  - Amasses large amounts of capital for exporting companies
+]
+]
+
+.pull-right[
+.center[
+![](../images/skoreaflag.png)
+]
+]
+
+---
+
+# Is This Industrial Policy?
+
+.pull-left[
+.smallest[
+- Often lead(s) to corruption
+  - South Korea ranks 52<sup>nd</sup> on Transparency International's [Corruption Perceptions Index](http://transparency.org) with a score of 53 (1 is most corrupt, 100 is least corrupt)
+  - Ranked near Mauritius, Rwanda, Namibia, Slovakia
+  - Comparison: Denmark is 1<sup>st</sup> (90), Singapore is 7<sup>th</sup> (84), U.S. is 19<sup>th</sup> (74)
+  
+- Most corruption is usually *growth-blocking* by incumbents and elites
+
+- But in Korea a **growth-promoting corruption**!
+
+]
+]
+
+.pull-right[
+.center[
+![](../images/skoreaflag.png)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Modern Protectionism
+
+---
+
+# What Undergrads Need to Know About Trade
+
+.left-column[
+.center[
+![:scale 80%](../images/krugman.png)
+
+.smallest[
+Paul Krugman
+
+1953—
+
+Economics Nobel 2008
+]
+]
+]
+
+.right-column[
+> “The problem is that .hi[most of what a student is likely to read or hear about international economics is nonsense]. What I want to argue in this paper is that .hi[the most important thing to teach our undergrads about trade is how to detect that nonsense]. That is, our primary mission should be to vaccinate the minds of our undergraduates against the misconceptions that are so predominant in what passes for educated discussion about international trade.”
+
+.source[Krugman, Paul, 1993, “What Do Undergrads Need to Know About Trade?”]
+]
+
+---
+
+# Mercantilism Always Lurked in the Background
+
+.pull-left[
+.center[
+![](../images/buyamerican2.png)
+]
+]
+
+.pull-right[
+.center[
+![:scale 75%](../images/americafirstharding.jpg)
+]
+]
+
+---
+
+# Tariffs, According to the President of the United States
+
+.pull-left[
+.center[
+![](../images/trumptariffs1.png)
+]
+]
+
+.pull-right[
+.center[
+![](../images/trumptariffs2.png)
+]
+]
+
+---
+
+# Tariffs, According to Professional Economists
+
+.pull-left[
+.center[
+![](../images/IGApollfreetrade.png)
+
+.source[Source: [IGA Experts Poll (2012)](http://www.igmchicago.org/surveys/free-trade)]
+]
+]
+
+--
+
+.pull-right[
+.center[
+![](../images/igmNAFTA.png)
+
+.source[Source: [IGA Experts Poll (2012)](http://www.igmchicago.org/surveys/free-trade)]
+
+]
+]
+
+---
+
+# Industrial Policy, According Professional to Economists
+
+.pull-left[
+.center[
+![](../images/igmtariffs.png)
+
+.source[Source: [IGA Experts Poll (2016)](https://www.igmchicago.org/surveys/import-duties/)]
+]
+]
+
+--
+
+.pull-right[
+.center[
+![](../images/igmincreasingreturns.png)
+
+.source[Source: [IGA Experts Poll (2018)](https://www.igmchicago.org/surveys/increasing-returns/)]
+]
+]
+
+---
+
+# Trade Deficits and Trade “Toughness”
+
+.pull-left[
+.center[
+![](../images/igmtradedeficit.png)
+
+.source[Source: [IGA Experts Poll (2014)](https://www.igmchicago.org/surveys/trade-balances/)]
+]
+]
+
+--
+
+.pull-right[
+.center[
+![](../images/igmtradetoughness.png)
+
+.source[Source: [IGA Experts Poll (2016)](https://www.igmchicago.org/surveys/trade-and-toughness/)]
+]
+]
+
+---
+
+# So Once Again
+
+.center[
+![](../images/tariffsbad.jpg)
 ]
