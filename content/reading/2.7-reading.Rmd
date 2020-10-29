@@ -1,5 +1,5 @@
 ---
-title: "2.6 — An Intellectual History of Trade IV: Increasing Returns & Industrial Policy — Readings"
+title: "2.7 — The Political Economy of Trade Policy — Readings"
 citeproc: false
 bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
@@ -9,18 +9,14 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required Readings:
 
-- [<i class="fas fa-file-pdf"></i> Powell, 2004, "State Development Planning: Did it Create an East Asian Miracle?"](/readings/Powell-2004.pdf)
-- [<i class="fas fa-file-pdf"></i> Stiglitz, 2014, "Creating a Learning Society"](/readings/Stiglitz-2014.pdf)
+- [<i class="fas fa-file-pdf"></i> Tullock, 1967, "The Welfare Costs of Tariffs, Monopoly, and Theft"](/readings/Tullock-1967.pdf)
+- [<i class="fas fa-file-pdf"></i> Kreuger, 1974, "The Political Economy of the Rent-Seeking Society"](/readings/Kreuger-1974.pdf)
 - [<i class="fas fa-file-pdf"></i> Gangotena and Safner, 2020, "The Production of Increasing Returns: Physical Technology, Institutional Technology, and the Pitfalls of Production Functions"](/readings/Gangotena-Safner-2020.pdf) (at least up to section 2.1)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/etkd57lPfPU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-John Oliver’s *Last Week Tonight* covers the trade policies (in 2018) of the current administration, the brainchild of economist [Peter Navarro](https://en.wikipedia.org/wiki/Peter_Navarro).
 
 # Optional Readings
 
-- [<i class="fas fa-file-pdf"></i> Krugman, 1993, "What Do Undergrads Need to Know About Trade?"](/readings/Krugman-1993.pdf)
-- [<i class="fas fa-file-pdf"></i> Safner, 2013, "City-State on a Hill: The Institutional History Behind the Paradox of Modern Singapore"](/readings/Safner-2013.pdf)
+- [<i class="fas fa-file-pdf"></i> Grossman and Helpman, 1994, "Protection for Sale"](/readings/Grossman-Helpman-1994.pdf)
+- [<i class="fas fa-file-pdf"></i> Baldwin and Magee, 2000, "Is trade policy for sale? Congressional voting on recent t?"](/readings/Baldwin-Magee-2000.pdf)
 
 Much of my intellectual history series of lectures comes from Chapters 5-9 of Douglas Irwin’s^[One of the best economic historians on trade.] excellent book:
 
