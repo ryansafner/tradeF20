@@ -107,9 +107,10 @@ lessons:
     class: "2.7-class"
     slides: "2.7-slides"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3 Due**'
-
   - title: "2.8 Trade Agreements"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3 Due** Sunday Nov 8'
+    assignment: "03-problem-set"
 
   - title: '<span class="fake-header-table">III. Globalization and its Discontents </span>'
     header: True

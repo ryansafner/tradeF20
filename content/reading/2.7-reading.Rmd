@@ -5,27 +5,34 @@ bibliography: ../../static/bib/references.bib
 csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 ---
 
-*Tuesday, October 27, 2020*
+*Thursday, October 29, 2020* and *Tuesday, November 3, 2020*
 
 # Required Readings:
 
-- [<i class="fas fa-file-pdf"></i> Tullock, 1967, "The Welfare Costs of Tariffs, Monopoly, and Theft"](/readings/Tullock-1967.pdf)
-- [<i class="fas fa-file-pdf"></i> Kreuger, 1974, "The Political Economy of the Rent-Seeking Society"](/readings/Kreuger-1974.pdf)
-- [<i class="fas fa-file-pdf"></i> Gangotena and Safner, 2020, "The Production of Increasing Returns: Physical Technology, Institutional Technology, and the Pitfalls of Production Functions"](/readings/Gangotena-Safner-2020.pdf) (at least up to section 2.1)
+- [<i class="fas fa-file-pdf"></i> Caplan, 2007, "The Myth of the Rational Voter"](/readings/Caplan-2007.pdf)
+- [<i class="fas fa-file-pdf"></i> Somin, 2014, "When Ignorance Isn't Bliss"](/readings/Somin-2014.pdf)
+- [<i class="fas fa-file-pdf"></i> Buchanan, 1984, "Politics Without Romance"](/readings/Buchanan-1984.pdf)
+- [<i class="fas fa-file.pdf"></i> Mitchell, 2013, "The Pathology of Privilege: The Economic Consequences of Government Favoritism"](/readings/Mitchell-2013.pdf)
 
 # Optional Readings
 
 - [<i class="fas fa-file-pdf"></i> Grossman and Helpman, 1994, "Protection for Sale"](/readings/Grossman-Helpman-1994.pdf)
 - [<i class="fas fa-file-pdf"></i> Baldwin and Magee, 2000, "Is trade policy for sale? Congressional voting on recent t?"](/readings/Baldwin-Magee-2000.pdf)
 
-Much of my intellectual history series of lectures comes from Chapters 5-9 of Douglas Irwin’s^[One of the best economic historians on trade.] excellent book:
+## Helpful:
 
-- [<i class="fas fa-book"></i> Irwin, 1996, *Against the Tide: An Intellectual History of Free Trade*](https://www.amazon.com/Against-Tide-Intellectual-History-Trade/dp/0691058962)
+- [<i class="fab fa-wikipedia-w"></i> Public Choice](https://en.wikipedia.org/wiki/Public_choice)
+- [<i class="fab fa-wikipedia-w"></i> The Logic of Collective Action](https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action)
+- [<i class="fab fa-wikipedia-w"></i> Government failure](https://en.wikipedia.org/wiki/Government_failure)
+- [<i class="fab fa-wikipedia-w"></i> Rational ignorance](https://en.wikipedia.org/wiki/Rational_ignorance)
+- [<i class="fab fa-wikipedia-w"></i> Rent seeking](https://en.wikipedia.org/wiki/Rent_seeking)
+- [<i class="fab fa-wikipedia-w"></i> Regulatory capture](https://en.wikipedia.org/wiki/Regulatory_capture)
 
 # Questions To Help Your Reading
 
-- What is the role of the State in promoting development?
-- How do we identify which industries might be worth protecting via industrial policy?
-- What are the supposed successes of industrial policy (e.g. Singapore, Korea, Japan, Hong Kong) and how/why were they succesful?
-- What are the politics of the infant industry argument?
-- What should our trade policy be, and what should we tell other poor countries to do, if they want rapid growth? 
+- Why is good governance a public good, subject to a free rider problem?
+- What is “rational ignorance”?
+- What is Caplan’s idea of “rational irrationality” and how is it different from “rational ignorance?”
+- According to Caplan, what are the four systematic biases?
+- Why do people vote or not vote? How do people that do vote choose how they vote?
+- What is the principle of “concentrated benefits and dispersed costs?”
