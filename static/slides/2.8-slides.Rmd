@@ -44,13 +44,11 @@ class: inverse
 
 # Outline
 
-## [Political Economy in a Liberal Democracy](#5)
+## [The Strategy of Trade Agreements](#5)
 
-## [An Example: Sugar Tariffs](#30)
+## [History of Recent Trade Liberalization](#30)
 
-## [Rent-Seeking](#39)
-
-## [Who Gets Protection](#47)
+## [The Economic Effects of Trade Agreements](#39)
 
 ---
 
@@ -64,7 +62,7 @@ class: inverse
   - Intellectual history of free trade & protectionist arguments
   
 - **What's Left**: for good or bad, **why** do countries have the trade policies they have today? 
-  - A theory of how politics interacts with economics: \alert{political economy}
+  - A theory of how politics interacts with economics: .hi[political economy]
 ]
 ]
 
@@ -106,19 +104,9 @@ class: inverse
 
 ---
 
-# International Trade Negotiations
+class: inverse, center, middle
 
-.pull-left[
-.center[
-![](../images/detroit3.png)
-]
-]
-.pull-right[
-- Adam Smith cautions us that we should pay heed to the transitions of the labor market in moving to free trade abruptly
-
-- Immediate abolition of all tariffs and protections, while it will help all consumers around the world and at home, will lead to temporary unemployment in the inefficient, domestically-protected industries
-
-]
+# The Strategy of Trade Agreements
 
 ---
 
@@ -145,25 +133,21 @@ class: inverse
 
 .pull-left[
 - Political infeasibility of unilateral free trade
-  - note: opposite of politically stable policy: dispersed benefit, concentrated cost
-  - Domestic import-competing industries are best-organized political group, stand to *lose* a large concentrated benefit with free trade
-  
-- Bilateral/multilateral trade agreements provide .hi[commitment strategies] for each nation
-  - stack domestic exporters (who want access to foreign markets) as opposing concentrated political force to fight to open up trade
-  - multiple groups in multiple countries with vested interest in keeping trade open
-  - difficult for politicians in one country to impose tariffs to protect domestic importers (now have to fight exporters, not to mention other countries)
 
+- Note: opposite of politically stable policy: dispersed benefit, concentrated cost!
+
+- Domestic import-competing industries are best-organized political group, stand to *lose* a large concentrated benefit with free trade
 ]
 
 .pull-right[
 .center[
-![](../images/usdroptariffs.png)
-
-.source[[Source](https://www.nytimes.com/2018/06/20/opinion/trump-trade-tariffs-china.html}{NY Times June 20, 2018)]
+![:scale 100%](../images/detroit3.png)
 ]
+
 ]
 
 ---
+
 # The Strategy of Trade Agreements
 
 .pull-left[
@@ -265,10 +249,93 @@ class: inverse
 
 ---
 
+# Adam Smith: Strategic Trade Policy
+
+.left-column[
+.center[
+![:scale 80%](../images/smith.png)
+
+Adam Smith
+
+1723-1790
+]
+]
+.right-column[
+
+.quitesmall[
+
+> “[I]t may sometimes be a matter of deliberation [how to remove tariffs] when some foreign nation restrains by high duties or prohibitions the importation of some of our manufactures into their country. Revenge in this case naturally dictates retaliation, and that we should impose the like duties and prohibitions upon the importation of some or all of their manufactures into our country...nations accordingly seldom fail to retaliate in this manner.”
+
+> “There may be a good policy in retaliations of this kind...The recovery of a great foreign market will generatlly more than compensate the transitory inconveniency of paying dearer during a short time for some sorts of goods. To judge whether such retaliations are likely to produce such an effect...[belongs] to the skill of that insidious and crafty animal, vulgarly called the statesman or politician, whose councils are directed by the momentary fluctuations of affairs.”
+
+]
+
+.source[Smith, Adam, 1776, *An Enquiry into the Nature and Causes of the Wealth of Nations*, (Book IV, Chapter 2]
+]
+
+---
+
+# Torrens & Mill: Strategic Trade Policy
+
+.left-column[
+.center[
+![:scale 45%](../images/torrens.png)![:scale 50%](../images/jsmill.jpg)
+
+.smallest[
+L: Col. Robert Torrens (1780—1864)
+
+R: John Stuart Mill (1806-1873)
+]
+]
+]
+
+.right-column[
+
+.smallest[
+> “[Reciprocity] would hold out to [foreign countries] a powerful inducement to act upon the principles of reciprocal freedom” - Torrens
+
+> “[C]onsiderations of reciprocity...are of material importance when the repeal of duties...is discussed. A country cannot be expected to renounce the power of taxing foreigners, unless foreigners will in return practise towards itself the same forbearance. The only mode in which a country can save itself from being a loser by the duties imposed by other countries on its commodities, is to impose corresponding duties on theirs.” - Mill
+
+]
+]
+
+---
+
+# Finding Commitments: Bilateral Agreements
+
+.pull-left[
+.quitesmall[
+- .hi[Bilateral/multilateral trade agreements] provide .hi-purple[commitment strategies] for each nation to reduce tariffs
+
+- Traditionally, it’s concentrated benefits to domestic importers who lobby politicians to put up tariffs
+
+- With a trade agreement, domestic *exporters* (who *want* free access to foreign markets) act as a concentrated political force fighting to lower tariffs
+
+- Creates *multiple* groups in *multiple* countries with vested interest in keeping trade open (tariffs down)
+
+- More concentrated & strongly interested groups fighting *against* tariffs than *for* tariffs!
+  - Less incentive for domestic politician to cater to protectionist interests
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/mdnnv0v90q9mch4/odysseus.png?raw=1)
+
+.quitesmall[
+*Odysseus and the Sirens* by John William Waterhouse, Scene from Homer's *The Odyssey*
+]
+]
+]
+
+---
+
 # The Strategy of Trade Negotiations
 
 .pull-left[
-- Why aren't all trade negotiations a single sentence “We hereby eliminate all tariffs?”
+- Why aren't all trade negotiations a single sentence:
+
+> “We hereby eliminate all tariffs”
 
 - Trade agreements are often hundreds or thousands of pages long!
 
@@ -309,11 +376,27 @@ class: inverse, center, middle
 
 # Smoot-Hawley Tariff Act and “Beggar Thy Neighbor”
 
+.center[
+![](../images/ustariffhistory.jpg)
+]
+
+---
+
+# Smoot-Hawley Tariff Act and “Beggar Thy Neighbor”
+
 .pull-left[
 .center[
 ![](../images/smoothawley.jpg)
+
+.smallest[
+L: Rep. Willis C. Hawley
+
+R: Sen. Reed Smoot
 ]
 ]
+]
+
+
 .pull-right[
 center[
 ![](../images/smoothawley3.png)
@@ -330,7 +413,7 @@ center[
 ]
 ]
 .pull-right[
-center[
+.center[
 ![](../images/smoothawley4.jpg)
 ]
 ]
@@ -344,11 +427,14 @@ center[
 
 - Authorized the president to negotiate *mutual* tariff reductions with other countries by up to 50% from Smoot-Hawley tariff
 
-- Based on .hi[most favored nation (MFN) principle]
+- Based on .hi[most favored nation (MFN) principle]: requires a country to provide any concessions, privileges, or immunities granted to *another nation* in a trade agreement also to the U.S. (and vice versa)
+  - sounds like favoritism — is actually about equal treatment!
 ]
 
 .pull-right[
-
+.center[
+![](../images/Most-Favored-Nation.jpg)
+]
 ]
 
 ---
@@ -357,7 +443,7 @@ center[
 
 .pull-left[
 
-- 1947 *General Agreement on Tariffs and Trade (GATT)*
+- 1947 .hi[General Agreement on Tariffs and Trade (GATT)]
 
 - First major multilateral agreement
 
@@ -366,7 +452,7 @@ center[
 
 .pull-right[
 .center[
-![](../images/gatt.jpg)
+![:scale 70%](../images/gatt.jpg)
 ]
 ]
 
@@ -375,21 +461,22 @@ center[
 # GATT
 
 .pull-left[
+.smallest[
+- 1947 .hi[General Agreement on Tariffs and Trade (GATT)]
 
-- 1947 *General Agreement on Tariffs and Trade (GATT)*
+- .hi-purple[Principle of nondiscrimination]:
+   - .hi-purple[Most Favored Nation] principle again: any better bilateral trade agreement made between two members must also be applied to all GATT members
 
-- Principle of nondiscrimination (MFN)
-
-- Elimination of non-tariff barriers except agriculture (!)
+- .hi-turquoise[“Binding” of tariffs]: countries may lower tariffs, but are not allowed to *raise* tariffs (except in exceptional cases)
 
 - Resolution of trade disputes through GATT institutions
 
-- Binding of tariffs (not allowed to raise tariffs (with exceptions))
+]
 ]
 
 .pull-right[
 .center[
-![](../images/gatt.jpg)
+![:scale 70%](../images/gatt.jpg)
 ]
 ]
 
@@ -409,7 +496,7 @@ center[
 
 .pull-right[
 .center[
-![](../images/gatt.jpg)
+![:scale 70%](../images/gatt.jpg)
 ]
 ]
 
@@ -419,19 +506,18 @@ center[
 
 .pull-left[
 
-- Uruguay Round (8th of GATT, 1986-1993, concluded 1994)
+.smallest[
+- .hi-purple[“Uruguay Round”] (8th of GATT, 1986-1993, concluded 1994)
   - Tariffs
       - Industrial products fell from 4.7% on average to 3%
       - Share of goods with no tariffs increased from 20-22% to 40-45%
       - Tariffs removed on pharmaceuticals, construction equipment, medical equipment, paper products, steel
-  - Quotas
-      - Quotas on agricultural products to be replaced with less restrictive tariffs by 1999
-      - Quotas on textiles to be replaced with less restrictive tariffs by 2004
+]
 ]
 
 .pull-right[
 .center[
-![](../images/gatt.jpg)
+![:scale 70%](../images/gatt.jpg)
 ]
 ]
 
@@ -441,22 +527,57 @@ center[
 
 .pull-left[
 
-- Uruguay Round (8th of GATT, 1986-1993, concluded 1994)
-  - Antidumping: Doesn't outright ban countervailing duties, but focuses more on tougher action through GATT institutions
-  - Subsidies
-      - Volume of subsidized agricultural products to be reduced 21% by 1999
-      - Government subsidies for industrial research to be limited to 50% of cost
-  - Safeguards
-      - Countries banned from using health and safety laws not based on scientific research
-      - Temporary tariffs allowed to protect domestic industry against temporary import surges
+.smallest[
+- .hi-purple[“Uruguay Round”] (8th of GATT, 1986-1993, concluded 1994)
+  - Quotas
+      - Quotas on agricultural products to be replaced with less restrictive tariffs by 1999
+      - Quotas on textiles to be replaced with less restrictive tariffs by 2004
+]
 ]
 
 .pull-right[
 .center[
-![](../images/gatt.jpg)
+![:scale 70%](../images/gatt.jpg)
 ]
 ]
 
+---
+
+# GATT
+
+.pull-left[
+.smallest[
+- .hi-purple[“Uruguay Round”] (8th of GATT, 1986-1993, concluded 1994)
+  - Antidumping: Doesn't outright ban countervailing duties, but focuses more on tougher action through GATT institutions
+  - Subsidies
+      - Volume of subsidized agricultural products to be reduced 21% by 1999
+      - Government subsidies for industrial research to be limited to 50% of cost
+]
+]
+.pull-right[
+.center[
+![:scale 70%](../images/gatt.jpg)
+]
+]
+
+
+---
+
+# GATT
+
+.pull-left[
+.smallest[
+- .hi-purple[“Uruguay Round”] (8th of GATT, 1986-1993, concluded 1994)
+  - Safeguards
+      - Countries banned from using health and safety laws not based on scientific research
+      - Temporary tariffs allowed to protect domestic industry against temporary import surges
+]
+]
+.pull-right[
+.center[
+![:scale 70%](../images/gatt.jpg)
+]
+]
 
 ---
 
@@ -464,7 +585,8 @@ center[
 
 .pull-left[
 
-- Uruguay Round (8th of GATT, 1986-1993, concluded 1994)
+.smallest[
+- .hi-purple[“Uruguay Round”] (8th of GATT, 1986-1993, concluded 1994)
   - Intellectual property
       - 20 year protection of patents, trademarks, and copyrights
       - 10 year phase-in period allowed for developing countries' pharmaceuticals
@@ -472,10 +594,10 @@ center[
 - .hi[World Trade Organization (WTO)]
   - GATT Secretariat is replaced and extended by institutions of the WTO
 ]
-
+]
 .pull-right[
 .center[
-![](../images/gatt.jpg)
+![:scale 70%](../images/gatt.jpg)
 ]
 ]
 
@@ -497,7 +619,7 @@ center[
 # WTO
 
 .pull-left[
-
+.smallest[
 - WTO principles:
   - Nondiscrimination
   - Reciprocity
@@ -505,9 +627,10 @@ center[
   - Transparency
   - Safety Valves
 
-- Organization:  Councils for Trade in Goods, Trade-Related Aspects of Intellectual Property Rights (TRIPS), Trade in Services, Trade Negotiations Committee
+- Organization: Councils for Trade in Goods, Trade-Related Aspects of Intellectual Property Rights (TRIPS), Trade in Services, Trade Negotiations Committee
 
 - Dispute Resolution Mechanisms
+]
 ]
 
 .pull-right[
@@ -522,11 +645,12 @@ center[
 
 .pull-left[
 
-- Estimated that Uruguay Round (Salvatore (2011: 164)):
+- Estimated that Uruguay Round:
   - increased the volume of world trade by 20% (25% from manufacturing, 75% from agriculture)
   - increased world income gains by $349 billion ($164 billion from agriculture, $130 billion from manufacturing, $55 billion from services)
   - developing countries receiving 42% of the gains - double their share of world GDP
-  
+
+.source[Salvatore, Domenick, 2001, *International Eocnomics*, 164]
 ]
 
 .pull-right[
@@ -574,41 +698,12 @@ center[
 
 ---
 
-# Historical Strategies to Achieve Free-er Trade
+class: inverse, center, middle
 
-.pull-left[
-
-- .hi[Unilateral free trade]: (very rare), a single country removes all trade restrictions against other countries
-
-- .hi[Bilateral Trade Agreements]: two countries agree to eliminate trade barriers on goods traded just between their two countries
-  - The most popular strategy, most countries have bilateral agreements with others
-
-- .hi[Customs Union/Common Market]: several countries (usually in a region) agree to eliminate trade barriers 
-  - U.S. Constitution; European Union; North American Free Trade Agreement (NAFTA); Trans-Pacific Partnership (TPP)
-]
+# The Economic Effects of Trade Agreements
 
 ---
 
-# Trade Liberalization
-
-.center[
-![:scale 60%](../images/tradeblocs2.png)
-
-.smallest[
-
-- Dark green: Economic and monetary union (CSME/EC$, EU/€, Switzerland–Liechtenstein/CHF)
-- Light green: Economic union (CSME, EU–UK, EAEU, MERCOSUR, GCC, SICA)
-- Cyan: Customs and monetary union (CEMAC/XAF, UEMOA/XOF)
-- Brown: Common market (EEA–Switzerland, ASEAN[dubious – discuss])
-- Orange:
-Customs union (CAN, EAC, EUCU, SACU)
-- Pink: Multilateral Free Trade Area (CEFTA, CISFTA, COMESA, CPTPP, DCFTA, EFTA, GAFTA, USMCA, SAFTA, AANZFTA, PAFTA, SADCFTA)
-[Map Source](http://en.wikipedia.org/wiki/Trade_bloc)
-]
-
-]
-
----
 # Trade Creation & Trade Diversion
 
 .pull-left[
@@ -648,8 +743,6 @@ p
 
 .pull-left[
 
-- Consider the market for T-shirts in the United States
-
 - Suppose the United States can import T-shirts from .pink[Japan]
 ]
 
@@ -665,8 +758,6 @@ p+geom_hline(yintercept=3, size = 2, color = "#e64173")+
 # Trade Creation & Trade Diversion
 
 .pull-left[
-
-- Consider the market for T-shirts in the United States
 
 - Suppose the United States can import T-shirts from .pink[Japan] or .purple[Mexico]
   - .pink[Japan] is more efficient ($3/shirt) than .purple[Mexico] ($4/shirt)
@@ -686,8 +777,6 @@ p+geom_hline(yintercept=3, size = 2, color = "#e64173")+
 # Trade Creation & Trade Diversion
 
 .pull-left[
-
-- Consider the market for T-shirts in the United States
 
 - Suppose the United States can import T-shirts from .pink[Japan] or .purple[Mexico]
   - .pink[Japan] is more efficient ($3/shirt) than .purple[Mexico] ($4/shirt)
@@ -713,8 +802,6 @@ p+geom_hline(yintercept=3, size = 2, color = "#e64173")+
 # Trade Creation & Trade Diversion
 
 .pull-left[
-
-- Consider the market for T-shirts in the United States
 
 - Suppose the United States can import T-shirts from .pink[Japan] or .purple[Mexico]
   - .pink[Japan] is more efficient ($3/shirt) than .purple[Mexico] ($4/shirt)
@@ -812,3 +899,121 @@ p+geom_hline(yintercept=3, size = 2, color = "#e64173", alpha =0.25)+
 
 ---
 
+# Dynamic Benefits of Free Trade Agreements
+
+.pull-left[
+- Increase competition, limit domestic monopoly power
+
+- Access to larger markets creates economies of scale
+
+- More investment by outside countries to FTA-member countries (to take advantage of larger market) and avoid tariffs
+  - .hi-purple[“tariff factories”]: Foreign firms from non-FTA-member countries set up shop *inside* countries with agreement to avoid import tariffs
+]
+
+.pull-right[
+.center[
+![](../images/tradeportship.jpg)
+]
+]
+
+---
+
+# NAFTA 
+
+.pull-left[
+- .hi[North American Free Trade Agreement (NAFTA)] between U.S., Canada, and Mexico since 1994
+
+- U.S. had a free trade agreement with Canada since 1988/9, wanted to bring Mexico into the fold
+
+- 2018: rebranded as .hi[U.S.-Mexcio-Canada Agreement (USMCA)]
+]
+
+.pull-right[
+.center[
+![](../images/nafta1.png)
+]
+]
+
+---
+
+# NAFTA
+
+.center[
+![](../images/naftatimeline.jpg)
+]
+
+---
+
+# Trade Creation & Trade Diversion: NAFTA
+
+.pull-left[
+.center[
+Cost of Importing an Automobile to the U.S.
+![](../images/naftatradediversion.png)
+]
+]
+
+---
+
+# Effects of NAFTA
+
+.pull-left[
+- Tripled trade between U.S., Mexico, and Canada
+  - $290 billion in 1993 $\rightarrow$ $1.1 trillion in 2016
+
+- U.S. foreign investment in Mexico increased from $15 billion to $100 billion
+]
+
+.pull-right[
+.center[
+![](../images/nafta1.png)
+]
+]
+
+---
+
+# Maquiladoras
+
+.pull-left[
+.smallest[
+- .hi-purple[Maquiladora]: factories in Mexico that import goods from U.S. or abroad, manufacture output, and then export to the U.S. (or elsewhere)
+  - Often located near the border with U.S.
+
+- Lower wages and lower tariffs
+
+- Before NAFTA: 47% maquila employment growth (564 new plants)
+- After NAFTA: 86% over next five years (1460 new plants)
+]
+]
+
+.pull-right[
+.center[
+![](../images/Maquiladora.JPG)
+]
+]
+
+---
+
+# Effects of NAFTA
+
+.pull-left[
+.quitesmall[
+- Effects on U.S.: modest, increased GDP by 0.5%, or $80 billion
+
+- Concentrated costs (U.S. manufacturing & automobiles) but dispersed benefits to consumers
+
+- Est. 14 million jobs depend on trade with Canada and Mexico, 200,000 export related jobs created annually, paying 15-20% more on average than jobs lost to NAFTA
+
+- Companies moving many factories to Mexico, U.S. auto sector lost 350,000 jobs since 1994; Mexican auto sector increased from 120,000 to 500,000 jobs
+
+- Est. 15,000 net jobs lost each year but economy gains $450,000 in higher productivity gains and lower consumer prices
+]
+
+.source[[Source: Council on Foreign Relations](http://www.cfr.org/trade/naftas-economic-impact/p15790)]
+]
+
+.pull-right[
+.center[
+![](../images/nafta1.png)
+]
+]

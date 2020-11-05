@@ -108,7 +108,10 @@ lessons:
     slides: "2.7-slides"
 
   - title: "2.8 Trade Agreements"
-
+    reading: "2.8-reading"
+    class: "2.8-class"
+    slides: "2.8-slides"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3 Due** Sunday Nov 8'
     assignment: "03-problem-set"
 
