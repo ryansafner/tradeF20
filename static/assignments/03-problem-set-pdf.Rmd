@@ -1,0 +1,121 @@
+---
+title: "Problem Set 3"
+author: "ECON 324 — Fall 2020"
+date: "Due by 11:59 PM Sunday November 8, 2020"
+output:
+  pdf_document:
+    dev: cairo_pdf
+    latex_engine: xelatex
+header-includes:
+- \usepackage{amsmath}
+- \usepackage{multirow, multicol, booktabs}
+
+mainfont: "Fira Sans Condensed"
+monofont: "Fira Code"
+mathfont: "Fira Sans"
+fontsize: 11pt
+---
+
+# Concepts and Critical Thinking
+
+1. Under what circumstances can a tariff lead to an *increase* in overall national welfare? How likely do you expect this benefit to play out in practice, and why?
+
+\vspace{3in}
+
+2. What are the similarities and/or differences between a country imposing an import tariff or imposing an equivalent import quota that leads to the same amount of imports as under the tariff? Why might a country favor one over the other?
+
+\clearpage
+
+3. Explain the “infant industries” argument for protectionism. What are some responses to the argument?
+
+\vspace{3in}
+
+4. Explain the “increasing returns” argument for protectionism. What are some responses to the argument?
+
+\clearpage
+
+5. Why do governments adopt inefficient trade policies that, on net, reduce welfare? Explain the incentives of various groups in a democracy, and explain the principle of concentrated benefits and diffuse costs.
+
+# Problems
+Please answer the following questions. Show all of your work and be sure to fully label all axes, points, and curves on any graphs (if applicable).
+
+6. Suppose car parts can be bought and sold on the world market at a price of \$5,000, and fully-assembled cars can be bought and sold on the world market for \$20,000.
+  a. Suppose the U.S. imports car parts, assembles them, and sells the cars at the world price. What is the domestic value added by the assembly industry?
+  b. Suppose the U.S. wants to protect its car *assembly* industry and levies a 25% tariff on imported cars (fully assembled). What is the nominal rate of protection for the U.S. car assembly industry? What is the *effective* rate of protection?
+  c. Suppose instead, the U.S. wants to protect its domestic *parts* manufacturing industry, and levies a 25% tariff on car parts (and cars are sold again at the original world price). What is the nominal rate of protection for the U.S. car parts manufacturing industry? What is the *effective* rate of protection?
+  d. What is the *effective* rate of protection for the U.S. car *assembly* industry under the tariff in Part C?
+
+\clearpage
+
+7. The graph below shows the coffee bean market in Luxembourg. For simplicity, assume Luxembourg is a small country. You can work on this graph, or make your own to scale.
+
+```{r,fig.height=3.5, echo=F, message = F, warning = F}
+library(tidyverse)
+Demand=function(x){10-x}
+Supply=function(x){x}
+
+ggplot(data.frame(x=c(0,12)), aes(x=x))+
+  stat_function(fun=Demand, geom="line", color="blue", size=2)+
+  geom_label(x=9,y=Demand(9), color = "blue", label="Demand")+
+  stat_function(fun=Supply, geom="line", color="red", size=2)+
+  geom_label(x=9,y=Supply(9), color = "red", label="Supply")+
+  #geom_segment(x = 0, y = 10, xend=10, yend=10, linetype="dotted", size=1)+
+  #geom_segment(x = 10, y = 10, xend=10, yend=0, linetype="dotted", size=1)+
+  labs(x = "Quantity (Billions of lbs)",
+       y = "Price (per lb)")+
+  scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks=seq(0,10,1),
+                     labels = scales::dollar,
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=16)
+
+```
+
+a. If there were *no* international trade, what would the price and quantity of coffee beans be in Luxembourg?
+b. Suppose the world price of coffee beans is $2/lb. Draw this on the graph. With international trade, what is the price of coffee beans in Luxembourg?
+c. Under free trade, how many pounds of coffee beans (i) does the total world (including Luxembourg) supply to Luxembourg’s consumers? (ii) do Luxembourg’s coffee producers supply to Luxembourg”s consumers? (iii) are imported?
+d. Calculate the (i) consumer surplus of Luxembourg's consumers and (ii) the producer surplus for Luxembourg coffee producers under international trade, and show these on the graph.
+e. Suppose Luxembourg’s coffee bean producers are able to get the government to levy a $2/lb tariff on imported coffee beans. Draw this on the graph.
+f. Under the new tariff, how many pounds of coffee beans (i) does the total world (including Luxembourg) supply to Luxembourg's consumers? (ii) do Luxembourg's coffee producers supply to Luxembourg's consumers? (iii) are imported?
+g. Calculate the (i) consumer surplus of Luxembourg's consumers, (ii) the producer surplus for Luxembourg coffee bean producers, (iii) the government revenue raised from the tariff, (iv) the deadweight losses, and show these on the graph.
+h. Domestically, who benefits and who loses under the tariff?
+i. How high would the tariff need to be to stop *all* imports to Luxembourg?
+j. Suppose the government of Luxembourg did not want to make its restrictions on trade as obvious as a tax, and instead decided to impose a quota on imports. What quota on imports would yield the same effects as the tariff you analyzed above? What are the primary differences between the results of a quota and the results of a tariff?
+
+\clearpage
+
+8. The graph below shows the corn market in Mexico. For simplicity, assume Mexico is a small country. You can work on this graph, or make your own to scale.
+
+```{r,fig.height=3.5, echo = F, message = F, warning = F}
+ggplot(data.frame(x=c(0,12)), aes(x=x))+
+  stat_function(fun=Demand, geom="line", color="blue", size=2)+
+  geom_label(x=9,y=Demand(9), color = "blue", label="Demand")+
+  stat_function(fun=Supply, geom="line", color="red", size=2)+
+  geom_label(x=9,y=Supply(9), color = "red", label="Supply")+
+  #geom_segment(x = 0, y = 10, xend=10, yend=10, linetype="dotted", size=1)+
+  #geom_segment(x = 10, y = 10, xend=10, yend=0, linetype="dotted", size=1)+
+  labs(x = "Quantity (Billions of Bushels)",
+       y = "Price (per Bushel)")+
+  scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks=seq(0,10,1),
+                     labels = scales::dollar,
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=16)
+
+```
+
+
+a. If there were *no* international trade, what would the price and quantity of corn be in Mexico?
+b. Suppose the world price of corn is $6/bushel. Draw this on the graph. With international trade, what is the price of corn in Mexico?
+c.Under free trade, how many bushels of corn (i) does the total world (including Mexico) consume? (ii) does Mexican consumers consume? (iii) are exported?
+d. Calculate the (i) consumer surplus of Mexican consumers and (ii) the producer surplus of Mexican corn producers under international trade, and show these on the graph.
+e. Suppose the Mexican government announces an export subsidy of $2/bushel of exported corn. Draw this on the graph.
+f. Under the export subsidy, how many bushels of corn (i) does the total world (including Mexico) consume? (ii) does Mexico consume? (iii) are exported?
+g. Calculate the (i) consumer surplus of Mexican consumers, (ii) the producer surplus of Mexican corn producers, (iii) the government spending on the subsidy, (iv) the deadweight loss, and show these on the graph.
+h. Domestically, who benefits and who loses under the export subsidy?
