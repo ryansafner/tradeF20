@@ -1,0 +1,13 @@
+---
+title: "2.8 — International Trade Agreements — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Thursday, November 5, 2020*
+
+# Optional Readings
+
+- [<i class="fas fa-podcast"></i> *Freakonomics*, 2018, Ep. 352: "Can This Man Stop a Trade War?"](https://freakonomics.com/podcast/wto/)
+- [<i class="fas fa-podcast"></i> *NPR Planet Money*, 2015, Ep. 635: "Trade Deal Confidential"](https://www.npr.org/sections/money/2015/06/26/417851577/episode-635-trade-deal-confidential)
