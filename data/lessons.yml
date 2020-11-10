@@ -118,15 +118,14 @@ lessons:
   - title: '<span class="fake-header-table">III. Globalization and its Discontents </span>'
     header: True
 
-  - title: "3.1 Economic Integration"
-
-  - title: "3.2 Trade in Labor: Immigration"
-
-  - title: "3.3 Immigration & Culture"
-
-  - title: "3.4 Populism & Backlash"
+  - title: "3.1 Immigration"
+    reading: "3.1-reading"
+    class: "3.1-class"
+    slides: "3.1-slides"
+    
+  - title: "3.2 Globalization, Populism, & Backlash"
   
-  - title: "3.5 Trade and Disease"
+  - title: "3.3 Trade and Disease"
 
   - title: '<i class="fas fa-laptop-code"></i> **Country Profile Presentations November 19**'
     assignment: "country-profile"
