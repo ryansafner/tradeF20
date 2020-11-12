@@ -123,8 +123,11 @@ lessons:
     class: "3.1-class"
     slides: "3.1-slides"
     
-  - title: "3.2 Globalization, Populism, & Backlash"
-  
+  - title: "3.2 Globalization & Its Discontents"
+    reading: "3.2-reading"
+    class: "3.2-class"
+    slides: "3.2-slides"
+
   - title: "3.3 Trade and Disease"
 
   - title: '<i class="fas fa-laptop-code"></i> **Country Profile Presentations November 19**'

@@ -1,0 +1,15 @@
+---
+title: "3.2 — Globalization & Its Discontents — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Tuesday, November 10, 2020*
+
+# Readings
+- [<i class="fas fa-external-link-square-alt"></i> Bremmer, 2017, "In Defense of the Trump Voter "](https://www.linkedin.com/pulse/defense-trump-voter-ian-bremmer/)
+- [<i class="fas fa-external-link-square-alt"></i> Hall, 2017, "Six Theses about Contemporary Populism"](https://gem.cid.harvard.edu/files/gem2016/files/hall_blyth_berglof_gem17.pdf)
+
+
+# Optional Readings (Primary Sources)
