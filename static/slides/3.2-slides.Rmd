@@ -45,11 +45,13 @@ class: inverse
 
 # Outline
 
-## [Immigration to the United States](#)
+## [The Benefits and Costs of Globalization, In Essence](#3)
 
-## [The Economic Effects of Immigration](#)
+## [The Politics of “Neoliberalism”](#17)
 
-## [Big Picture: The Economics of Population](#39)
+## [Gripes With Neoliberalism](#35)
+
+## [Some Optimism](#61)
 
 ---
 class: inverse, center, middle
@@ -192,6 +194,61 @@ Joseph Schumpeter
 ![](../images/disappear.jpg)
 
 ]
+]
+
+---
+
+# Recall The Specific Factors Model
+
+.center[
+![:scale 80%](../images/feenstramanuf.png)
+
+.source[Source: Feenstra & Taylor (2017)]
+]
+
+---
+
+# Recall The Specific Factors Model
+
+.center[
+![:scale 60%](../images/feenstrawages.png)
+
+.source[Source: Feenstra & Taylor (2017)]
+]
+
+---
+
+# Recall The Specific Factors Model
+
+.center[
+![:scale 80%](../images/feenstralosses.png)
+
+.source[Source: Feenstra & Taylor (2017)]
+]
+
+---
+
+# Recall The Specific Factors Model
+
+.pull-left[
+.smallest[
+- Again, .hi-purple[changes in trade fall mainly upon the fixed/specific factors of production]
+  - Increase in relative prices (exports) benefit fixed factor producing exports
+  - Decrease in relative prices (imports) harm fixed factor competing with imports
+
+- .hi-purple[Mobile factors face ambiguous change]
+  - Can move from low-income industries to high-income industries
+
+- .hi[Policy implication]: if governments wish to protect domestic groups from adverse trade shocks, increase mobility and non-specific skills/uses
+  - make labor, capital, land markets *more flexible* to reduce shocks from trade on domestic workers, capital-, & land-owners
+
+]
+]
+.pull-right[
+.center[
+![](../images/stuck.jpg)
+]
+
 ]
 
 ---
@@ -774,89 +831,154 @@ class: inverse, center, middle
 
 # Pop Quiz: Do You Know the World Today?
 
-1. In the last 20 years, the proportion of people living in *extreme poverty* has:
+1) In the last 20 years, the proportion of people living in *extreme poverty* has:
 
 a) Almost doubled
+
 b) Remained more or less the same
+
 c) Almost halved
 
 ---
 
 # Pop Quiz: Do You Know the World Today?
 
-2. How many of the world’s 1-year-old children today have been vaccinated against some disease?
+2) How many of the world’s 1-year-old children today have been vaccinated against some disease?
 
 a) 80%
+
 b) 50%
+
 c) 20%
 
 ---
+# Pop Quiz: Do You Know the World Today?
 
-3. How did the number of deaths per year from natural disasters change over the last hundred years?
+3) How did the number of deaths per year from natural disasters change over the last hundred years?
 
 a) More than doubled
+
 b) Remained more or less the same
+
 c) Decreased to less than half
 
 ---
+# Pop Quiz: Do You Know the World Today?
 
-4. Where does the majority of the world population live?
+4) Where does the majority of the world population live?
 
 a) Low income countries
+
 b) Middle income countries
+
 c) High income countries
 
 ---
+# Pop Quiz: Do You Know the World Today?
 
-5. Worldwide, 30 year old men have spent 10 years in school, on average. How many years have women of the same age spent in school?
+5) Worldwide, 30 year old men have spent 10 years in school, on average. How many years have women of the same age spent in school?
 
 a) 9 years
+
 b) 6 years
+
 c) 3 years
 
 ---
+# Pop Quiz: Do You Know the World Today?
 
-6. There are roughly seven billion people in the world today. Which map shows where people live? (Each figure represents 1 billion people.) 
+6) There are roughly seven billion people in the world today. Which map shows where people live? (Each figure represents 1 billion people.) 
 
 ![](../images/gapminderA.jpg) ![](../images/gapminderB.jpg) ![](../images/gapminderC.jpg)
 
 ---
 
-7. The United Nations predicts that by 2100 the world population will have increased by another 4 billion people. What is the main reason?
+# Pop Quiz: Do You Know the World Today?
 
-a) There will be more children (under age 15).
-b) There will be more adults (15-75).
-c) There will be more very old people (above age 75).
-
----
-
-8. In low income countries across the world, how many girls finish primary school?
+7) In low income countries across the world, how many girls finish primary school?
 
 a) 20%
+
 b) 40%
+
 c) 60%
 
 ---
+# Pop Quiz: Do You Know the World Today?
 
-9. How many people in the world have some access to electricity?
+8) How many people in the world have some access to electricity?
 
 a) 20%
+
 b) 50%
+
 c) 80%
 
 ---
+# Pop Quiz: Do You Know the World Today?
 
-10. What is the life expectancy of the world population?
+9) What is the life expectancy of the world population?
 
 a) 50 years
+
 b) 60 years
+
 c) 70 years
 
 ---
+# Pop Quiz: Do You Know the World Today?
 
-11. What does the global income distribution look like?
+10) What does the global income distribution look like?
 
 ![](../images/gapminderD.jpg) ![](../images/gapminderE.jpg) ![](../images/gapminderF.jpg)
+
+---
+
+# Do You Know the WOrld Today?
+
+.center[
+![](../images/gapmindertools.png)
+
+[Hans Rosling’s Gapminder Project](https://gapminder.org)
+]
+
+---
+
+# Ignorance
+
+.center[
+![:scale 60%](https://www.dropbox.com/s/c9fcgvvknng31ij/Igonorace-in-UK-on-Global-Poverty-University-population.png?raw=1)
+]
+
+.source[Source: [Our World in Data: Extreme Poverty](https://ourworldindata.org/extreme-poverty)]
+
+---
+
+# (In)equality *within* Countries: Lower in Wealthier Countries
+
+<iframe src="https://ourworldindata.org/grapher/economic-inequality-gini-index" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+.source[Source: [Our World in Data: Income Inequality](https://ourworldindata.org/income-inequality)]
+
+---
+
+# (In)equality *within* Countries: But Changing Over Time
+
+.center[
+![:scale 62%](https://www.dropbox.com/s/fvkcw6esmehkniu/inequality1.png?raw=1)
+]
+
+.source[Source: [Our World in Data: Income Inequality](https://ourworldindata.org/income-inequality)]
+
+---
+
+# (In)equality *Across* Countries Over Time
+
+.center[
+![:scale 30%](https://www.dropbox.com/s/zl1m3gjfj6xcn6z/Global-inequality-in-1800-1975-and-2015.png?raw=1)
+]
+
+.source[Source: [Our World in Data: Income Inequality](https://ourworldindata.org/income-inequality)]
 
 ---
 
