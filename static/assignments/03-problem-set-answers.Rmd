@@ -1,0 +1,461 @@
+---
+title: "Problem Set 3"
+author: "Solutions"
+date: "ECON 324 — Fall 2020"
+output:
+  pdf_document:
+    dev: cairo_pdf
+    latex_engine: xelatex
+header-includes:
+- \usepackage{amsmath, tikz, pgfplots, multirow, multicol, booktabs}
+- \usetikzlibrary{shapes, arrows, calc}
+
+mainfont: "Fira Sans Condensed"
+monofont: "Fira Code"
+mathfont: "Fira Sans"
+fontsize: 11pt
+---
+
+# Concepts and Critical Thinking
+
+1. Under what circumstances can a tariff lead to an *increase* in overall national welfare? How likely do you expect this benefit to play out in practice, and why?
+
+---
+
+When a country is “large,” it can affect the world price of a good. A large country can place an import tariff on the good and the decrease in demand the rest of the world's suppliers face (from less being imported in the large country) reduces the price of the good in the world (this is called the “terms of trade effect.”) The tariff is then put on top of those lower priced goods, so the loss of deadweight loss is actually smaller than the increase in government revenue from the tariffs. 
+
+It is unlikely that this will happen in practice for a number of reasons. The most import reason is that other countries may retaliate and impose tariffs or restrictions of their own, harming the first country. Additionally, it might be difficult to reach the “optimum” size of the tariff to increase national welfare due to issues of finding the right rate, or domestic interest groups might have incentives to mess with the tariff to benefit themselves.   
+
+---
+
+2. What are the similarities and/or differences between a country imposing an import tariff or imposing an equivalent import quota that leads to the same amount of imports as under the tariff? Why might a country favor one over the other?
+
+---
+
+The changes in producer and consumer surplus are identical between a tariff and a quota. Domestic producer surplus increases, and domestic consumer surplus decreases, and deadweight loss is also created from too much inefficient production at home and less trade overall. Under a tariff, the tariff also generates revenue for the government. The main difference is that a quota generates rents, which may go to individual firms who gain import licenses, may go to the government if the government sells the licenses to the highest bidder, or may get wasted completely on the competition to gain the licenses. 
+
+A country may favor a quota over a tariff because the policy and its effects may be less obvious to the public (or to other countries) than simply taxing imports. 
+
+The quota restricts the number of imports, so only a small group of domestic firms have the right to import (and/or a small group of foreign firms have the right to export to the country with the quota). Being one of these firms with an import license is a rent, or a privilege that allows these firms to capture more value than they otherwise would under normal competition. The government may give the licenses to particular firms for various reasons (whoever pays the most for them, whoever is the best politically-connected, etc), and those firms get additional market power at the expense of the other firms that do not get the licenses to import. 
+
+These rents, from the perspective of society, are often another cost of this policy. If the government auctions off the quotas, it may get some revenue (conserving some surplus). But the firms may be willing to expend resources to compete to get the exclusive quotas, dissipating any potential gains from having the privilege -- known as ``rent-seeking,'' which is a social waste of resources (as instead they could have been producing!).  
+
+
+---
+
+3. Explain the “infant industries” argument for protectionism. What are some responses to the argument?
+
+---
+
+Essentially, an industry is identified as a “key” industry that warrants *temporary* protection from import competition (via tariffs, quotas, etc) in its “infant” stage (also called import substitution). Without protection, it would be unable to compete with cheaper, more efficient, foreign imports.
+
+This allows the industry to get up to scale, at which point, it will be more efficient and can compete on the world stage. At this stage, protection should be removed.
+
+The major problems with this argument might be classified into two types: knowlege problems — how do we properly identify the right industries, and know when to remove protection? and incentive problems — can we trust the process of determining industries that deserve protection, and the process of removing protection, to politicians and interest groups?
+
+---
+
+4. Explain the “increasing returns” argument for protectionism. What are some responses to the argument?
+
+---
+
+The essential idea is that an industry that exhibits economies of scale (increasing returns) warrants special protection, akin to an infant industry, although perhaps this should even be permanent. With increasing returns to an industry, and decreasing returns to other industries, if one country specializes in the increasing returns industry and another country specializes in the decreasing returns industry, *all* goods become *cheaper* to the first country, and more *expensive* to the second country.
+
+The key problem is again, how to properly identify an industry that exhibits increasing returns.
+
+---
+
+5. Why do governments adopt inefficient trade policies that, on net, reduce welfare? Explain the incentives of various groups in a democracy, and explain the principle of concentrated benefits and diffuse costs.
+
+---
+
+
+\clearpage
+
+# Problems
+Please answer the following questions. Show all of your work and be sure to fully label all axes, points, and curves on any graphs (if applicable).
+
+6. Suppose car parts can be bought and sold on the world market at a price of \$5,000, and fully-assembled cars can be bought and sold on the world market for \$20,000.
+
+a. Suppose the U.S. imports car parts, assembles them, and sells the cars at the world price. What is the domestic value added by the assembly industry?
+
+---
+
+U.S. assembly industry buys parts at \$5,000 and sells them at \$20,000, for a \$15,000 value added (domestic profit). 	
+
+---
+
+b. Suppose the U.S. wants to protect its car *assembly* industry and levies a 25% tariff on imported cars (fully assembled). What is the nominal rate of protection for the U.S. car assembly industry? What is the *effective* rate of protection?
+
+---
+
+The U.S. assembly industry previously bought at \$5,000 and sold at \$20,000 for a \$15,000 value added. The tariff on imported cars raises the price of cars by 25\%, from \$20,000 to \$25,000. The nominal rate of protection is the amount the price was increased by the tariff, 25\%. Now U.S. assemblers still buy at \$5,000 but can sell at \$25,000, so their value added increases to \$20,000 from \$15,000 before, a change of 33\%. So the effective rate of protection is 33\%, higher than the nominal rate created by the tariff.
+
+---
+
+c. Suppose instead, the U.S. wants to protect its domestic *parts* manufacturing industry, and levies a 25% tariff on car parts (and cars are sold again at the original world price). What is the nominal rate of protection for the U.S. car parts manufacturing industry? What is the *effective* rate of protection?
+
+---
+
+The U.S. previously bought at \$5,000 and sold at \$20,000 for a \$15,000 value added. The tariff on imported parts raises the price of parts by 25\%, from \$5,000 to \$6,250. The nominal rate of protection is the amount the price was increased by the tariff, 25\%. Now U.S. assemblers buy at \$6,250 but still sell at \$20,000, so their value added decreases to \$13,750 from \$15,000 before, a change of -8.3\%. So the effective rate of protection is -8.3\%, lower than the nominal rate created by the tariff.
+
+---
+
+d. What is the *effective* rate of protection for the U.S. car *assembly* industry under the tariff in Part C?
+
+---
+
+The effective rate is 25%, the same as the nominal rate. This is because the price of parts increased by 25%, allowing the parts industry to sell at 25% higher prices.
+
+\clearpage
+
+7. The graph below shows the coffee bean market in Luxembourg. For simplicity, assume Luxembourg is a small country. You can work on this graph, or make your own to scale.
+
+```{r,fig.height=3.5, echo=F, message = F, warning = F}
+library(tidyverse)
+Demand=function(x){10-x}
+Supply=function(x){x}
+
+cs_1<-tribble(
+  ~x, ~y,
+  0, 10,
+  0, 2,
+  8, 2
+)
+
+ps_1<-tribble(
+  ~x, ~y,
+  0, 0,
+  0, 2,
+  2, 2
+)
+
+ggplot(data.frame(x=c(0,12)), aes(x=x))+
+  geom_polygon(data = cs_1, aes(x = x, y = y), fill = "blue", alpha = 0.2)+
+  geom_polygon(data = ps_1, aes(x = x, y = y), fill = "red", alpha = 0.2)+
+  stat_function(fun=Demand, geom="line", color="blue", size=2)+
+  geom_label(x=9,y=Demand(9), color = "blue", label="Demand")+
+  stat_function(fun=Supply, geom="line", color="red", size=2)+
+  geom_label(x=9,y=Supply(9), color = "red", label="Supply")+
+  geom_hline(yintercept = 2, size = 2, color = "orange")+
+  geom_label(x = 10, y = 2, color = "orange", label = "World Supply")+
+  geom_segment(x = 2, y = 2, xend = 2, yend = 0, linetype="dotted", size = 1)+
+  geom_segment(x = 8, y = 2, xend = 8, yend = 0, linetype="dotted", size = 1)+
+  annotate("segment", x = 2, xend = 8, y = 1, yend = 1, color = "orange", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x = 5, y = 1, color = "orange", label = "Imports")+
+  labs(x = "Quantity (Billions of lbs)",
+       y = "Price (per lb)")+
+  scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks=seq(0,10,1),
+                     labels = scales::dollar,
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=16)
+
+```
+
+a. If there were *no* international trade, what would the price and quantity of coffee beans be in Luxembourg?
+
+---
+
+This would simply be where the domestic supply meets the domestic demand, at 50 billion pounds of coffee beans for \$5.
+---
+
+b. Suppose the world price of coffee beans is $2/lb. Draw this on the graph. With international trade, what is the price of coffee beans in Luxembourg?
+
+---
+
+This is where domestic demand meets the total world supply, at \$2. Note this is much lower than without international trade.
+
+---
+c. Under free trade, how many pounds of coffee beans (i) does the total world (including Luxembourg) supply to Luxembourg’s consumers? (ii) do Luxembourg’s coffee producers supply to Luxembourg”s consumers? (iii) are imported?
+
+---
+
+The quantity where domestic demand is equal to total world supply is at 8 billion pounds of coffee beans. This occurs at a price of \$2. At this price, domestic producers are willing to supply 2 billion pounds of coffee beans. Hence, the rest of the world produces (8-2) 6 billion pounds of coffee beans, which Luxembourg imports.
+
+---
+
+d. Calculate the (i) consumer surplus of Luxembourg's consumers and (ii) the producer surplus for Luxembourg coffee producers under international trade, and show these on the graph.
+
+---
+
+(i) Consumer surplus (blue) : $.5(8-0)(10-2) = $\$32 billion
+
+(ii) Producer surplus (red): $.5(2-0)(2-0) = $\$2 billion
+
+---
+
+e. Suppose Luxembourg’s coffee bean producers are able to get the government to levy a $2/lb tariff on imported coffee beans. Draw this on the graph.
+
+---
+
+```{r,fig.height=3.5, echo=F, message = F, warning = F}
+cs_2<-tribble(
+  ~x, ~y,
+  0, 10,
+  0, 4,
+  6, 4
+)
+
+ps_2<-tribble(
+  ~x, ~y,
+  0, 0,
+  0, 4,
+  4, 4
+)
+
+dwl_l1<-tribble(
+  ~x, ~y,
+  2, 2,
+  4, 2,
+  4, 4
+)
+
+dwl_r1<-tribble(
+  ~x, ~y,
+  8, 2,
+  6, 2,
+  6, 4
+)
+
+ggplot(data.frame(x=c(0,12)), aes(x=x))+
+  geom_polygon(data = cs_2, aes(x = x, y = y), fill = "blue", alpha = 0.2)+
+  geom_polygon(data = ps_2, aes(x = x, y = y), fill = "red", alpha = 0.2)+
+  geom_polygon(data = dwl_l1, aes(x = x, y = y), fill = "black", alpha = 0.5)+
+  geom_polygon(data = dwl_r1, aes(x = x, y = y), fill = "black", alpha = 0.5)+
+  geom_rect(xmin=4, xmax = 6, ymin = 2, ymax = 4, fill="green", alpha =0.5)+
+  stat_function(fun=Demand, geom="line", color="blue", size=2)+
+  geom_label(x=9,y=Demand(9), color = "blue", label="Demand")+
+  stat_function(fun=Supply, geom="line", color="red", size=2)+
+  geom_label(x=9,y=Supply(9), color = "red", label="Supply")+
+  geom_hline(yintercept = 2, size = 2, color = "orange", alpha = 0.5)+
+  geom_label(x = 10, y = 2, color = "orange", label = "World Supply")+
+  geom_hline(yintercept = 4, size = 2, color = "orange", alpha = 1)+
+  geom_label(x = 10, y = 4, color = "orange", label = "World Supply + tariff")+
+    geom_segment(x = 4, y = 4, xend = 4, yend = 0, linetype="dotted", size = 1)+
+  geom_segment(x = 6, y = 4, xend = 6, yend = 0, linetype="dotted", size = 1)+
+
+  annotate("segment", x = 4, xend = 6, y = 1, yend = 1, color = "orange", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x = 5, y = 1, color = "orange", label = "Imports")+
+  labs(x = "Quantity (Billions of lbs)",
+       y = "Price (per lb)")+
+  scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks=seq(0,10,1),
+                     labels = scales::dollar,
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=16)
+
+```
+
+---
+
+f. Under the new tariff, how many pounds of coffee beans (i) does the total world (including Luxembourg) supply to Luxembourg's consumers? (ii) do Luxembourg's coffee producers supply to Luxembourg's consumers? (iii) are imported?
+
+---
+
+The new tariff raises the world price for Luxemborg’s consumers to \$4/lb. At this price, the total world supplies 6 billion pounds of coffee beans, domestic producers supply 4 billion pounds of coffee beans, and 2 billion are therefore imported from the rest of the world.
+
+---
+
+g. Calculate the (i) consumer surplus of Luxembourg's consumers, (ii) the producer surplus for Luxembourg coffee bean producers, (iii) the government revenue raised from the tariff, (iv) the deadweight losses, and show these on the graph.
+
+---
+
+(i) Consumer surplus (blue) : $.5(6-0)(10-4) = $\$18 billion
+	
+(ii) Producer surplus (red): $.5(4-0)(4-0) = $\$8 billion
+	
+(iii) Government revenue (green): $(6-4)(4-2) = $\$4 billion
+	
+(iv) Deadweight loss (black): $.5(4-2)(4-2) + .5(8-6)(4-2) = $\$4 billion
+
+---
+
+h. Domestically, who benefits and who loses under the tariff?
+
+---
+
+The total surplus before the tariff was \$34 billion, with consumers enjoying \$32 billion 	in surplus, and domestic producers \$2 billion. With the tariff, consumers lose \$16 billion in surplus, domestic producers gain \$6 billion in surplus, the government gains \$4 billion in revenue, and \$4 billion is wasted as deadweight loss.
+
+---
+
+i. How high would the tariff need to be to stop *all* imports to Luxembourg?
+
+---
+
+The quantity demanded and the domestic quantity supplied are equal (50 billion lbs) at a price of \$5/lb. At this price, if there were no international trade, domestic producers would supply the entire market. Since the current world price is \$2/lb, a tariff of \$3 will raise the world price of coffee beans (to Luxembourg citizens) to \$5. The total world supply to Luxembourg would be 50 billion pounds, the same as the domestic supply, meaning that no foreign coffee is imported whatsoever.
+
+---
+
+j. Suppose the government of Luxembourg did not want to make its restrictions on trade as obvious as a tax, and instead decided to impose a quota on imports. What quota on imports would yield the same effects as the tariff you analyzed above? What are the primary differences between the results of a quota and the results of a tariff?
+
+---
+
+The quota would have to restrict imports to a maximum of 2 billion lbs of coffee beans (the amount of imports under the tariff). All effects are the same except instead of tax revenue, the quota generates rents from the special privilege of being able to import coffee beans. Who gets these rents depends on how government allocates these privileges, e.g. if the government sells licenses, then the government may get revenue from these sales. Firms that get these licenses may get this rent in terms of greater market power over firms that can't import. Firms also may expend resources in the competition to get these rents, called rent-seeking, which would waste these resources from the perspective of society.
+
+\clearpage
+
+8. The graph below shows the corn market in Mexico. For simplicity, assume Mexico is a small country. You can work on this graph, or make your own to scale.
+
+```{r,fig.height=3.5, echo = F, message = F, warning = F}
+
+cs_m<-tribble(
+  ~x, ~y,
+  0, 10,
+  0, 6,
+  4, 6
+)
+
+ps_m<-tribble(
+  ~x, ~y,
+  0, 0,
+  0, 6,
+  6, 6
+)
+
+ggplot(data.frame(x=c(0,12)), aes(x=x))+
+  geom_polygon(data = cs_m, aes(x = x, y = y), fill = "blue", alpha = 0.2)+
+  geom_polygon(data = ps_m, aes(x = x, y = y), fill = "red", alpha = 0.2)+
+  stat_function(fun=Demand, geom="line", color="blue", size=2)+
+  geom_label(x=9,y=Demand(9), color = "blue", label="Demand")+
+  stat_function(fun=Supply, geom="line", color="red", size=2)+
+  geom_label(x=9,y=Supply(9), color = "red", label="Supply")+
+  geom_hline(yintercept = 6, size = 2, color = "darkblue", alpha = 1)+
+  geom_label(x = 10, y = 6, color = "darkblue", label = "World Demand")+
+  geom_segment(x = 4, y = 6, xend = 4, yend = 0, linetype="dotted", size = 1)+
+  geom_segment(x = 6, y = 6, xend = 6, yend = 0, linetype="dotted", size = 1)+
+  annotate("segment", x = 4, xend = 6, y = 1, yend = 1, color = "orange", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x = 5, y = 1, color = "orange", label = "Exports")+
+  labs(x = "Quantity (Billions of Bushels)",
+       y = "Price (per Bushel)")+
+  scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks=seq(0,10,1),
+                     labels = scales::dollar,
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=16)
+
+```
+
+
+a. If there were *no* international trade, what would the price and quantity of corn be in Mexico?
+
+---
+
+This would simply be where the domestic supply meets the domestic demand, at 5 billion bushels of corn for \$5.
+
+---
+
+b. Suppose the world price of corn is $6/bushel. Draw this on the graph. With international trade, what is the price of corn in Mexico?
+
+---
+
+This is where domestic supply meets the total world demand, at \$6. Note this is higher than without international trade.
+
+---
+
+c. Under free trade, how many bushels of corn (i) does the total world (including Mexico) consume? (ii) does Mexican consumers consume? (iii) are exported?
+
+---
+
+The quantity where domestic supply is equal to total world demand is at 6 billion bushels of corn. This occurs at a price of \$6. At this price, domestic (Mexican) consumers are willing to pay for 4 billion bushels of corn. Hence, the remainder gets shipped to the rest of the world as (8-2) 6 billion bushels of corn as exports. 
+
+---
+
+d. Calculate the (i) consumer surplus of Mexican consumers and (ii) the producer surplus of Mexican corn producers under international trade, and show these on the graph.
+
+---
+
+(i) Consumer surplus (blue) : $.5(4-0)(\$10-\$6) = $\$8 billion
+	
+(ii) Producer surplus (red): $.5(6-0)(\$6-\$0) = $\$18 billion
+
+---
+
+e. Suppose the Mexican government announces an export subsidy of $2/bushel of exported corn. Draw this on the graph.
+
+---
+
+```{r,fig.height=3.5, echo = F, message = F, warning = F}
+
+cs_m2<-tribble(
+  ~x, ~y,
+  0, 10,
+  0, 8,
+  2, 8
+)
+
+ps_m2<-tribble(
+  ~x, ~y,
+  0, 0,
+  0, 8,
+  8, 8
+)
+
+ggplot(data.frame(x=c(0,12)), aes(x=x))+
+  geom_rect(xmin=2, xmax = 8, ymin = 6, ymax = 8, fill = "purple", alpha =0.5)+
+  geom_polygon(data = cs_m2, aes(x = x, y = y), fill = "blue", alpha = 0.2)+
+  geom_polygon(data = ps_m2, aes(x = x, y = y), fill = "red", alpha = 0.2)+
+  stat_function(fun=Demand, geom="line", color="blue", size=2)+
+  geom_label(x=9,y=Demand(9), color = "blue", label="Demand")+
+  stat_function(fun=Supply, geom="line", color="red", size=2)+
+  geom_label(x=9,y=Supply(9), color = "red", label="Supply")+
+  geom_hline(yintercept = 6, size = 2, color = "darkblue", alpha = 0.5)+
+  geom_label(x = 10, y = 6, color = "darkblue", label = "World Demand")+
+  geom_hline(yintercept = 8, size = 2, color = "darkblue", alpha = 1)+
+  geom_label(x = 10, y = 8, color = "darkblue", label = "World Demand + subsidy")+
+  geom_segment(x = 2, y = 8, xend = 2, yend = 0, linetype="dotted", size = 1)+
+  geom_segment(x = 8, y = 8, xend = 8, yend = 0, linetype="dotted", size = 1)+
+  annotate("segment", x = 2, xend = 8, y = 1, yend = 1, color = "orange", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+  geom_label(x = 5, y = 1, color = "orange", label = "Exports")+
+
+  labs(x = "Quantity (Billions of Bushels)",
+       y = "Price (per Bushel)")+
+  scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks=seq(0,10,1),
+                     labels = scales::dollar,
+                     limits=c(0,11),
+                     expand=c(0,0))+
+  ggthemes::theme_pander(base_family = "Fira Sans Condensed", base_size=16)
+
+```
+
+---
+
+f. Under the export subsidy, how many bushels of corn (i) does the total world (including Mexico) consume? (ii) does Mexico consume? (iii) are exported?
+
+---
+
+The new subsidy raises the price that the world is getting by the amount of the subsidy (this is the payment to exporters at least), to \$8. At this price, Mexico supplies 80 billion bushels of corn ($Q_W'$), with just 20 billion bushels going to Mexican consumers ($Q_D'$), and 60 billion are therefore exported to the rest of the world (60-40, $Q_W' - Q_D')$. 
+
+---
+
+g. Calculate the (i) consumer surplus of Mexican consumers, (ii) the producer surplus of Mexican corn producers, (iii) the government spending on the subsidy, (iv) the deadweight loss, and show these on the graph.
+
+---
+
+(i) Consumer surplus (blue) : $.5(2-0)(\$10-\$8) = $\$2 billion
+	
+(ii) Producer surplus (red): $.5(8-0)(\$8-\$0) = $\$32 billion
+	
+(iii) Government expenditure (purple): $(8-20)(\$8-\$6) = $\$12 billion
+
+(iv) Deadweight loss (black): $.5(8-60)(\$8-\$6) = $\$2 billion
+
+---
+
+h. Domestically, who benefits and who loses under the export subsidy?
+
+---
+
+The total surplus before the tariff was \$26 billion, with consumers enjoying \$8 billion in surplus, and domestic producers \$18 billion. With the subsidy, consumers lose \$6 billion in surplus, domestic producers gain \$14 billion in surplus, the government (taxpayers) spends \$12 billion, and \$2 billion is wasted as deadweight loss.
