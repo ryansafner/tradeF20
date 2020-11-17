@@ -10,6 +10,6 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Readings
 - [<i class="fas fa-external-link-square-alt"></i> Bremmer, 2017, "In Defense of the Trump Voter "](https://www.linkedin.com/pulse/defense-trump-voter-ian-bremmer/)
 - [<i class="fas fa-external-link-square-alt"></i> Hall, 2017, "Six Theses about Contemporary Populism"](https://gem.cid.harvard.edu/files/gem2016/files/hall_blyth_berglof_gem17.pdf)
-
+- [<i class="fas fa-external-link-square-alt"></i> WSJ, Nov. 10, 2020, "How Politics Has Pulled the Country in Different Directions"](https://www.wsj.com/graphics/polarized-presidential-elections/?mod=hp_lead_pos9)
 
 # Optional Readings (Primary Sources)

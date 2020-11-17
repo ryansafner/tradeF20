@@ -129,6 +129,9 @@ lessons:
     slides: "3.2-slides"
 
   - title: "3.3 Trade and Disease"
+    reading: "3.3-reading"
+    class: "3.3-class"
+    slides: "3.3-slides"
 
   - title: '<i class="fas fa-laptop-code"></i> **Country Profile Presentations November 19**'
     assignment: "country-profile"
