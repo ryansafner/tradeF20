@@ -1,0 +1,17 @@
+---
+title: "3.3 — Trade & Disease — Readings"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+*Tuesday, November 17, 2020*
+
+# Optional Readings
+
+- [<i class="fas fas fa-book"></i> Troesken, 2015, *The Pox of Liberty: How the Constitution Left Americans Rich, Free, and Prone to Infection*](https://www.amazon.com/Pox-Liberty-Constitution-Americans-Governments-ebook/dp/B00YE6FL64)
+- [<i class="fas fa-external-link-square-alt"></i> "Eradication of Diseases," *Our World In Data*](https://ourworldindata.org/eradication-of-diseases)
+- [<i class="fas fa-external-link-square-alt"></i> "Coronavirus," *Our World In Data*](https://ourworldindata.org/coronavirus)
+- [<i class="fas fa-external-link-square-alt"></i> "The Mask Slackers of 1918," *New York Times*](https://www.nytimes.com/2020/08/03/us/mask-protests-1918.html?utm_source=pocket-newtab)
+- [<i class="fas fa-external-link-square-alt"></i> "How some cities ‘flattened the curve’ during the 1918 flu pandemic," *National Geographic*](https://www.nationalgeographic.com/history/2020/03/how-cities-flattened-curve-1918-spanish-flu-pandemic-coronavirus/)
+- [<i class="fas fa-file-pdf"></i> Pavlik and Geloso, 2020, "Economic Freedom and the Economic Consequences of the 1918 Pandemic"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3608178)
